@@ -1,4 +1,40 @@
 {
-        "berthelemy-title": "Mark Berthelemy",
-        "berthelemy-strapline": "Technology in your language"
+        "title": "Mark Berthelemy",
+        "strapline": "Information architect",
+        "intro-title": "Intro",
+        "work-title": "Work",
+        "about-title": "About",
+        "contact-title": "Contact",
+        "intro-p1": "I support companies and organisations with websites, software, training and advice to help you manage and communicate your information.",
+        "links-more-about-me": "More about me",
+        "links-about-my-work": "About my work",
+        "what-do-I-do": "What do I do?",
+        "work-1": "Mobile-friendly websites",
+        "work-2": "Software selection and advice",
+        "work-3": "Project management",
+        "work-4": "System training and support",
+        "who-i-work-with": "Who do I work with?",
+        "who-1": "Small to medium businesses",
+        "who-2": "Local government",
+        "who-3": "Charities",
+        "examples": "Examples",
+        "reach": "A new site for a large, multi-congregational church in Central England",
+        "wyver": "A learning technology consultancy based in Derbyshire, UK",
+        "argentina": "Guided explorations in Argentina and Great Britain",
+        "about-1":"I have over 30 years experience working in schools, businesses, charities and government organisations.",
+        "about-2":"Organising information and communicating it well is vital to any organisation - whether large or small.",
+        "about-3":"This could be internally, using collaboration tools like Zoho, Office 365 or Google Docs.",
+        "about-4":"Or it could be externally, via websites and other information systems.",
+        "about-5":"I can help you to organise your information better and to communicate it more clearly.",
+        "image-credits": "Image credits",
+        "background-image": "Background image",
+        "get-in-touch": "Get in touch",
+        "name": "Name",
+        "email": "Email",
+        "message": "Message",
+        "send": "Send"
+
+
+
+
     }

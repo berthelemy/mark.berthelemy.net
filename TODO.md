@@ -1,0 +1,6 @@
+- Send button in French
+- Privacy policy
+- Click to accept
+- Cookie for language
+- Zoho Desk
+- Contact form sending to Zoho desk
