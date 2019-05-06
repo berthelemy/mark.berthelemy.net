@@ -1,6 +1,19 @@
+p.strapline {
+    margin-bottom: 0.05rem;
+}
+
 .float-right {
             float: right;
         }
+
+.center {
+    text-align: center;
+}
+
+.links {
+    width: 33%;
+    text-align: center;
+}
 
 #bg:after {
             
@@ -16,3 +29,7 @@
         text-align: right;
         margin-top: -40px;
     }
+
+address {
+    margin-bottom: 20px;
+}
