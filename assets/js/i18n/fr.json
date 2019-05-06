@@ -37,9 +37,10 @@
         "get-in-touch": "Entrer en contact",
         "name": "Nom",
         "email": "Email",
-        "phone": "numéro de téléphone",
+        "phone": "Numéro de téléphone",
         "message": "Message",
-        "accept": "Cochez pour confirmer que vous comprenez et acceptez ma politique de confidentialité",
+        "privacy": "Cochez pour confirmer que vous comprenez et acceptez ma <a href='privacy_fr.html' target='_blank'>politique de confidentialité</a> (ouvre dans un nouvel onglet)",
+        "marketing": "Cochez pour confirmer que vous êtes heureux de recevoir des informations sur des produits ou services supplémentaires",
         "send": "Envoyez message"
 
     }

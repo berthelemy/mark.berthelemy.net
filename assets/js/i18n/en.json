@@ -41,7 +41,8 @@
         "email": "Email",
         "phone": "Phone number",
         "message": "Message",
-        "accept": "Tick to confirm that you understand and accept my privacy policy",
+        "privacy": "Tick to confirm that you understand and accept my <a href='privacy_en.html' target='_blank'>privacy policy</a> (opens in a new tab)",
+        "marketing": "Tick to confirm that you are happy to receive  information about additional products or services",
         "send": "Send message"
 
 

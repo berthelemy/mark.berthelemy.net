@@ -124,27 +124,32 @@
 								<form method="post" action="#" id="contact-form">
 									<div class="fields">
 										<div class="field half">
-											<label for="name" data-i18n="name">Name</label>
+											<label class="caps" for="name" data-i18n="name">Name</label>
 											<input type="text" name="name" id="name" required />
 										</div>
 										<div class="field half">
-											<label for="phone" data-i18n="phone">Phone number</label>
+											<label class="caps" for="phone" data-i18n="phone">Phone number</label>
 											<input type="text" name="phone" id="phone" required />
 										</div>
 										<div class="field">
-											<label for="email" data-i18n="email">Email</label>
+											<label class="caps" for="email" data-i18n="email">Email</label>
 											<input type="text" name="email" id="email" required type="email" />
 										</div>
 										
 										<div class="field">
-											<label for="message" data-i18n="Message">Message</label>
+											<label class="caps" for="message" data-i18n="Message">Message</label>
 											<textarea name="message" id="message" rows="4" required></textarea>
 										</div>
 										
 										<div class="field">
 											
-											<input type="checkbox" name="accept" id="accept" value="true" required />
-											<label for="accept" data-i18n="accept">Accept</label>
+											<input type="checkbox" name="privacy" id="privacy" value="true" required />
+											<label for="privacy" data-i18n="[html]privacy">Privacy</label>
+										</div>
+										<div class="field">
+											
+											<input type="checkbox" name="marketing" id="marketing" value="true" />
+											<label for="marketing" data-i18n="marketing">Marketing</label>
 										</div>
 									</div>
 									<ul class="actions">
@@ -430,8 +435,10 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script src="assets/js/jquery.validate.min.js"></script>
-			<script type="text/javascript" src="http://jzaefferer.github.io/jquery-validation/localization/messages_<%= Locale.getDefault().getLanguage() %>.js" />
+
+
+			<script src="assets/js/lib/jqueryValidate/jquery.validate.min.js"></script>
+
 			<script src="assets/js/lib/CLDRPluralRuleParser/CLDRPluralRuleParser.js"></script>
 		      <script src="assets/js/lib/jquery.i18n/jquery.i18n.js"></script>
 		      <script src="assets/js/lib/jquery.i18n/jquery.i18n.messagestore.js"></script>
@@ -442,7 +449,8 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		      <script src="assets/js/lib/jquery.i18n/jquery.i18n.emitter.bidi.js"></script>
 		 	<script src="assets/js/lib/history/jquery.history.js"></script>
   			<script src="assets/js/lib/url/url.min.js"></script>
-		      <script src="assets/js/global.js"></script>
+		    <script src="assets/js/global.js"></script>
+
 
 	</body>
 </html>

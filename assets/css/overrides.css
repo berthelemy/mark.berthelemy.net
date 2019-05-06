@@ -15,6 +15,18 @@ p.strapline {
     text-align: center;
 }
 
+div.policy {
+    text-align: left;
+}
+
+label {
+    text-transform: none;
+}
+
+label.caps {
+    text-transform: uppercase;
+}
+
 #bg:after {
             
             background-image: url("../../images/rodion-kutsaev-1382592-unsplash.jpg");
