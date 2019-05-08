@@ -24,7 +24,3 @@ var set_locale_to = function(locale) {
     });
 
 $("#contact-form").validate();
-
-$(function() {
-        $('.lazy').lazy();
-    });
