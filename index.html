@@ -133,6 +133,161 @@
 							<article id="contact">
 								<h2 class="major" data-i18n="contact-title">Contact</h2>
 
+<!-- Note :
+   - You can modify the font style and form style to suit your website. 
+   - Code lines with comments ���Do not remove this code���  are required for the form to work properly, make sure that you do not remove these lines of code. 
+   - The Mandatory check script can modified as to suit your business needs. 
+   - It is important that you test the modified form before going live.-->
+
+   
+   <form action='https://crm.zoho.eu/crm/WebToLeadForm' name=WebToLeads186432000000152272 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory186432000000152272()' accept-charset='UTF-8'>
+ <input type='text' style='display:none;' name='xnQsjsdp' value='a8d89f507817013112d869150786a70693dac94b5e1b970b7a1f16031d99fb9d'></input> 
+ <input type='hidden' name='zc_gad' id='zc_gad' value=''></input> 
+ <input type='text' style='display:none;' name='xmIwtLD' value='5df15a1995321bb36ce8315cb5d4cf14af931ee5c65f104e6c658e5fd6ac0906'></input> 
+ <input type='text'  style='display:none;' name='actionType' value='TGVhZHM='></input>
+ <input type='text' style='display:none;' name='returnURL' value='https://mark.berthelemy.net/contact-reponse.html' > </input>
+	 
+<div class="fields">
+	<div class="field">
+		<label class="caps" for="org" data-i18n="org">Organisation</label>
+		<input type='text' maxlength='100' name='Company' />
+	</div>
+
+	<div class="field half">
+		<label class="caps" for="fname" data-i18n="fname">First name</label>
+	<input type='text' maxlength='40' name='First Name' />
+</div>
+<div class="field half">
+		<label class="caps" for="lname" data-i18n="lname">Last name</label>
+	<input type='text' maxlength='80' name='Last Name' />
+</div>
+	<input type='text' maxlength='100' name='Email' />
+	<input type='text' maxlength='30' name='Mobile' />
+	<textarea name='Description' maxlength='32000'>&nbsp;</textarea></td></tr><tr><td colspan='2'>
+	<div class='dIB vat mT2' align='left' style='color: rgb(0, 0, 0); font-size: 12px; font-family: sans-serif;display: inline-block;vertical-align: top;'>
+		<div class='displayPurpose  f13'>
+			<label class='newCustomchkbox-md dIB w100per'>
+			<input autocomplete='off' onclick='disableSubmit()' id='privacyTool' type='checkbox' name='privacyTool'><span class='chkbxIcon'></span></label></div></div><div class='fw200 dIB vat mL5' style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;vertical-align: top;margin-top: 3px;line-height: 14px;width:90%;display: inline-block;color:black'>I agree to the Privacy Policy and Terms of Service.</div>
+
+	
+		<input style='opacity:0.5;font-size:12px;color:black' id='formsubmit'disabled type='submit' value='Submit' ></input>
+		<input onclick='disableSubmitwhileReset()'type='reset' name='reset' style='font-size:12px;color:black' value='Reset' ></input>
+	</div>
+
+	<script>
+ 	  var mndFileds=new Array('Company','First Name','Last Name');
+ 	  var fldLangVal=new Array('Organisation','First Name','Last Name'); 
+		var name='';
+		var email=''; 
+  
+function disableSubmitwhileReset()
+	{		
+	var submitbutton = document.getElementById('formsubmit');
+   var style = submitbutton.getAttribute('style');
+   if (style.indexOf('opacity:0.5')<0) {
+   style='opacity:0.5;'+style;
+    }
+ 	if(document.getElementById('privacyTool')!=undefined || document.getElementById('consentTool')!=undefined)
+	{
+		submitbutton.setAttribute('disabled', true);
+	submitbutton.setAttribute('style',style);
+ }
+	else
+	{
+		submitbutton.removeAttribute('disabled');
+	}
+} 
+function disableSubmit()
+	{		
+	var isprivacyToolAvail = false;
+	var isconsentToolAvail = false;
+	var bothtoolAvail = false;
+	var privacytool='';
+	var consenttool='';
+	var submitbutton = document.getElementById('formsubmit');
+	var style=style1 = submitbutton.getAttribute('style');
+   style=style.replace('opacity:0.5;','');
+   if (style1.indexOf('opacity:0.5')<0) {
+    style1=style1.concat(';opacity:0.5;'); 
+  }
+   if(document.getElementById('privacyTool')!=undefined && document.getElementById('consentTool')!=undefined)
+	{
+			isprivacyToolAvail=true;
+			privacytool = document.getElementById('privacyTool');
+			isconsentToolAvail=true;
+			consenttool=document.getElementById('consentTool');
+			bothtoolAvail=true;
+	}
+
+	if(document.getElementById('privacyTool')!=undefined)
+	{
+			isprivacyToolAvail=true;
+			privacytool = document.getElementById('privacyTool');
+	}
+	if(document.getElementById('consentTool')!=undefined)
+	{
+			isconsentToolAvail=true;
+			consenttool=document.getElementById('consentTool');
+	}
+	if(submitbutton.hasAttribute('disabled') && bothtoolAvail && consenttool.checked && privacytool.checked)
+	{
+			submitbutton.removeAttribute('disabled');
+	submitbutton.setAttribute('style',style);}
+	else if(submitbutton.hasAttribute('disabled') && isprivacyToolAvail && privacytool.checked && consenttool=='')
+	{
+			submitbutton.removeAttribute('disabled');
+	submitbutton.setAttribute('style',style);}
+	else if(submitbutton.hasAttribute('disabled') && isconsentToolAvail && consenttool.checked && privacytool=='')
+	{
+			submitbutton.removeAttribute('disabled');
+submitbutton.setAttribute('style',style);
+	}
+	else
+	{
+			submitbutton.setAttribute('disabled', true);
+	submitbutton.setAttribute('style',style1);}
+}
+
+ 	  function checkMandatory186432000000152272() {
+		for(i=0;i<mndFileds.length;i++) {
+		  var fieldObj=document.forms['WebToLeads186432000000152272'][mndFileds[i]];
+		  if(fieldObj) {
+			if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+			 if(fieldObj.type =='file')
+				{ 
+				 alert('Please select a file to upload.'); 
+				 fieldObj.focus(); 
+				 return false;
+				} 
+			alert(fldLangVal[i] +' cannot be empty'); 
+   	   	  	  fieldObj.focus();
+   	   	  	  return false;
+			}  else if(fieldObj.nodeName=='SELECT') {
+  	   	   	 if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+				alert(fldLangVal[i] +' cannot be none'); 
+				fieldObj.focus();
+				return false;
+			   }
+			} else if(fieldObj.type =='checkbox'){
+ 	 	 	 if(fieldObj.checked == false){
+				alert('Please accept  '+fldLangVal[i]);
+				fieldObj.focus();
+				return false;
+			   } 
+			 } 
+			 try {
+			     if(fieldObj.name == 'Last Name') {
+				name = fieldObj.value;
+ 	 	 	    }
+			} catch (e) {}
+		    }
+		}
+		document.getElementById('formsubmit').disabled=true;
+	}
+</script>
+	</form>
+
+
 								<form action="https://formspree.io/mark@berthelemy.net" method="POST" id="contact-form">
 									<div class="fields">
 										<div class="field half">
