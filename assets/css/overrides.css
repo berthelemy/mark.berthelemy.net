@@ -15,9 +15,7 @@ a:focus, #sidebar nav a:focus, input:focus {
         color: rgba(255, 255, 255, 0.95);
     }
 
-a.clearOutline:focus, #sidebar nav a.clearOutline:focus {
-    outline: 0;
-}
+
 
 #sidebar nav a {
     color: rgba(255, 255, 255, 0.65);                    
