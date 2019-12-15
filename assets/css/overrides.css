@@ -6,7 +6,7 @@ body, input, select, textarea, label {
     color: rgba(255, 255, 255, 0.75);
 }
 
-a:focus, #sidebar nav a:focus {
+a:focus, #sidebar nav a:focus, input:focus {
         outline: dotted #fff;
         color: rgba(255, 255, 255, 0.95);
     }
