@@ -1,4 +1,4 @@
-body, input, select, textarea {
+body, input, select, textarea, label {
     color: rgba(255, 255, 255, 0.85);
 }
 
