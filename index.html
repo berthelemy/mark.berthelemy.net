@@ -36,12 +36,13 @@
 				<div class="inner">
 					<nav>
 						<ul>
-							<li><a id="l1" href="#intro">Welcome</a></li>
-							<li><a id="l2" href="#about">About me</a></li>
-							<li><a href="#services">What I do</a></li>
-							<li><a href="#testimonials">Testimonials</a></li>
-							<li><a href="#philosophy">Philosophy</a></li>
-							<li><a href="#contact">Get in touch</a></li>
+							<li><a class="l1" href="#intro">Welcome</a></li>
+							<li><a class="l2" href="#about">About me</a></li>
+							<li><a class="l3" href="#services">What I do</a></li>
+							<li><a class="l4" href="#testimonials">Testimonials</a></li>
+							<li><a class="l5" href="#philosophy">Philosophy</a></li>
+							<li><a class="l6" href="#contact">Get in touch</a></li>
+							<!-- l1 etc are to allow automated tabbing -->
 						</ul>
 					</nav>
 				</div>
@@ -51,20 +52,20 @@
 			<div id="wrapper">
 
 				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
+					<section tabindex="-1" id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
 							<h1>Mark Berthelemy</h1>
 							<p>Helping organisations find, implement and use technology solutions for communication, teaching and learning</p>
 							<ul class="actions">
-								<li><a href="#about" class="button scrolly">About me</a></li>
-								<li><a href="#contact" class="button scrolly primary">Get in touch</a></li>
+								<li><a href="#about" class="l2 button scrolly">About me</a></li>
+								<li><a href="#contact" class="l6 button scrolly primary">Get in touch</a></li>
 							</ul>
 
 						</div>
 					</section>
 
 				<!-- One -->
-					<section id="about" class="wrapper style2 spotlights">
+					<section tabindex="-1" id="about" class="wrapper style2 spotlights">
 						<section>
 							<div class="image"><img src="images/helloquence-5fNmWej4tAA-unsplash-1024.jpg" alt="" data-position="center center" /></div>
 							<div class="content">
@@ -82,8 +83,8 @@
 									<p>For 16 years I have worked remotely,  using video conferencing and other communication tools where possible and face-to-face where necessary.</p>
 
 									<ul class="actions">
-										<li><a href="#services" class="button scrolly ">What I do</a></li>
-										<li><a href="#contact" class="button scrolly primary">Get in touch</a></li>
+										<li><a href="#services" class="l3 button scrolly ">What I do</a></li>
+										<li><a href="#contact" class="l6 button scrolly primary">Get in touch</a></li>
 									</ul>
 								</div>
 							</div>
@@ -117,7 +118,7 @@
 
 				<!-- Two -->
 			</section>
-					<section id="services" class="wrapper style3 fade-up">
+					<section tabindex="-1" id="services" class="wrapper style3 fade-up">
 						<div class="inner">
 							<h2>What I do</h2>
 							<p>At its simplest, I translate between the worlds of technology, learning and business &mdash; helping those different groups understand each others' needs and constraints.</p>
@@ -187,12 +188,12 @@
 							</div>
 							
 							<ul class="actions">
-								<li><a href="#philosophy" class="button scrolly">Philosophy</a></li>
-								<li><a href="#contact" class="button scrolly primary">Get in touch</a></li>
+								<li><a href="#testimonials" class="l4 button scrolly">Testimonials</a></li>
+								<li><a href="#contact" class="l6 button scrolly primary">Get in touch</a></li>
 							</ul>
 						</div>
 					</section>
-					<section id="portfolio" class="wrapper style1">
+					<section tabindex="-1" id="portfolio" class="wrapper style1">
 						<div class="inner">
 							
 								<h2>Portfolio</h2>
@@ -251,7 +252,7 @@
 							
 						
 
-					  <section id="testimonials" class="wrapper style2">
+					  <section tabindex="-1" id="testimonials" class="wrapper style2">
 					  	
 							<div class="inner">
 									<h2>Testimonials</h2>
@@ -297,13 +298,13 @@
 							</section>
 								</div>
 							<ul class="actions">
-									<li><a href="#philosophy" class="button scrolly">Philosophy</a></li>
-								<li><a href="#contact" class="button scrolly primary">Get in touch</a></li>
+									<li><a href="#philosophy" class="l5 button scrolly">Philosophy</a></li>
+								<li><a href="#contact" class="l6 button scrolly primary">Get in touch</a></li>
 							</ul>
 						</div>
 					</section>
 
-					<section id="philosophy" class="wrapper style2">
+					<section tabindex="-1" id="philosophy" class="wrapper style2">
 							
 								<div class="inner">
 									<h2>Philosophy</h2>
@@ -324,7 +325,7 @@
 						</section>
 
 				<!-- Three -->
-					<section id="contact" class="wrapper style1 fade-up">
+					<section tabindex="-1" id="contact" class="wrapper style1 fade-up">
 						<div class="inner">
 							<h2>Get in touch</h2>
 							<p>The first half hour consulation is free, so please drop me an email or leave a message so we can arrange a time.</p>
@@ -416,10 +417,34 @@
 
 			<script>
 			$(document).ready(function(){
-  	
+  				$('.l1').click(function(e) {
+       				e.preventDefault();
+       				$("section#intro").focus(); 
+   					});
+  				$('.l2').click(function(e) {
+       				e.preventDefault();
+       				$("section#about").focus(); 
+   					});
+  				$('.l3').click(function(e) {
+       				e.preventDefault();
+       				$("section#services").focus(); 
+   					});
+  				$('.l4').click(function(e) {
+       				e.preventDefault();
+       				$("section#testimonials").focus(); 
+   					});
+  				$('.l5').click(function(e) {
+       				e.preventDefault();
+       				$("section#philosophy").focus(); 
+   					});
+  				$('.l6').click(function(e) {
+       				e.preventDefault();
+       				$("section#contact").focus(); 
+   					});
 			});
 			
 			</script>
 
+			
 	</body>
 </html>
