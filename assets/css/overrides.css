@@ -1,5 +1,6 @@
 body, input, select, textarea {
     color: rgba(255, 255, 255, 0.85);
+}
 
 #footer > .inner .menu {
     color: rgba(255, 255, 255, 0.75);
@@ -7,5 +8,17 @@ body, input, select, textarea {
 
 a:focus, #sidebar nav a:focus {
         outline: dotted #fff;
-        color: rgba(255, 255, 255, 0.55);
+        color: rgba(255, 255, 255, 0.95);
     }
+
+a.clearOutline:focus, #sidebar nav a.clearOutline:focus {
+    outline: 0;
+}
+
+#sidebar nav a {
+    color: rgba(255, 255, 255, 0.65);                    
+    }
+
+#sidebar nav a:hover {
+    color: rgba(255, 255, 255, 0.95);
+}
