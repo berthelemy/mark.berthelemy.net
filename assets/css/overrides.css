@@ -2,6 +2,17 @@ body, input, select, textarea {
     color: rgba(255, 255, 255, 0.85);
 }
 
+#ribbon {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99999;
+}
+
+#ribbon a {
+    border-bottom: none;
+}
+
 input[type="checkbox"] + label {
     color: rgba(255, 255, 255, 0.85);
 }
