@@ -1,0 +1,3 @@
+[submodule "assets/js/jQuery-Plugin-SwipeNav"]
+	path = assets/js/jQuery-Plugin-SwipeNav
+	url = https://github.com/Restoration/jQuery-Plugin-SwipeNav.git
