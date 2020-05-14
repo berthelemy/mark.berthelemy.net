@@ -26,6 +26,19 @@ a:focus, #sidebar nav a:focus, input:focus {
         color: rgba(255, 255, 255, 0.95);
     }
 
+.screenshot {
+    max-width:100%;
+}
+
+h3.portfolio-title {
+    min-height: 3em;
+    text-align: center;
+}
+
+div.video {
+    max-width: 560px;
+}
+
 
 
 #sidebar nav a {
@@ -34,4 +47,15 @@ a:focus, #sidebar nav a:focus, input:focus {
 
 #sidebar nav a:hover {
     color: rgba(255, 255, 255, 0.95);
+}
+
+
+@media screen and (max-width: 480px) {
+    div.screenshot-container {
+        text-align: center;
+    }
+
+    img.screenshot {
+        width: 80%;
+    }
 }
