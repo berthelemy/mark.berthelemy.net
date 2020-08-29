@@ -3,3 +3,8 @@ title: Mark Berthelemy
 description: 'Helping small to medium-sized organisations get more value from technology'
 
 url: https://mark.berthelemy.net
+
+collections_dir: collections
+
+collections:
+  - front-page-sections

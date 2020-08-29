@@ -4,245 +4,36 @@ layout: home
 ---
 		<!-- Wrapper -->
 			<div id="wrapper">
-
-				<!-- Intro -->
-					<section tabindex="-1" id="intro" class="wrapper style1 fullscreen fade-up">
-						<div class="inner">
-							<h1>Mark Berthelemy</h1>
-							<p>{{ site.description }}</p>
-							<ul class="actions">
-								<li><a href="#services" class="l3 button scrolly ">What I do</a></li>
-								<li><a href="#contact" class="l6 button scrolly primary">Get in touch</a></li>
-							</ul>
-
-						</div>
-					</section>
-					<section tabindex="-1" id="services" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>What I do</h2>
-							<div class="features">
-								<section>
-									<span class="icon solid major fa-chalkboard-teacher"></span>
-									<h3>Training</h3>
-									<ul>
-										<li>Office 365, Google G-Suite &amp; LibreOffice</li>
-										<li>Online events</li>
-										<li>Writing for the web</li>
-										<li>Moodle &amp; Wordpress</li>
-									</ul>
-								</section>
-								<section>
-									<span class="icon solid major fa-cogs"></span>
-									<h3>Finding &amp; setting up technology</h3>
-									<ul>
-										<li>Office suites</li>
-										<li>Email &amp; internet</li>
-										<li>Online events</li>
-										<li>Business systems</li>
-									</ul>
-								</section>
-
-								<section>
-									<span class="icon solid major fa-id-card"></span>
-									<h3>Websites</h3>
-									<ul>
-										<li>Simple, static sites</li>
-										<li>Content-rich websites</li>
-										<li>Mobile-friendly design</li>
-										<li>Search Engine Optimisation</li>
-									</ul>
-								</section>
-								<section>
-									<span class="icon solid major fa-exclamation-triangle"></span>
-									<h3>Troubleshooting</h3>
-									<ul>
-										<li>Technology issues</li>
-										<li>Content problems</li>
-										<li>Skills gaps</li>
-										<li>Solution design</li>
-									</ul>
-								</section>
-							</div>
-
-							<p>For larger projects, particularly in the learning technology or elearning industry, please go to <a href="https://www.wyversolutions.co.uk" target="_blank">Wyver Solutions Ltd</a></p>
-
-							<ul class="actions">
-								<li><a href="#about" class="l2 button scrolly">About me</a></li>
-								<li><a href="#contact" class="l6 button scrolly primary">Get in touch</a></li>
-							</ul>
-						</div>
-					</section>
-
-				<!-- One -->
-					<section tabindex="-1" id="about" class="wrapper style2 spotlights">
+				{% for section in site.front-page-sections %}
+				<!-- {{ section.name }}-->
+				<section tabindex="-1" id="{{ section.name }}" class="wrapper {{ section.style }}">
+					{% if section.style contains "spotlights" %}
 						<section>
-							<div class="image"><img src="images/mark-square-picture.png" alt="Portrait of Mark" data-position="center center" /></div>
-							<div class="content">
-								<div class="inner">
-									<h2>About me</h2>
-									<ul>
+							{% endif %}
+					{% if section.img %}
+					<div class="image"><img src="images/{{ section.img }}" alt="{{ section.imgalt }}" data-position="center center" /></div>
+					<div class="content">
+					{% endif %}
+					<div class="inner">
+						{% if section.display-title %}
+						<h2>{{ section.title }}</h2>
+						{% endif %}
 
-										<li>Over 30 years of experience in <strong>education, training and business</strong></li>
-										<li>Worked with <strong>charities, small businesses, local authorities, large corporations and goverment projects</strong></li>
-										<li>Solid understanding of <strong>Windows, MacOS, Linux, iOS</strong> and <strong>Android</strong> systems</li>
-										<li>Good <strong>communicator</strong></li>
-									</ul>
+						{{ section.content }}
 
-
-									<ul class="actions">
-										<li><a href="#portfolio" class="l4 button scrolly">Portfolio</a></li>
-										<li><a href="#contact" class="l6 button scrolly primary">Get in touch</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-
-						<!--<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Feugiat consequat</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
+					</div>
+					{% if section.img %}
+					</div><!-- end of content div -->
+					{% endif %}
+					{% if section.style contains "spotlights" %}
 						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Ultricies aliquam</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>-->
+							{% endif %}
+				</section>
 
-				<!-- Two -->
-			</section>
-
-					<section tabindex="-1" id="portfolio" class="wrapper style1">
-						<div class="inner">
-
-								<h2>Website portfolio</h2>
-
-								<div class="row">
-									<div class="screenshot-container col-3 col-12-xsmall col-6-small">
-
-									  <img class="screenshot" src="/images/portfolio/mockups/wyver.png" alt="Wyver Solutions mobile website" />
-									  <h3 class="portfolio-title"><a href="https://www.wyversolutions.co.uk" target="_blank">Wyver Solutions Ltd</a></h3>
-									  </div>
-									  <div class="screenshot-container col-3 col-12-xsmall col-6-small">
-
-										  <img class="screenshot" src="/images/portfolio/mockups/adventure.png" alt="Adventure Argentina mobile website" />
-										  <h3 class="portfolio-title"><a href="https://adventureargentina.co.uk/" target="_blank">Adventure Argentina</a></h3>
-									  </div>
-									  <div class="screenshot-container col-3 col-12-xsmall col-6-small">
-
-										  <img class="screenshot" src="/images/portfolio/mockups/blackshields.png" alt="Blackshields Home Improvements mobile website" />
-										  <h3 class="portfolio-title"><a href="https://www.blackshieldshomeimprovements.co.uk/" target="_blank">Blackshields Home Improvements</a></h3>
-									  </div>
-
-
-									<div class="screenshot-container col-3 col-12-xsmall col-6-small">
-
-										  <img class="screenshot" src="/images/portfolio/mockups/btwb.png" alt="Belper Town Wind Band mobile website" />
-										  <h3 class="portfolio-title"><a href="https://belpertownwindband.co.uk/" target="_blank">Belper Town Wind Band</a></h3>
-									  </div>
+				{% endfor %}
 
 
 
-								</div>
-								<p>All my websites are designed to work well on both large and small screens.</p>
-								<ul class="actions">
-									<li><a href="#contact" class="l6 button scrolly primary">Get in touch</a></li>
-								</ul>
-								</div>
-								</section>
-
-					<section tabindex="-1" id="training" class="wrapper style2 fade-up">
-						<div class="inner">
-							<h2>Training videos</h2>
-							<div class="video">
-								<iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?list=PLxYfecES5dRGvD_MLNIFDPt86J3qrYk1T" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							</div>
-						</div>
-					</section>
-
-
-
-
-				<!-- Three -->
-					<section tabindex="-1" id="contact" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>Get in touch</h2>
-							<p>Please note that, by getting in touch, I assume that you are happy with my <a href="{{ site.url }}/privacy/">Privacy Policy.</a></p>
-							<div class="split style1">
-								<section>
-									<form action="https://formspree.io/myyzerpy" method="POST">
-										<input type="hidden" name="_subject" value="Message from mark.berthelemy.net" />
-										<div class="fields">
-											<div class="field half">
-												<label for="name">Name</label>
-												<input type="text" name="name" id="name" />
-											</div>
-											<div class="field half">
-												<label for="email">Email address</label>
-												<input type="text" name="_replyto" id="email" />
-											</div>
-											<div class="field">
-												<label for="message">Message</label>
-												<textarea name="message" id="message" rows="5"></textarea>
-											</div>
-											<div class="field">
-
-												<input type="checkbox" name="marketing" id="marketing" / >
-												<label for="marketing">I would like to join Mark Berthelemy's mailing list about ideas, products and services</label>
-											</div>
-										</div>
-										<ul class="actions">
-											<li><input type="submit" name="submit" class="button primary" value="Send Message"></li>
-										</ul>
-									</form>
-								</section>
-
-								<section>
-									<ul class="contact">
-
-										<li>
-											<h3>Email</h3>
-											<a href="mailto:mark@berthelemy.net">mark@berthelemy.net</a>
-										</li>
-										<li>
-											<h3>Phone</h3>
-											<span>UK: <a href="tel:+44 (0)7922 146 761">+44 (0)7922 146 761</a></span>
-<br /><span>France: <a href="tel:+33 (0)7 66 37 26 50">+33 (0)7 66 37 26 50</a></span>
-										</li>
-										<li>
-											<h3>SIRET</h3>
-											<span>84816644300012</span>
-										</li>
-										<li>
-											<h3>Around the web</h3>
-											<ul class="icons">
-												<!--<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>-->
-												<li><a href="https://github.com/berthelemy/" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-												<li><a href="https://www.instagram.com/markberthelemy/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-												<li><a href="https://www.linkedin.com/in/markberthelemy/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-												<li><a href="https://www.youtube.com/channel/UC1TFZ8SbjYEPP_ryOVXqBfA" target="_blank" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
-											</ul>
-										</li>
-									</ul>
-								</section>
-							</div>
-						</div>
-					</section>
 
 
 			</div>
