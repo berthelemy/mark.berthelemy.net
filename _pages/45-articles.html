@@ -1,0 +1,33 @@
+---
+title: Recent articles
+display-title: true
+ref: articles
+style: style1
+img:
+imgalt:
+front-page: true
+---
+
+<div class="row">
+{% assign count = 0 %}
+  {% for tag in site.tags %}
+    {% assign count = count | plus: 1 %}
+  <div class="col-4 col-12-xsmall col-6-small">
+    {% capture tag_name %}{{ tag | first }}{% endcapture %}
+    <div id="#{{ tag_name | slugize }}"></div>
+
+
+    <h3 class="tag-head">{{ tag_name }}</h3>
+    <a name="{{ tag_name | slugize }}"></a>
+    {% for post in tag[1] limit:5 %}
+    <article class="archive-item">
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+      <p>{{ post.excerpt }}</p>
+    </article>
+    {% endfor %}
+  </div>
+
+  {% if count == 3 %}</div><div class="row">{% assign count = 0 %}{% endif %}
+{% endfor %}
+
+</div>
