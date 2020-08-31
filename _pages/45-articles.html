@@ -9,10 +9,11 @@ front-page: true
 layout: default
 permalink: /articles
 ---
-<div class="button-group text-uppercase text-center">
+<div class="button-group text-center">
     <div class="filter">
         <button class="active button" data-filter="*">All</button>
-        {% for tag in site.tags %}
+        {% assign tags = site.tags | sort %}
+        {% for tag in tags %}
           <button class="button" data-filter=".{{ tag[0] | slugify }}">{{ tag[0] }}</button>
         {% endfor %}
     </div>
