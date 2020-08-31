@@ -9,13 +9,13 @@ front-page: true
 layout: default
 permalink: /articles
 ---
-<div class="portfolio-filter text-uppercase text-center">
-    <ul class="filter">
-        <li class="active" data-filter="*">All</li>
+<div class="button-group text-uppercase text-center">
+    <div class="filter">
+        <button class="active button" data-filter="*">All</button>
         {% for tag in site.tags %}
-          <li data-filter=".{{ tag[0] | slugify }}">{{ tag[0] }}</li>
+          <button class="button" data-filter=".{{ tag[0] | slugify }}">{{ tag[0] }}</button>
         {% endfor %}
-    </ul>
+    </div>
 </div>
 
 <div class="all-portfolios">

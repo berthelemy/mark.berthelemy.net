@@ -20,9 +20,9 @@
         layoutMode: 'fitRows',
     });
 
-    $('ul.filter li').click(function(){
+    $('div.filter button').click(function(){
 
-      $("ul.filter li").removeClass("active");
+      $("div.filter button").removeClass("active");
       $(this).addClass("active");
 
         var selector = $(this).attr('data-filter');
@@ -40,7 +40,7 @@
 });
 </script>
 
-        
+
 
 
 
