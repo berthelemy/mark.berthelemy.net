@@ -3550,14 +3550,14 @@ input, select, textarea {
 			-webkit-justify-content: center;
 			-ms-justify-content: center;
 			justify-content: center;
-			-moz-transform: translateY(0);
+		/*	-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			-moz-transition: opacity 1s ease;
 			-webkit-transition: opacity 1s ease;
 			-ms-transition: opacity 1s ease;
-			transition: opacity 1s ease;
+			transition: opacity 1s ease; */
 			min-height: 100%;
 			opacity: 1;
 			width: 100%;
@@ -3573,14 +3573,14 @@ input, select, textarea {
 		}
 
 			#sidebar nav > ul > li {
-				-moz-transform: translateY(0);
+				/*-moz-transform: translateY(0);
 				-webkit-transform: translateY(0);
 				-ms-transform: translateY(0);
 				transform: translateY(0);
 				-moz-transition: opacity 0.15s ease, -moz-transform 0.75s ease;
 				-webkit-transition: opacity 0.15s ease, -webkit-transform 0.75s ease;
 				-ms-transition: opacity 0.15s ease, -ms-transform 0.75s ease;
-				transition: opacity 0.15s ease, transform 0.75s ease;
+				transition: opacity 0.15s ease, transform 0.75s ease; */
 				margin: 1.5em 0 0 0;
 				opacity: 1;
 				padding: 0;
@@ -3590,7 +3590,7 @@ input, select, textarea {
 				#sidebar nav > ul > li:first-child {
 					margin: 0;
 				}
-
+/*
 				#sidebar nav > ul > li:nth-child(1) {
 					-moz-transition-delay: 0.45s;
 					-webkit-transition-delay: 0.45s;
@@ -3730,12 +3730,12 @@ input, select, textarea {
 					-ms-transition-delay: 4.25s;
 					transition-delay: 4.25s;
 				}
-
+*/
 		#sidebar nav a {
-			-moz-transition: color 0.2s ease;
+	/*		-moz-transition: color 0.2s ease;
 			-webkit-transition: color 0.2s ease;
 			-ms-transition: color 0.2s ease;
-			transition: color 0.2s ease;
+			transition: color 0.2s ease;*/
 			border: 0;
 			color: rgba(255, 255, 255, 0.35);
 			display: block;
@@ -3793,11 +3793,11 @@ input, select, textarea {
 		}
 
 		body.is-preload #sidebar nav ul li {
-			-moz-transform: translateY(2em);
+		/*	-moz-transform: translateY(2em);
 			-webkit-transform: translateY(2em);
 			-ms-transform: translateY(2em);
 			transform: translateY(2em);
-			opacity: 0;
+			opacity: 0; */
 		}
 
 		@media screen and (max-width: 1280px) {
