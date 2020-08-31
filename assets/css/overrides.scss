@@ -46,12 +46,39 @@ body, input, select, textarea {
 @media only screen and (min-width: 1024px) {
   /* Baseline */
   .navigation {
+    
     .menu {
       display: flex; /* 1 */
       > li {
-        border-width: 0 1px 0 0; /* 2 */
+        border-width: 0 0px 0 0; /* 2 */
         > a {
           padding: 1.25em 1.5em; /* 3 */
+        }
+      }
+    }
+  }
+}
+
+/* Easy theming */
+
+$menu-color: rgba(white, .75);
+$menu-bg: #222;
+$menu-item-hover-color: rgba(white, .9);
+$menu-item-hover-bg: black;
+$menu-item-border-color: lighten($menu-bg, 3%);
+
+.navigation {
+  background-color: $menu-bg;
+  color: $menu-color;
+  .menu {
+    li {
+      border-color: $menu-item-border-color;
+      &:hover,
+      &:focus,
+      &:active {
+        > a {
+          color: $menu-item-hover-color;
+          background-color: $menu-item-hover-bg;
         }
       }
     }
