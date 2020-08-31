@@ -8,6 +8,4 @@ collections_dir: collections
 
 collections:
 
-
-
 include: ['_pages']
