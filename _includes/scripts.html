@@ -14,30 +14,48 @@
             </script>
 
 <script>
-            jQuery(document).ready(function($){
+  jQuery(document).ready(function($) {
     $(".all-portfolios").isotope({
-        itemSelector: '.single-portfolio',
-        layoutMode: 'fitRows',
+      itemSelector: '.single-portfolio',
+      layoutMode: 'fitRows',
     });
 
-    $('div.filter button').click(function(){
+    $('div.filter button').click(function() {
 
       $("div.filter button").removeClass("active");
       $(this).addClass("active");
 
-        var selector = $(this).attr('data-filter');
-        $(".all-portfolios").isotope({
-            filter: selector,
-            animationOptions: {
-                duration: 750,
-                easing: 'linear',
-                queue: false,
-            }
-        });
+      var selector = $(this).attr('data-filter');
+      $(".all-portfolios").isotope({
+        filter: selector,
+        animationOptions: {
+          duration: 750,
+          easing: 'linear',
+          queue: false,
+        }
+      });
+      return false;
+    });
+    
+    $("span.tag-link a").click(function() {
+
+      $("span.tag-link a").removeClass("active");
+      $(this).addClass("active");
+
+      var selector = $(this).attr('data-filter');
+      $(".all-portfolios").isotope({
+        filter: selector,
+        animationOptions: {
+          duration: 750,
+          easing: 'linear',
+          queue: false,
+        }
+      });
       return false;
     });
 
-});
+
+  });
 </script>
 
 
