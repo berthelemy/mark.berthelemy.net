@@ -8,9 +8,31 @@
     {% include head.html %}
     <body class="is-preload">
         {% include sidebar.html %}
+        <div id="wrapper">
+          <section tabindex="-1" id="{{ page.ref }}" class="wrapper {{ page.style }}">
+  					{% if page.style contains "spotlights" %}
+  						<section>
+  							{% endif %}
+  					{% if page.img %}
+  					<div class="image"><img src="images/{{ page.img }}" alt="{{ page.imgalt }}" data-position="center center" /></div>
+  					<div class="content">
+  					{% endif %}
+  					<div class="inner">
+  						{% if page.display-title %}
+  						<h2>{{ page.title }}</h2>
+  						{% endif %}
 
-        {{ content }}
+  						{{ content }}
 
+  					</div>
+  					{% if page.img %}
+  					</div><!-- end of content div -->
+  					{% endif %}
+  					{% if page.style contains "spotlights" %}
+  						<section>
+  							{% endif %}
+  				</section>
+        </div>
         {% include footer.html %}
         {% include scripts.html %}
 
