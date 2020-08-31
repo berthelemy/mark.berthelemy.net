@@ -28,9 +28,10 @@ body, input, select, textarea {
   color: #222;
 }
 */
-.button:active,
+.button:active, button.active,
 .button.is-checked {
   background-color: #28F;
+
 }
 
 .button.is-checked {
@@ -56,7 +57,7 @@ body, input, select, textarea {
   margin-left: 0;
   margin-right: 1px;
   text-transform: none;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-stretch: 80%;
 }
 
