@@ -55,6 +55,7 @@ header {
   color: #fff;
   display: flex;
   align-items: stretch;
+  height: 4em;
   // justify-content: space-between;
 }
 
@@ -73,9 +74,10 @@ header {
 .nav-toggle {
   display: none;
   order: 1;
+  margin-top: 1em;
   margin-left: auto;
   padding: 0.2rem 1rem 0.3rem;
-  height: 3.250em;
+  /*height: 3.250em; */
   border: 0;
   border-top: 0.25rem solid transparent;
   background: none;
@@ -89,7 +91,7 @@ header {
   }
 
   &[aria-expanded="true"] {
-    background: #fff;
+    /* background: #fff; */
     border-top-color: $color-brand;
     color: $color-text;
 
@@ -124,10 +126,11 @@ header {
 
 .nav-main {
   position: absolute;
-  top: 3.250rem;
+  top: 0rem;
   left: 0;
   right: 0;
-  background: #fff;
+  width: 50%;
+  background: rgba(255,255,255,1);
   z-index: 1000;
 
   > ul {
