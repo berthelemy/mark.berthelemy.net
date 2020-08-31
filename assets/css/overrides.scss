@@ -82,6 +82,10 @@ body, input, select, textarea {
   border-radius: 3px;
 }
 
+a.tag-link:hover {
+  background-color: black;
+}
+
 /* Menu */
 
 /* From: https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 */

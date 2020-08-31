@@ -36,10 +36,10 @@
       });
       return false;
     });
-    
-    $("span.tag-link a").click(function() {
 
-      $("span.tag-link a").removeClass("active");
+    $("a.tag-link").click(function() {
+
+      $("a.tag-link").removeClass("active");
       $(this).addClass("active");
 
       var selector = $(this).attr('data-filter');
