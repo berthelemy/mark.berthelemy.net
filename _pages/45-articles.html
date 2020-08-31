@@ -9,14 +9,39 @@ front-page: true
 layout: default
 permalink: /articles
 ---
-<div class="row">
-{% assign count = 0 %}
-  {% for post in site.posts %}
+<div class="portfolio-filter text-uppercase text-center">
+    <ul class="filter">
+        <li class="active" data-filter="*">All</li>
+        {% for tag in site.tags %}
+          <li data-filter=".{{ tag[0] | slugify }}">{{ tag[0] }}</li>
+        {% endfor %}
+    </ul>
+</div>
 
-    {% assign count = count | plus: 1 %}
-  <div class="col-4 col-12-xsmall col-6-small">
-    <article class="archive-item">
-      <p>{{ count }}: <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+<div class="all-portfolios">
+  {% for post in site.posts %}
+{% capture tags %}{% for tag in post.tags %}{{ tag | slugify }} {% endfor %}{% endcapture %}
+
+    <div class="single-portfolio {{ tags }}">
+        <!--<img class="img-responsive" src="http://placehold.it/285x220" alt="">-->
+        <p><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a><br />
+          {% for tag in post.tags %}
+          <span class="tag-link"><a href="{{ tag | slugize }}">{{ tag }}</a></span>
+          {% endfor %}
+        </p>
+    </div>
+    {% endfor %}
+
+</div>
+
+<!--<div class="row article-grid">
+
+  {% for post in site.posts %}
+{% capture tags %}{% for tag in post.tags %}{{ tag | slugify }} {% endfor %}{% endcapture %}
+
+  <div class="article-item {{ tags }} col-4 col-12-xsmall col-6-small ">
+    <article>
+      <p><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
         {% for tag in post.tags %}
         <span class="tag-link"><a href="{{ tag | slugize }}">{{ tag }}</a></span>
         {% endfor %}
@@ -28,12 +53,12 @@ permalink: /articles
 
     </div>
     {% endfor %}
-  </div>
+  </div>-->
 
 
 
 
-</div>
+<!--
 <div class="row">
 {% assign count = 0 %}
   {% for tag in site.tags %}
@@ -56,7 +81,7 @@ permalink: /articles
   {% if count == 3 %}</div><div class="row">{% assign count = 0 %}{% endif %}
 {% endfor %}
 
-</div>
+</div>-->
 <ul class="actions">
   <li><a href="/contact" class="l6 button scrolly primary">Get in touch</a></li>
 </ul>

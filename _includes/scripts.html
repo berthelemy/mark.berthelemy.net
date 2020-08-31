@@ -8,11 +8,42 @@
             <script src="/assets/js/breakpoints.min.js"></script>
             <script src="/assets/js/util.js"></script>
             <script src="/assets/js/main.js"></script>
+            <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
             <script src="/assets/js/menu-toggle.js"></<script>
 
             </script>
 
-            <script>
+<script>
+            jQuery(document).ready(function($){
+    $(".all-portfolios").isotope({
+        itemSelector: '.single-portfolio',
+        layoutMode: 'fitRows',
+    });
+
+    $('ul.filter li').click(function(){
+
+      $("ul.filter li").removeClass("active");
+      $(this).addClass("active");
+
+        var selector = $(this).attr('data-filter');
+        $(".all-portfolios").isotope({
+            filter: selector,
+            animationOptions: {
+                duration: 750,
+                easing: 'linear',
+                queue: false,
+            }
+        });
+      return false;
+    });
+
+});
+</script>
+
+        
+
+
+
               /*
             $(document).ready(function(){
                 $('.l1').click(function(e) {
