@@ -1,8 +1,19 @@
 <!-- Menu -->
                 <section id="sidebarx">
-                  <div class="inner">
-                    <nav class="navigation">
-                        <ul class="menu">
+                  <header class="a11y-nav">
+                  <button
+                     id="nav-main-toggle"
+                     class="nav-toggle"
+                     aria-label="Toggle site navigation">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                    <span>Menu</span>
+                  </button>
+                  <div class="inner nav-wrapper">
+
+                    <nav id="nav-main" class="nav-main navigation" aria-label="Main menu">
+                      <h2 id="site-nav-heading" class="sr-only">Site navigation</h2>
+                        <ul aria-labelledby="site-nav-heading">
                             <li><a class="lx" href="/">Welcome</a></li>
                             <li><a class="lx" href="/services">Services</a></li>
                             <li><a class="lx" href="/about">About me</a></li>
@@ -13,5 +24,10 @@
                             <!-- l1 etc are to allow automated tabbing -->
                         </ul>
                     </nav>
+                    <a href="#main-menu-toggle"
+                       class="backdrop"
+                       tabindex="-1"
+                       aria-hidden="true" hidden></a>
                 </div>
+                </header>
             </section>
