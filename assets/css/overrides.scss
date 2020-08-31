@@ -4,6 +4,21 @@
 body, input, select, textarea {
     color: rgba(255, 255, 255, 0.85);
 }
+
+.tag-link {
+  background-color: #fff;
+  border: none;
+  color: black;
+  font-size: 0.6em;
+  padding: 2px 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 2px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
 /* Menu */
 
 /* From: https://medium.com/@heyoka/responsive-pure-css-off-canvas-hamburger-menu-aebc8d11d793 */

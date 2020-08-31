@@ -1,5 +1,5 @@
 ---
-title: Recent articles
+title: Articles
 display-title: true
 ref: articles
 style: style1
@@ -11,6 +11,31 @@ permalink: /articles
 ---
 <div class="row">
 {% assign count = 0 %}
+  {% for post in site.posts %}
+
+    {% assign count = count | plus: 1 %}
+  <div class="col-4 col-12-xsmall col-6-small">
+    <article class="archive-item">
+      <p>{{ count }}: <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+        {% for tag in post.tags %}
+        <span class="tag-link"><a href="{{ tag | slugize }}">{{ tag }}</a></span>
+        {% endfor %}
+      </p>
+
+    </article>
+
+
+
+    </div>
+    {% endfor %}
+  </div>
+
+
+
+
+</div>
+<div class="row">
+{% assign count = 0 %}
   {% for tag in site.tags %}
     {% assign count = count | plus: 1 %}
   <div class="col-4 col-12-xsmall col-6-small">
@@ -20,10 +45,10 @@ permalink: /articles
 
     <h3 class="tag-head">{{ tag_name }}</h3>
     <a name="{{ tag_name | slugize }}"></a>
-    {% for post in tag[1] limit:5 %}
+    {% for post in tag[1] limit:4 %}
     <article class="archive-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-      <p>{{ post.excerpt }}</p>
+      <p><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></p>
+
     </article>
     {% endfor %}
   </div>
