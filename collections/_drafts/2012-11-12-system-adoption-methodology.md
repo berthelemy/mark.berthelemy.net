@@ -4,13 +4,12 @@ author: Wyver Solutions Admin
 excerpt: Many systems implementations fail to achieve their desired results through a lack of communication that takes users through the change. In this post, we look at each stage of the implementation process and suggest tools and techniques that may take your users with you.
 layout: post
 permalink: /2012/11/12/system-adoption-methodology/
-categories:
-  - Implementation support
-  - Uncategorized
+tags:
+  - Projects
 ---
 <div id="attachment_473" style="width: 310px" class="wp-caption alignright">
   <img class="size-medium wp-image-473" title="Ascending bar graph" src="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2012/11/increasing_chart-300x199.jpg" alt="Ascending bar graph" width="300" height="199" />
-  
+
   <p class="wp-caption-text">
     Image credit: <a href="http://www.freeimages.co.uk">www.freeimages.co.uk</a>
   </p>
@@ -37,81 +36,81 @@ These dimensions are described in below (using detail taken from [Wikipedia][2]
     <td valign="top">
       <strong>Stage</strong>
     </td>
-    
+
     <td valign="top">
       <strong>Definition</strong>
     </td>
-    
+
     <td valign="top">
       <strong>Supporting Action</strong>
     </td>
   </tr>
-  
+
   <tr>
     <td valign="top">
       Knowledge
     </td>
-    
+
     <td valign="top">
       In this stage the individual is first exposed to an innovation but lacks information about the innovation. During this stage of the process the individual has not been inspired to find more information about the innovation.
     </td>
-    
+
     <td valign="top">
       Initial awareness-raising communication (such as roadshows, poster campaigns, emails etc) designed to highlight the individual’s need of the innovation.
     </td>
   </tr>
-  
+
   <tr>
     <td valign="top">
       Persuasion
     </td>
-    
+
     <td valign="top">
       In this stage the individual is interested in the innovation and actively seeks information/detail about the innovation.
     </td>
-    
+
     <td valign="top">
       Provision of information perhaps as a website or magazine articles. Preferably self-service, but may require someone to answer queries.
     </td>
   </tr>
-  
+
   <tr>
     <td valign="top">
       Decision
     </td>
-    
+
     <td valign="top">
       In this stage the individual takes the concept of the innovation and weighs the advantages/disadvantages of using the innovation and decides whether to adopt or reject the innovation.
     </td>
-    
+
     <td valign="top">
       Find people who will champion the innovation in their part of the organisation, and speak to their colleagues about it.
     </td>
   </tr>
-  
+
   <tr>
     <td valign="top">
       Implementation
     </td>
-    
+
     <td valign="top">
       In this stage the individual employs the innovation to a varying degree depending on the situation. During this stage the individual determines the usefulness of the innovation and may search for further information about it.
     </td>
-    
+
     <td valign="top">
       Provide “help” at the point of need, either through a self-service information portal, or through a help desk. Provide coaching to encourage better and more extensive use.
     </td>
   </tr>
-  
+
   <tr>
     <td valign="top">
       Confirmation
     </td>
-    
+
     <td valign="top">
       Although the name of this stage may be misleading, in this stage the individual finalizes their decision to continue using the innovation and may use the innovation to its fullest potential.
     </td>
-    
+
     <td valign="top">
       Encourage this person to become a champion and to contribute to the help desk resources.
     </td>
@@ -127,81 +126,81 @@ Rogers defines several intrinsic characteristics of innovations that influence a
     <td valign="top">
       <strong>Factor</strong>
     </td>
-    
+
     <td valign="top">
       <strong>Definition</strong>
     </td>
-    
+
     <td valign="top">
       <strong>Supporting Actions</strong>
     </td>
   </tr>
-  
+
   <tr>
     <td valign="top">
       Relative Advantage
     </td>
-    
+
     <td valign="top">
       How improved an innovation is over the previous generation.
     </td>
-    
+
     <td valign="top">
       Highlight the improvements and how they will benefit the individual.
     </td>
   </tr>
-  
+
   <tr>
     <td valign="top">
       Compatibility
     </td>
-    
+
     <td valign="top">
       The level of compatibility that an innovation has to be assimilated into an individual’s life.
     </td>
-    
+
     <td valign="top">
       Highlight how the innovation fits into what the individual is already doing.
     </td>
   </tr>
-  
+
   <tr>
     <td valign="top">
       Complexity or Simplicity
     </td>
-    
+
     <td valign="top">
       If the innovation is too difficult to use an individual will not likely adopt it.
     </td>
-    
+
     <td valign="top">
       Highlight ease of use, or provide help and job aids that can be accessed quickly at the point of need.
     </td>
   </tr>
-  
+
   <tr>
     <td valign="top">
       Trialability
     </td>
-    
+
     <td valign="top">
       How easily an innovation may be experimented with as it is being adopted. If a user has a hard time using and trying an innovation this individual will be less likely to adopt it.
     </td>
-    
+
     <td valign="top">
       Provide simple ways of trying out the innovation, preferably with support from a champion where possible.
     </td>
   </tr>
-  
+
   <tr>
     <td valign="top">
       Observability
     </td>
-    
+
     <td valign="top">
       The extent that an innovation is visible to others. An innovation that is more visible will drive communication among the individual’s peers and personal networks and will in turn create more positive or negative reactions.
     </td>
-    
+
     <td valign="top">
       Make sure that any communications are easy to spread to the individual’s network of contacts. Ideally this would be built into the innovation itself, so that the individual can invite contacts to join them in using the innovation.
     </td>
@@ -217,81 +216,81 @@ Rogers identified five categories of adopters within a particular social group, 
     <td valign="top">
       <strong>Adopter category</strong>
     </td>
-    
+
     <td valign="top">
       <strong>Definition</strong>
     </td>
-    
+
     <td valign="top">
       <strong>Supporting Actions</strong>
     </td>
   </tr>
-  
+
   <tr>
     <td valign="top">
       Innovators
     </td>
-    
+
     <td valign="top">
       Innovators are the first individuals to adopt an innovation. Innovators are willing to take risks, youngest in age, have the highest social class, have great financial lucidity, very social and have closest contact to scientific sources and interaction with other innovators.Risk tolerance has them adopting technologies which may ultimately fail. Financial resources help absorb these failures
     </td>
-    
+
     <td valign="top">
       Provide “early warning systems” that communicate innovations prior to launch.This will generate interest and appetite amongst this group. They will try out the innovation and will be ideal beta testers.
     </td>
   </tr>
-  
+
   <tr>
     <td valign="top">
       Early Adopters
     </td>
-    
+
     <td valign="top">
       This is the second fastest category of individuals who adopt an innovation. These individuals have the highest degree of opinion leadership among the other adopter categories.Early adopters are typically younger in age, have a higher social status, have more financial lucidity, advanced education, and are more socially forward than late adopters. More discrete in adoption choices than innovators. Realize judicious choice of adoption will help them maintain central communication position.
     </td>
-    
+
     <td valign="top">
       This group will become your champions.They will need to be listened to in order to remain “on board”.Provide mechanisms for them to give feedback and to direct changes. Provide as much information as possible about the underlying technologies and the road-map for the future.
     </td>
   </tr>
-  
+
   <tr>
     <td valign="top">
       Early Majority
     </td>
-    
+
     <td valign="top">
       Individuals in this category adopt an innovation after a varying degree of time. This time of adoption is significantly longer than the innovators and early adopters.Early Majority tend to be slower in the adoption process, have above average social status, contact with early adopters, and seldom hold positions of opinion leadership in a system.
     </td>
-    
+
     <td valign="top">
       This group will become the critical mass.They will need a lot of input from champions and should be the target of marketing communications highlighting the features and benefits of the innovation.
     </td>
   </tr>
-  
+
   <tr>
     <td valign="top">
       Late Majority
     </td>
-    
+
     <td valign="top">
       Individuals in this category will adopt an innovation after the average member of the society. These individuals approach an innovation with a high degree of skepticism and after the majority of society has adopted the innovation.Late Majority people are typically skeptical about an innovation, have below average social status, very little financial lucidity, in contact with others in late majority and early majority, very little opinion leadership.
     </td>
-    
+
     <td valign="top">
       This group will need input such as case studies showing real benefits, and possibly a great deal of “hand-holding”.They will need to grow into using the innovation through constant exposure.They may need some extrinsic motivating factors, such as recognition or reward to encourage use of the innovation.
     </td>
   </tr>
-  
+
   <tr>
     <td valign="top">
       Laggards
     </td>
-    
+
     <td valign="top">
       Individuals in this category are the last to adopt an innovation. Unlike some of the previous categories, individuals in this category show little to no opinion leadership. These individuals typically have an aversion to change-agents and tend to be advanced in age.Laggards typically tend to be focused on “traditions”, likely to have lowest social status, lowest financial fluidity, be oldest of all other adopters, in contact with only family and close friends, very little to no opinion leadership.
     </td>
-    
+
     <td valign="top">
       This group may need to be forced to use the innovation by making it the only way that they can complete certain tasks which are important to them.Or the organisation may accept that this group will eventually leave, and not worry about persuading them.
     </td>

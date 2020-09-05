@@ -4,12 +4,13 @@ author: Wyver Solutions Admin
 excerpt: "Choosing a learning technology solution isn't just about coming up with a shopping list of features and scoring vendors against that list. You will also need to decide whether the solution offered will work, will last and will fit your particular context."
 layout: post
 permalink: /2012/10/25/learning-technology-tips-for-buyers/
-categories:
-  - Supplier selection
+tags:
+  - Learning
+  - Technology
 ---
 <div id="attachment_419" style="width: 310px" class="wp-caption alignright">
   <img class="size-medium wp-image-419" title="question key" src="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2012/10/question_key-300x199.jpg" alt="Question key" width="300" height="199" />
-  
+
   <p class="wp-caption-text">
     image: <a href="http://www.freeimages.co.uk" target="_blank">www.freeimages.co.uk</a>
   </p>

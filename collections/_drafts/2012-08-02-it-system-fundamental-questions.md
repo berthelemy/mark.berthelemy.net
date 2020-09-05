@@ -4,12 +4,12 @@ author: Wyver Solutions Admin
 excerpt: Whenever you are looking for new software, whether for content creation, financial management, customer relationship management (or any other scenario), there are some fundamental questions that you will need to answer.
 layout: post
 permalink: /2012/08/02/it-system-fundamental-questions/
-categories:
-  - Analysis and design
+tags:
+  - Technology
 ---
 <div id="attachment_438" style="width: 310px" class="wp-caption alignright">
   <a href="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2012/08/network_cable-small1.jpeg"><img class="size-medium wp-image-438" title="Network cable" src="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2012/08/network_cable-small1-300x225.jpeg" alt="Network cable" width="300" height="225" /></a>
-  
+
   <p class="wp-caption-text">
     Image credit: <a href="http://www.morguefile.com/archive/display/14249">Morguefile</a>
   </p>
@@ -27,21 +27,21 @@ This post explores these questions; outlining the advantages and disadvantages o
   <tr>
     <th width="20%">
     </th>
-    
+
     <th width="40%">
       Advantages
     </th>
-    
+
     <th>
       Disadvantages
     </th>
   </tr>
-  
+
   <tr>
     <td>
       Single-user
     </td>
-    
+
     <td>
       <ul>
         <li>
@@ -52,7 +52,7 @@ This post explores these questions; outlining the advantages and disadvantages o
         </li>
       </ul>
     </td>
-    
+
     <td>
       <ul>
         <li>
@@ -64,12 +64,12 @@ This post explores these questions; outlining the advantages and disadvantages o
       </ul>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Multi-user
     </td>
-    
+
     <td>
       <ul>
         <li>
@@ -80,7 +80,7 @@ This post explores these questions; outlining the advantages and disadvantages o
         </li>
       </ul>
     </td>
-    
+
     <td>
       <ul>
         <li>
@@ -100,21 +100,21 @@ This post explores these questions; outlining the advantages and disadvantages o
   <tr>
     <th width="20%">
     </th>
-    
+
     <th width="40%">
       Advantages
     </th>
-    
+
     <th>
       Disadvantages
     </th>
   </tr>
-  
+
   <tr>
     <td>
       Internally hosted
     </td>
-    
+
     <td>
       <ul>
         <li>
@@ -125,7 +125,7 @@ This post explores these questions; outlining the advantages and disadvantages o
         </li>
       </ul>
     </td>
-    
+
     <td>
       <ul>
         <li>
@@ -137,12 +137,12 @@ This post explores these questions; outlining the advantages and disadvantages o
       </ul>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Externally hosted
     </td>
-    
+
     <td>
       <ul>
         <li>
@@ -153,7 +153,7 @@ This post explores these questions; outlining the advantages and disadvantages o
         </li>
       </ul>
     </td>
-    
+
     <td>
       <ul>
         <li>
@@ -173,21 +173,21 @@ This post explores these questions; outlining the advantages and disadvantages o
   <tr>
     <th width="20%">
     </th>
-    
+
     <th width="40%">
       Advantages
     </th>
-    
+
     <th>
       Disadvantages
     </th>
   </tr>
-  
+
   <tr>
     <td>
       Multi-function
     </td>
-    
+
     <td>
       <ul>
         <li>
@@ -198,7 +198,7 @@ This post explores these questions; outlining the advantages and disadvantages o
         </li>
       </ul>
     </td>
-    
+
     <td>
       <ul>
         <li>
@@ -210,12 +210,12 @@ This post explores these questions; outlining the advantages and disadvantages o
       </ul>
     </td>
   </tr>
-  
+
   <tr>
     <td>
       Best-of-breed
     </td>
-    
+
     <td>
       <ul>
         <li>
@@ -226,7 +226,7 @@ This post explores these questions; outlining the advantages and disadvantages o
         </li>
       </ul>
     </td>
-    
+
     <td>
       <ul>
         <li>

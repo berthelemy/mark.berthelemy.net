@@ -4,9 +4,9 @@ author: Wyver Solutions Admin
 excerpt: Following a question on a learning technology mailing list, we discuss the merits of preparing resources in XML compared to other formats (eg. PDF or HTML5).
 layout: post
 permalink: /2012/07/19/the-benefits-of-xml-based-learning-content-publishing/
-categories:
-  - Analysis and design
-  - Content Management
+tags:
+  - Technology
+  - Content management
 ---
 <img class="alignright size-full wp-image-397" title="xml_logo" src="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2012/07/xml_logo.gif" alt="XML logo" width="140" height="120" />A recent question on the <a href="http://www.alt.ac.uk/" target="_blank">ALT</a> mailing list asked:
 
@@ -27,7 +27,7 @@ Similarly, you could have a unit that gave a great explanation of a particular t
 Learning Object Theory has some critics, mainly around the Reusability Paradox:
 
 > *The paradox claims that the more context laden a given educational resource is, the more effectively it teaches but the more difficult it is to reuse in a novel context. Conversely, the less context laden a given educational resource is, the less effectively it teaches but the easier it is to reuse in novel contexts. So with learning objects, you had a choice &#8211; a great resource that is essentially impossible to reuse, or a really poor resource that you can easily reuse.*
-> 
+>
 > <p style="text-align: right;">
 >   <a href="http://change.mooc.ca/post/237" target="_blank">Wiley on Learning Objects in Change MOOC</a>
 > </p>

@@ -5,12 +5,12 @@ excerpt: Building online learning materials and applications that rely on a cert
 layout: post
 permalink: /2013/02/18/introduction-to-responsive-design/
 categories:
-  - Five minute briefing
-  - Supplier selection
+  - Technology
+  - Design
 ---
 <div id="attachment_595" style="width: 310px" class="wp-caption alignleft">
   <a href="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2013/02/responsive_icon__psd_included__by_avrgdznr-d5955db.png"><img class="size-medium wp-image-595" alt="Responsive icon" src="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2013/02/responsive_icon__psd_included__by_avrgdznr-d5955db-300x300.png" width="300" height="300" /></a>
-  
+
   <p class="wp-caption-text">
     Used with permission of <a href="http://avrgdznr.deviantart.com/art/Responsive-Icon-PSD-Included-317687663">Deviant Art</a>
   </p>

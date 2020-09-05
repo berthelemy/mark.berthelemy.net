@@ -4,10 +4,9 @@ author: Wyver Solutions Admin
 excerpt: 'In this Five Minute Briefing, we explore the world of mobile content delivery, and assess a number of options including: mobile websites, PDF, eBooks and native apps.'
 layout: post
 permalink: /2013/01/02/mobile-content-delivery/
-categories:
+tags:
   - Content Management
-  - Five minute briefing
-  - Mobile
+  - Technology
 ---
 You&#8217;ve decided that there&#8217;s a valid business case for getting your organisation&#8217;s training content onto your employees&#8217; or customers&#8217; mobile devices &#8211; whether tablets or smaller.
 
@@ -24,7 +23,7 @@ Much depends on where you&#8217;re starting from (eg. do you have existing mater
 
 <div id="attachment_534" style="width: 210px" class="wp-caption alignleft">
   <img class="size-full wp-image-534" alt="Aside magazine cover" src="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2013/01/01-web-screens.jpg" width="200" height="261" />
-  
+
   <p class="wp-caption-text">
     Aside HTML5 magazine
   </p>

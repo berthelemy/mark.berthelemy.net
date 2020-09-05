@@ -4,13 +4,8 @@ author: Wyver Solutions Admin
 excerpt: "A Wyver Solutions consultant is always asking questions. In this post we set out some of the initial questions we use to help understand what you're looking for, and how we can support you."
 layout: post
 permalink: /2013/03/20/what-to-expect-from-a-consultant/
-categories:
-  - Analysis and design
-  - Implementation support
-  - Supplier selection
-  - Training and education
-  - Troubleshooting and consultancy
-  - Wyver Solutions
+tags:
+  - Projects
 ---
 <img class="alignleft size-medium wp-image-612" alt="Woman and man talking in an office" src="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2013/03/woman_man_office_600-300x206.png" width="300" height="206" />If you call in Wyver Solutions to help you with a problem, the first thing we&#8217;ll do is ask you lots of questions. Yes, we do have a preferred, and constantly evolving, toolbox of ideas, processes, applications and systems, but there&#8217;s no way we could suggest any particular way of doing things until we really know what you need.
 

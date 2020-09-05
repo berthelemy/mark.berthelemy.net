@@ -4,14 +4,13 @@ author: Wyver Solutions Admin
 excerpt: "We look at Donald Taylor's (@DonaldHTaylor) recent predictions for L&amp;D in 2013 and discuss some of the technology implications - focussing on what can provide the most impact and be most effective."
 layout: post
 permalink: /2012/12/01/future-of-learning-technology/
-categories:
-  - Analysis and design
-  - Informal learning
-  - Learning Management
+tags:
+  - Learning
+  - Technology
 ---
 <div id="attachment_490" style="width: 190px" class="wp-caption alignright">
   <img class=" wp-image-490 " title="Clock" src="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2012/12/clock600-300x225.jpg" alt="Clock" width="180" height="135" />
-  
+
   <p class="wp-caption-text">
     Image credit: <a href="http://www.freeimages.co.uk/">Free Images</a>
   </p>
@@ -20,7 +19,7 @@ categories:
 Don Taylor, in a [recent blog post that looked forward to 2013][1], made an interesting summary statement:
 
 > The big workplace learning trend for 2013 will be a continued blurring of boundaries. L&amp;D will find its turf increasingly encroached on by other departments – sales and operations in particular – using **easy learning technologies for performance impact**. We will see more **workplace learning provision from educational establishment**s, and the continued blurring of global boundaries, with more online course provision across cultures and countries. And **pervasive technologies** will mean the further spread of informal learning and user-generated learning that requires no input from the training department.
-> 
+>
 > <p style="text-align: right;">
 >   (My highlights)
 > </p>

@@ -4,8 +4,8 @@ author: Wyver Solutions Admin
 excerpt: As part of Towards Maturity’s eXchanges programme at Learning Technologies 2013, Wyver Solutions director, Mark Berthelemy, chaired a conversation with Ben Betts.
 layout: post
 permalink: /2013/02/05/game-based-learning/
-categories:
-  - Games-based learning
+tags:
+  - Learning
 ---
 As part of [Towards Maturity&#8217;s eXchanges programme][1] at Learning Technologies 2013, Wyver Solutions director, Mark Berthelemy, chaired a conversation with [Ben Betts][2].
 
@@ -26,7 +26,7 @@ Ben introduced us to the six categories of games-based learning that he had enco
   1. *Drill and practice*  
     An approach which is ideal for learning that requires simple repetition &#8211; ie. where retention is important. An important part of this is an element of challenge, such as beating the clock.
   2. *Serious games*  
-    An approach which takes the attributes of commercial games but for a &#8220;serious&#8221; purpose. There are two scenarios where a serious game is worthwhile:</p> 
+    An approach which takes the attributes of commercial games but for a &#8220;serious&#8221; purpose. There are two scenarios where a serious game is worthwhile:</p>
       * For situated learning &#8211; where it&#8217;s important to replicate a particular environment and a high risk situation, where failure is not an option. An example is [America&#8217;s Army][4]
       * For cognitive development &#8211; where the aim is to develop deep understanding of principles, models and schemas. An example is [Fold It][5] &#8211; a puzzle game about the structure of proteins, where the data from the solutions developed are also fed into the developers&#8217; research.
   3. *Commercial off the Shelf (COTS)*  
@@ -37,7 +37,7 @@ Ben introduced us to the six categories of games-based learning that he had enco
   5. *Simulations*  
     There is a question over whether these are really games, and there is some cross-over with serious games. Much depends on how you define &#8220;game&#8221; and also, not insignificantly, the perception of the person &#8220;playing&#8221; the Simulation &#8211; whether it is treated as a game or not.
   6. *Gamification*  
-    This is the process where a game-like characteristics is used in a non-game situation. Generally, these are included in order to induce particular behaviours in the participating people. However, it&#8217;s important to be careful that gamification doesn&#8217;t stimulate the wrong behaviours (eg. school league tables, which [may have serious unintended consequences][10]). Examples of these characteristics (which may be used alone or in combination) include:</p> 
+    This is the process where a game-like characteristics is used in a non-game situation. Generally, these are included in order to induce particular behaviours in the participating people. However, it&#8217;s important to be careful that gamification doesn&#8217;t stimulate the wrong behaviours (eg. school league tables, which [may have serious unintended consequences][10]). Examples of these characteristics (which may be used alone or in combination) include:</p>
       * incentives, such as recognition or reward (eg. [Mozilla&#8217;s Open Badges initiative) or leaderboards][11]
       * measurements of progress, such as levels
       * providing support or scaffolding at the point of need, and withdrawing it when it&#8217;s not required (this is based on the concept of the Flow Channel &#8211; see below)
@@ -61,7 +61,7 @@ We looked briefly at the example of [CodeAcademy][12], which is a great example 
 
 <div id="attachment_587" style="width: 310px" class="wp-caption alignright">
   <a href="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2013/02/flow_channel.jpg"><img class="size-medium wp-image-587  " alt="Flow Channel" src="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2013/02/flow_channel-300x225.jpg" width="300" height="225" /></a>
-  
+
   <p class="wp-caption-text">
     The Flow Channel
   </p>

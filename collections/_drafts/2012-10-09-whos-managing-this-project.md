@@ -4,13 +4,12 @@ author: Wyver Solutions Admin
 excerpt: Who does your Project Manager work for? Your supplier or you? We discuss the possible conflicts of interest that might arise in supplier-driven projects, the advice provided in the Prince2 framework, and some possible solutions.
 layout: post
 permalink: /2012/10/09/whos-managing-this-project/
-categories:
-  - Implementation support
+tags:
   - Projects
 ---
 <div id="attachment_408" style="width: 310px" class="wp-caption alignright">
   <img class="size-medium wp-image-408" title="blueprint" src="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2012/10/blueprint-300x225.jpg" alt="Blueprint" width="300" height="225" />
-  
+
   <p class="wp-caption-text">
     Source: <a href="http://www.morguefile.com/archive/display/129150">Morguefile</a>
   </p>
@@ -25,7 +24,7 @@ It&#8217;s not that you can&#8217;t trust your vendor. Not at all. After all, th
 But it&#8217;s not an ideal situation. In a project run along <a href="http://www.prince-officialsite.com/" target="_blank">Prince2</a> (a project management framework common in the UK and EU) principles, the general guidance is that &#8230;
 
 > &#8230; the Project Manager will normally come from the customer organisation, with the suppliers&#8217; Project Manager(s) fulfilling the role of Team Managers for the project. &#8230; There can only be one Project Manager.
-> 
+>
 > <p style="text-align: right;">
 >   Managing Successful Projects with Prince2™ (2009)
 > </p>

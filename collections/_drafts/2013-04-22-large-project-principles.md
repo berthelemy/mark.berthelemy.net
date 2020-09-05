@@ -4,13 +4,12 @@ author: Wyver Solutions Admin
 excerpt: 'We discuss three key principles for effectively managing large projects: communication is critical; know your stakeholders; build in flexibility within defined boundaries'
 layout: post
 permalink: /2013/04/22/large-project-principles/
-categories:
-  - Implementation support
+tags:
   - Projects
 ---
 <div id="attachment_655" style="width: 310px" class="wp-caption alignright">
   <a href="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2013/04/GanttChartAnatomy.svg_.png"><img class="size-medium wp-image-655" alt="Gantt Chart" src="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2013/04/GanttChartAnatomy.svg_-300x199.png" width="300" height="199" /></a>
-  
+
   <p class="wp-caption-text">
     Anatomy of a Gantt Chart, from <a href="http://en.wikipedia.org/wiki/Gantt_chart">Wikipedia: Gantt Chart</a>
   </p>
@@ -42,7 +41,7 @@ As you start to talk to the people around you, the list of potential stakeholder
 
 <div id="attachment_656" style="width: 310px" class="wp-caption aligncenter">
   <a href="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2013/04/power_interest_grid.png"><img class="size-medium wp-image-656" alt="Power / Interest Grid" src="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2013/04/power_interest_grid-300x225.png" width="300" height="225" /></a>
-  
+
   <p class="wp-caption-text">
     Power / Interest Grid
   </p>

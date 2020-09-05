@@ -4,13 +4,13 @@ author: Wyver Solutions Admin
 excerpt: 'In the learning &amp;training world, open source software means more than just Moodle. There are many other open-source applications potentially useful for learning professionals - but how do you know that they will work for you?'
 layout: post
 permalink: /2013/01/11/open-source-software/
-categories:
-  - Five minute briefing
-  - Supplier selection
+tags:
+  - Technology
+  - Learning
 ---
 <div id="attachment_559" style="width: 160px" class="wp-caption alignleft">
   <a href="http://opensource.org/"><img class="size-thumbnail wp-image-559 " alt="Open Source Institute logo" src="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2013/01/osi_symbol-150x150.png" width="150" height="150" /></a>
-  
+
   <p class="wp-caption-text">
     Open Source Institute logo
   </p>

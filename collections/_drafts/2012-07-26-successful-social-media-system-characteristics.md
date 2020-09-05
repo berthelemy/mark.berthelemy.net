@@ -4,10 +4,9 @@ author: Wyver Solutions Admin
 excerpt: 'How do you know whether the social tools you are looking at will work? We discuss the characteristics of successful tools  - focussing on ubiquity, interoperability, integration and guidance.'
 layout: post
 permalink: /2012/07/26/successful-social-media-system-characteristics/
-categories:
-  - Social learning
-  - Supplier selection
-  - Tools
+tags:
+  - Technology
+  - Social media
 ---
 <span style="font-family: Arial, serif; color: #000000;">When choosing a tool to support social media, it&#8217;s less important to consider its functionality in isolation. Instead, it&#8217;s far more important to consider the characteristics of the tool that will make it become an important part of each individual&#8217;s daily life.</span>
 
@@ -39,7 +38,7 @@ Different social tools will have different but overlapping audiences.
 
 <div id="attachment_301" style="width: 310px" class="wp-caption alignleft">
   <a href="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2012/07/overlapping_audiences.png"><img class="size-medium wp-image-301" title="overlapping audiences" src="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2012/07/overlapping_audiences-300x283.png" alt="Overlapping Audiences" width="300" height="283" /></a>
-  
+
   <p class="wp-caption-text">
     Overlapping Audiences
   </p>
