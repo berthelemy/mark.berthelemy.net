@@ -5,8 +5,8 @@ excerpt: "A personal reflection on this year's Learning Technologies exhibition 
 layout: post
 permalink: /2015/01/29/through-the-looking-glass-reflections-on-learning-technologies-2015/
 tags:
-  - Analysis and design
-  - Training and education
+
+  - Learning
 ---
 Most Januarys, I join many of my colleagues in the learning field milling around stands and seminars at the Learning Technologies exhibition.
 

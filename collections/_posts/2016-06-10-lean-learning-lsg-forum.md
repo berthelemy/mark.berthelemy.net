@@ -1,5 +1,5 @@
 ---
-title: Lean learning at the Learning &amp; Skills Group summer forum
+title: Lean Learning at the Learning &amp; Skills Group summer forum
 author: Mark Berthelemy
 excerpt:
  Next week&rsquo;s Learning & Skills group conference sees Wyver Solutions&rsquo;s team member, Mark Berthelemy, leading a workshop on Lean Learning
@@ -7,11 +7,10 @@ layout: post
 permalink: /2016/06/10/lean-learning-lsg-forum
 tags:
   - Learning
-  - Business
   - Projects
 thumb: /post-images/2016/04/lean-learning-logo-thumb.png
 banner: /post-images/2016/04/lean-learning-logo.png
-alt: Lean learning logo
+alt: Lean Learning logo
 img-credit: Wyver Solutions
 ---
 At next week's gathering of the Learning &amp; Skills Group, I will be leading a highly conversational workshop looking at how "lean" might apply within the Learning &amp; Development context.

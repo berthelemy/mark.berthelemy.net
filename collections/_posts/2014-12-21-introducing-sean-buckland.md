@@ -5,8 +5,8 @@ excerpt: my Lean Learning Masterclass will be led by Sean Buckland, an expert in
 layout: post
 permalink: /2014/12/21/introducing-sean-buckland/
 tags:
-  - Lean learning
-  - Troubleshooting and consultancy
+  - Learning
+
 ---
 Sean Buckland runs a consulting firm specialising in business and process improvement in the Service sector.
 
@@ -24,4 +24,4 @@ On 26th February 2015, Wyver Solutions will be hosting a Lean Learning Mastercla
 
 Early bird prices close on December 31st!
 
-<a href="http://www.eventbrite.co.uk/e/lean-learning-masterclass-tickets-14661080687?ref=ebtn" target="_blank"><img class="aligncenter" src="https://www.eventbrite.co.uk/custombutton?eid=14661080687" alt="Eventbrite - Lean Learning Masterclass" /></a>
+<a href="http://www.eventbrite.co.uk/e/lean-learning-masterclass-tickets-14661080687?ref=ebtn" target="_blank"><img class="aligncenter" src="https://www.eventbrite.co.uk/custombutton?eid=14661080687" alt="Eventbrite - Learning Masterclass" /></a>

@@ -6,8 +6,8 @@ excerpt: |
 layout: post
 permalink: /2014/12/31/where-has-leanlearning-come-from/
 tags:
-  - Events
-  - Lean learning
+
+  - Learning
 ---
 As I continue my exploration of using &#8220;lean&#8221; principles in the context of learning, it&#8217;s worth taking a look at what other people have been saying about it.
 

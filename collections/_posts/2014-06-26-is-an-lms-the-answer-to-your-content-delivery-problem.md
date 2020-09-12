@@ -5,8 +5,7 @@ excerpt: 'I discuss the business case for implementing a content &amp;document m
 layout: post
 permalink: /2014/06/26/is-an-lms-the-answer-to-your-content-delivery-problem/
 tags:
-  - Troubleshooting and consultancy
-  - Uncategorized
+  - Content management
 ---
 In a recent discussion on the <a href="http://www.elearningnetwork.org/" target="_blank">Elearning Network</a> LinkedIn group, a question was asked about developing a business case to deliver an intranet system &#8211; which focussed on content &amp;document delivery.
 

@@ -5,8 +5,8 @@ excerpt: "Some ideas around flipped learning from today's EMLT winter meeting<br
 layout: post
 permalink: /2015/01/06/emlt-winter-meeting-flipped-learning/
 tags:
-  - Events
-  - Lean learning
+
+  - Learning
 ---
 Today&#8217;s meeting of the East Midlands Learning Technologists focussed on &#8220;[Flipped Learning][1]&#8220;.
 

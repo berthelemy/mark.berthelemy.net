@@ -5,9 +5,10 @@ excerpt: Slides and follow-up notes from my recent workshop on "flipping the cla
 layout: post
 permalink: /2014/06/16/flipping-the-classroom-follow-up/
 tags:
-  - Analysis and design
-  - Events
-  - Troubleshooting and consultancy
+ - Learning
+ - Technology
+
+
 ---
 During last week&#8217;s workshop on &#8220;[Flipping the classroom][1]&#8220;, a number of issues were raised by the delegates, which I said I&#8217;d document. If you want a copy of the slides and notes, please scroll to the bottom of this post.
 

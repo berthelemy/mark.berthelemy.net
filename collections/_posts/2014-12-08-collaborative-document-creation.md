@@ -5,7 +5,7 @@ excerpt: Think about when you create documents with your team. How much time is 
 layout: post
 permalink: /2014/12/08/collaborative-document-creation/
 tags:
-  - Lean learning
+  - Learning
 ---
 Most organisations create documents. Lots of them.
 
@@ -36,7 +36,7 @@ In your organisation, ask the question when you have to create a document as a 
 
 Join my Lean Learning Masterclass to explore this further.
 
-<a href="http://www.eventbrite.co.uk/e/lean-learning-masterclass-tickets-14661080687?ref=ebtn" target="_blank"><img class="aligncenter" src="https://www.eventbrite.co.uk/custombutton?eid=14661080687" alt="Eventbrite - Lean Learning Masterclass" /></a>
+<a href="http://www.eventbrite.co.uk/e/lean-learning-masterclass-tickets-14661080687?ref=ebtn" target="_blank"><img class="aligncenter" src="https://www.eventbrite.co.uk/custombutton?eid=14661080687" alt="Eventbrite - Learning Masterclass" /></a>
 
- 
+
  [2]: {{ site.url }}/2014/12/03/introduction-to-lean-learning/ "Introduction to Lean Learning"

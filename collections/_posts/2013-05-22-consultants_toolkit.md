@@ -5,10 +5,10 @@ excerpt: 'My lead consultant, Mark Berthelemy, discusses the software tools he u
 layout: post
 permalink: /2013/05/22/consultants_toolkit/
 tags:
-  - Analysis and design
-  - Implementation support
-  - Tools
-  - Troubleshooting and consultancy
+
+  - Projects
+  - Technology
+
 ---
 I heard a story recently about a furniture maker who was asked for a hammer. She pulled out her toolbox and carefully laid out a selection of more than 30 different types of hammer. &#8220;Which one?&#8221;, she said.
 

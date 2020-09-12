@@ -1,13 +1,13 @@
 ---
-title: 'Lean learning design &amp; delivery'
+title: 'Lean Learning design &amp; delivery'
 author: Wyver Solutions Admin
 excerpt: "During last week's Lean Learning Masterclass, I used a concept map to explore how lean principles might apply to the design and delivery of learning interventions. Feel free to download and use to aid your own conversations."
 layout: post
 permalink: /2015/03/02/lean-learning-design-delivery/
 tags:
-  - Analysis and design
-  - Lean learning
-  - Troubleshooting and consultancy
+
+  - Learning
+
 ---
 During last week&#8217;s Lean Learning Masterclass, I used the concept map below to explore how lean principles might apply to the design and delivery of learning interventions.
 

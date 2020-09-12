@@ -2,11 +2,11 @@
 title: 'Content and your LMS'
 author: Mark Berthelemy
 excerpt: |
-   
+
 layout: post
 permalink: /2017/06/09/content-and-lms/
 tags:
-  - Consultancy
+  - Content management
 thumb: /post-images/2017/05/workplace-1245776_thumb.jpg
 banner: /post-images/2017/05/workplace-1245776_banner.jpg
 alt: People in a workshop
@@ -28,4 +28,3 @@ For content to be used and useful, I would suggest it should have two characteri
 
 1. It should be addressable - users should be able to link to each individual page
 2. It should be searchable - so that users can do full text searches
-

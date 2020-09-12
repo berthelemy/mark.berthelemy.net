@@ -5,8 +5,8 @@ excerpt: The beginning of a short series of articles exploring what I have learn
 layout: post
 permalink: /2015/03/04/learning-technology-implementation-planning-1/
 tags:
-  - Implementation support
-  - Troubleshooting and consultancy
+  - Projects
+
 ---
 I'm often asked to support organisations who are implementing new learning technology solutions. my approach to this is constantly being refined, based on lessons learned from previous projects.
 

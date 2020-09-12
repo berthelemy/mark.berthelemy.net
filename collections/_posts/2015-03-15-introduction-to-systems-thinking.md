@@ -5,8 +5,8 @@ excerpt: I highlight an approach, using visualising techniques, which, rather th
 layout: post
 permalink: /2015/03/15/introduction-to-systems-thinking/
 tags:
-  - Lean learning
-  - Troubleshooting and consultancy
+  - Learning
+
 ---
 As part of my work on Lean Learning, I've also been looking at the whole concept of &#8220;<a href="http://en.wikipedia.org/wiki/Systems_thinking" target="_blank">systems thinking</a>&#8221; &#8211; where, rather than focussing on a specific component, you look at how the component fits within the wider system.
 

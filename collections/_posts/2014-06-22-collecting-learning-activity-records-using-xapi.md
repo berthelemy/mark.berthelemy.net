@@ -5,10 +5,8 @@ excerpt: I demonstrate the xAPI, using a simple Wordpress installation, using th
 layout: post
 permalink: /2014/06/22/collecting-learning-activity-records-using-xapi/
 tags:
-  - Analysis and design
-  - Analytics
-  - Troubleshooting and consultancy
   - xAPI
+  - Learning
 ---
 My [whitepaper exploring the potential of the Tin Can API][1] shows, in theory, how the xAPI can help organisations manage their learning data.
 

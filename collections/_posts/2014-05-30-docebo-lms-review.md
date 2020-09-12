@@ -5,7 +5,7 @@ excerpt: my friends at Docebo asked me to review their new "Elearning Platform" 
 layout: post
 permalink: /2014/05/30/docebo-lms-review/
 tags:
-  - Analysis and design
+
   - Reviews
   - Supplier selection
 ---

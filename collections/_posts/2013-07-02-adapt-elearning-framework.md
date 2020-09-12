@@ -5,9 +5,9 @@ excerpt: my friends at Kineo today hosted an industry workshop to look at their 
 layout: post
 permalink: /2013/07/02/adapt-elearning-framework/
 tags:
-  - Analysis and design
+  
   - Content management
-  - Five minute briefing
+  
 ---
 My friends at [Kineo][1] today hosted an industry workshop to look at their Adapt responsive elearning framework, and to discuss how it could be managed as an open-source project.
 

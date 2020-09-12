@@ -5,10 +5,10 @@ excerpt: Lean thinking is a philosophy of continuous improvement that constantly
 layout: post
 permalink: /2014/12/03/introduction-to-lean-learning/
 tags:
-  - Analysis and design
-  - Five minute briefing
-  - Lean learning
-  - Troubleshooting and consultancy
+
+
+  - Learning
+
 ---
 If you&#8217;ve been around organisations for a while, you will have come across &#8220;Lean&#8221;. It&#8217;s an approach to managing processes that was developed by Toyota, but is now seen across the manufacturing, software development and service sectors.
 
@@ -28,7 +28,7 @@ Lean thinking is based on a handful of core principles:
 
 Together they become a philosophy, &#8220;<a href="http://www.cardiff.ac.uk/lean/principles/" target="_blank">the way things are done</a>&#8220;.
 
-Lean learning is about taking these principles and applying them to the context of learning:
+Lean Learning is about taking these principles and applying them to the context of learning:
 
 # Identify customers and specify value
 

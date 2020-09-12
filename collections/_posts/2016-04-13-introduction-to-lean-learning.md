@@ -6,10 +6,10 @@ excerpt:
 layout: post
 permalink: /2016/04/13/introduction-to-lean-learning
 tags:
-  - Analysis and design
-  - Five minute briefing
-  - Lean learning
-  - Troubleshooting and consultancy
+
+
+  - Learning
+
 thumb: /post-images/2016/04/lean-learning-logo-thumb.png
 banner: /post-images/2016/04/lean-learning-logo.png
 alt: Lean Learning logo
@@ -33,7 +33,7 @@ Lean thinking is based on a handful of core principles:
 
 Together they become a philosophy, &#8220;<a href="http://www.cardiff.ac.uk/lean/principles/" target="_blank">the way things are done</a>&#8220;.
 
-Lean learning is about taking these principles and applying them to the context of learning...
+Lean Learning is about taking these principles and applying them to the context of learning...
 
 ## Identify customers and specify value
 

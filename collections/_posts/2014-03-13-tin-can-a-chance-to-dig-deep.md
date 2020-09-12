@@ -5,7 +5,9 @@ excerpt: "Bring a tin can to the next Elearning Network event. It'll be an excel
 layout: post
 permalink: /2014/03/13/tin-can-a-chance-to-dig-deep/
 tags:
-  - Events
+ - Learning
+ - xAPI
+
 ---
 On 4th April, the <a href="http://www.elearningnetwork.org/" target="_blank">Elearning Network</a> are hosting an <a href="http://www.elearningnetwork.org/events/lms-and-tin-can" target="_blank">event about Learning Management Systems and Tin Can</a>.
 

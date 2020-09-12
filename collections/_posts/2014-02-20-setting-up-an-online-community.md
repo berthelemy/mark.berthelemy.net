@@ -5,9 +5,9 @@ excerpt: In this article, I explore what needs to be in place before starting an
 layout: post
 permalink: /2014/02/20/setting-up-an-online-community/
 tags:
-  - Five minute briefing
-  - Implementation support
-  - Social learning
+
+  - Projects
+  - Learning
 ---
 <p dir="ltr">
   In this article, I explore what needs to be in place before starting an online community, and some generic tools to help you make it happen.

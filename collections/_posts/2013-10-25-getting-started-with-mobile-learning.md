@@ -9,10 +9,10 @@ excerpt: |
 layout: post
 permalink: /2013/10/25/getting-started-with-mobile-learning/
 tags:
-  - Analysis and design
-  - Mobile
+
+  - Technology
   - Supplier selection
-  - Troubleshooting and consultancy
+
 ---
 A guest post by <a href="https://twitter.com/CraigTaylor74" target="_blank">@CraigTaylor74</a>.
 

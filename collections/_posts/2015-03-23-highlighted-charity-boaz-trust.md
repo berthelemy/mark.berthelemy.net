@@ -5,7 +5,7 @@ excerpt: "I are showcasing the work of Boaz Trust, one of my supported charities
 layout: post
 permalink: /2015/03/23/highlighted-charity-boaz-trust/
 tags:
-  - Wyver Solutions
+  - Charity
 ---
 I spent an inspiring morning at The Welcome Conference in Derby on Saturday, with speakers from <a href="http://www.upbeatcommunities.org/" target="_blank">Upbeat Communities</a>, the <a href="http://www.redcross.org.uk/en/What-we-do/Refugee-support" target="_blank">Red Cross</a>, <a href="http://home.btconnect.com/derbyrefugeeforum/" target="_blank">Derby Refugee Advice Centre</a>, <a href="http://www.theparagongroup.co.uk/paragon-law/" target="_blank">Paragon Law</a> and <a href="http://boaztrust.org.uk/" target="_blank">Boaz Trust</a>. They were joined by people who have been, or are going, through the UK&#8217;s asylum seeking processes.
 

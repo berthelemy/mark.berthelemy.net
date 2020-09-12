@@ -5,8 +5,8 @@ excerpt: Using a version control system, like Git, can help ensure you release t
 layout: post
 permalink: /2014/07/25/elearning-and-version-control/
 tags:
-  - Content development
-  - Five minute briefing
+  - Content management
+  - Technology
   - Projects
 ---
 Most of us start out creating documents and other materials without any system of version control in place.

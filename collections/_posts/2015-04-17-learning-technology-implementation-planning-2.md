@@ -10,8 +10,8 @@ excerpt: |
 layout: post
 permalink: /2015/04/17/learning-technology-implementation-planning-2/
 tags:
-  - Implementation support
-  - Troubleshooting and consultancy
+  - Projects
+
 ---
 This is the second in a short series of articles exploring my current state of thinking around implementing learning technology solutions.
 

@@ -5,8 +5,8 @@ excerpt: I look at Application Programming Interfaces (APIs) and how they can he
 layout: post
 permalink: /2013/06/12/introduction-to-apis/
 tags:
-  - Analysis and design
-  - Five minute briefing
+ - Technology
+
 ---
 <p style="border: 1px solid gray; width: 33%; padding: 4px; text-align: left;">
   Read this in conjunction with my previous post on &#8220;<a title="Joining up your systems" href="{{ site.url }}/2013/06/03/joining-up-your-systems/">Joining up your systems</a>&#8220;

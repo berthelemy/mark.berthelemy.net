@@ -5,8 +5,9 @@ excerpt: 'Does your elearning authoring tool do what you need it to? Is it able 
 layout: post
 permalink: /2013/12/01/elearning-authoring-tool-survey/
 tags:
-  - Content development
-  - Supplier selection
+  - Content management
+  - Technology
+  - Learning
 ---
 Over the past few years a number of tools designed to help people author elearning materials have come to the market.
 

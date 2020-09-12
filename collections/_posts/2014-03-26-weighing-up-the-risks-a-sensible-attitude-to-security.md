@@ -5,9 +5,9 @@ excerpt: "In the news this week we've learned that many of my national and local
 layout: post
 permalink: /2014/03/26/weighing-up-the-risks-a-sensible-attitude-to-security/
 tags:
-  - Analysis and design
-  - Five minute briefing
-  - Troubleshooting and consultancy
+ - Technology
+ - Projects
+
 ---
 In the news this week I've learned that many of my national and local government websites, as well as NHS ones are highly vulnerable to being hacked and defaced.
 

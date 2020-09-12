@@ -5,9 +5,9 @@ excerpt: The Experience API has the potential to disrupt the entire learning tec
 layout: post
 permalink: /2014/06/12/exploring-the-potential-of-the-xapi-aka-tin-can-api/
 tags:
-  - Analysis and design
-  - Five minute briefing
-  - Troubleshooting and consultancy
+
+
+
   - xAPI
 ---
 

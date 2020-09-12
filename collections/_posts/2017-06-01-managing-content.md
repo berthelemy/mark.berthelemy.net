@@ -2,11 +2,11 @@
 title: 'Managing content'
 author: Mark Berthelemy
 excerpt: |
-  How do you keep your content under control? 
+  How do you keep your content under control?
 layout: post
 permalink: /2017/06/01/managing-content/
 tags:
-  - Consultancy
+  - Content management
 thumb: /post-images/2017/05/workplace-1245776_thumb.jpg
 banner: /post-images/2017/05/workplace-1245776_banner.jpg
 alt: People in a workshop

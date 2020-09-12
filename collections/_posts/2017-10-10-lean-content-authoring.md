@@ -2,12 +2,12 @@
 title: 'Lean content authoring'
 author: Mark Berthelemy
 excerpt: |
-   
+
 layout: post
 permalink: /2017/10/10/lean-content-authoring
 tags:
-  - Consultancy
-  - Lean Learning
+  - Content management
+  - Learning
 thumb: /post-images/2017/10/alphabets-2365812_455-thumb.jpg
 banner: /post-images/2017/10/alphabets-2365812_900-banner.jpg
 alt: LTI graphic
@@ -50,7 +50,7 @@ In practice, this means that each time y
 
 You just need to think about the *types* of presentation you're going to need. Like headings, bullets, paragraphs, callouts etc.
 
-Define what each of those types looks like, and then apply that **type** to the appropriate bits of content. 
+Define what each of those types looks like, and then apply that **type** to the appropriate bits of content.
 
 
 
@@ -83,11 +83,3 @@ In MS Office, Google Docs and the like, templates allow you to quickly create a 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GPB1pEAwU18?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ### Work with reusable content chunks
-
-
-
-
-
-
-
-

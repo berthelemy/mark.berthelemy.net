@@ -7,7 +7,7 @@ layout: post
 permalink: /2016/12/02/learning-materials-quality-assurance/
 tags:
   - Learning
-  - Design
+  - User experience
 thumb: /post-images/2016/12/approved-thumb.png
 banner: /post-images/2016/12/approved.svg.png
 alt: Approved stamp

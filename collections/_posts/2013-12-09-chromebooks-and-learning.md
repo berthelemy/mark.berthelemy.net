@@ -5,9 +5,9 @@ excerpt: Would Chromebooks be a better alternative to laptops and tablets within
 layout: post
 permalink: /2013/12/09/chromebooks-and-learning/
 tags:
-  - Analysis and design
-  - Five minute briefing
-  - Mobile
+
+
+  - Technology
   - Supplier selection
 ---
 <p dir="ltr">

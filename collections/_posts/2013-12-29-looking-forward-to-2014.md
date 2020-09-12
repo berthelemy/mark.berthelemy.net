@@ -5,8 +5,9 @@ excerpt: 'I look ahead into 2014 at some innovations to be aware of in the field
 layout: post
 permalink: /2013/12/29/looking-forward-to-2014/
 tags:
-  - Troubleshooting and consultancy
-  - Wyver Solutions
+- Technology
+- Content management
+- Learning
 ---
 Everyone else seems to be making their predictions for the coming year, so I thought I'd better jump on that particular bandwagon with my own thoughts &#8211; focussed on the field of learning technologies.
 

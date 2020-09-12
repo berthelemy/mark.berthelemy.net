@@ -5,8 +5,8 @@ excerpt: 'Some pre-work and the agenda for the #LeanLearning masterclass on Feb 
 layout: post
 permalink: /2015/02/17/lean-learning-agenda/
 tags:
-  - Events
-  - Lean learning
+  
+  - Learning
 ---
 The <a href="https://leanlearningmasterclass.eventbrite.com" target="_blank">Lean Learning masterclass</a> with Sean Buckland is nearly upon us. You have just over 1 day if you want to book up!
 

@@ -5,8 +5,8 @@ excerpt: "Given the prominence of technology in my daily lives, it's very easy t
 layout: post
 permalink: /2013/10/19/text-messages-as-part-of-your-communications-strategy/
 tags:
-  - Analysis and design
-  - Mobile
+
+  - Technology
   - Supplier selection
 ---
 <p dir="ltr">
