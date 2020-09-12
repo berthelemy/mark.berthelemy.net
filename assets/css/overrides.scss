@@ -70,6 +70,16 @@ body, input, select, textarea {
 
 .portfolio-filter {}
 
+.filter .button {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  height: calc(3em + 2px);
+  line-height: 3em;
+  letter-spacing: normal;
+}
+
 .all-portfolios {margin-top: 20px;margin-left: -10px}
 /*.single-portfolio {float: left;
                     margin-bottom: 10px;
