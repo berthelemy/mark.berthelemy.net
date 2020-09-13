@@ -9,6 +9,10 @@ body, input, select, textarea {
   clear: both;
 }
 
+p.small, span.small {
+  font-size: 0.6em;
+}
+
 /* ---- button ---- */
 /*
 .button {
@@ -87,6 +91,13 @@ body, input, select, textarea {
                     width: 277px;}
 
 */
+
+.article {
+  background: rgba(255,255,255,0.1);
+  border-radius: 3px;
+  padding: 0.3em 0.5em;
+}
+
 .tag-link {
   background-color: #fff;
   border: none;
