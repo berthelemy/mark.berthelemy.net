@@ -39,4 +39,4 @@ The value map then shows the various activities needed to provide the worker wit
 This post is part of a series in preparation for client-facing workshops on lean learning.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u6XAPnuFjJc" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+{% include youtube.html id='u6XAPnuFjJc' %}

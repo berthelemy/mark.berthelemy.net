@@ -5,7 +5,7 @@ excerpt: 'Some pre-work and the agenda for the #LeanLearning masterclass on Feb 
 layout: post
 permalink: /2015/02/17/lean-learning-agenda/
 tags:
-  
+
   - Learning
 ---
 The <a href="https://leanlearningmasterclass.eventbrite.com" target="_blank">Lean Learning masterclass</a> with Sean Buckland is nearly upon us. You have just over 1 day if you want to book up!
@@ -26,7 +26,7 @@ The “Lean” approach is first and foremost a mindset.  To help frame your ow
   4. (Shown below) A well-made promotional video for a consulting firm that makes it look oh-so-simple, but does show the importance of a structured process of improvement starting with the customer (although tailored to manufacturing environment) &#8211; &#8220;<a href="https://www.youtube.com/watch?v=wfsRAZUnonI" target="_blank">Four principles of lean management</a>&#8221; (2 mins)
   5. And finally, but perhaps most relevantly… <a href="https://www.youtube.com/watch?v=bcdahNIu820" target="_blank">how do I change thinking?</a>  This video is both relevant to yourselves and your learners/customers:  (4 mins)
 
-https://www.youtube.com/watch?v=wfsRAZUnonI
+{% include youtube.html id='wfsRAZUnonI' %}
 
 Hopefully you will find the time to watch these videos.  They are very varied, yet all talk about the same thing: how to improve the way *any* work works.
 

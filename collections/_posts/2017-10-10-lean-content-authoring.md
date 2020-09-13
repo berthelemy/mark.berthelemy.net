@@ -42,7 +42,7 @@ This is a real, and huge, time-saver - both when you initially create materials,
 
 And you don't need any special systems to be able to do this. Styles are built into almost every word processing, desktop publishing and presentation application.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/o-kb32j3-nY?rel=0" frameborder="0" allowfullscreen></iframe>
+{% include youtube.html id='o-kb32j3-nY' %}
 
 What you're doing is separating your words and pictures from the way they are presented (the styles).
 
@@ -80,6 +80,6 @@ What does this mean in practice?
 
 In MS Office, Google Docs and the like, templates allow you to quickly create a document that has a standard, basic structure, along with all the styles you need to present it properly.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/GPB1pEAwU18?rel=0" frameborder="0" allowfullscreen></iframe>
+{% include youtube.html id='GPB1pEAwU18' %}
 
 ### Work with reusable content chunks

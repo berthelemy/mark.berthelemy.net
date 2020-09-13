@@ -48,4 +48,4 @@ And what could the learning technology industry do to help L&D?
 
 Oh, and here&#8217;s that video&#8230;
 
-https://www.youtube.com/watch?v=Uf9W3MU5ceg
+{include youtube.html id='Uf9W3MU5ceg' %}

@@ -46,4 +46,4 @@ But, if you&#8217;re wanting to put in a publishing workflow, which allows for a
 
 To get a picture of what&#8217;s possible, take a look at this video interview, where <a href="http://jaycross.com/" target="_blank">Jay Cross</a> talks to Mark Hellinger, CEO of one of the leaders in the LCMS market, <a href="http://www.xyleme.com/" target="_blank">Xyleme</a>:
 
-http://www.youtube.com/watch?v=DEjFtJ_AmUg
+{% include youtube.html id='DEjFtJ_AmUg' %}

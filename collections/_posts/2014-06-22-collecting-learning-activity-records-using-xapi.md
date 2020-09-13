@@ -12,6 +12,6 @@ My [whitepaper exploring the potential of the Tin Can API][1] shows, in theory,
 
 In the video below, I demonstrate how this might happen in practice, using a simple WordPress installation, using the <a href="https://www.nextsoftwaresolutions.com/grassblade-xapi-companion/" target="_blank">Grassblade</a> plugin and the <a href="http://learninglocker.net/" target="_blank">Learning Locker</a> LRS (Learning Record Store).
 
-https://www.youtube.com/watch?v=Uf9W3MU5ceg
+{% include youtube.html id='Uf9W3MU5ceg' %}
 
  [1]: {{ site.url }}/2014/06/12/exploring-the-potential-of-the-xapi-aka-tin-can-api/ "Exploring the potential of the xAPI (aka Tin Can API)"

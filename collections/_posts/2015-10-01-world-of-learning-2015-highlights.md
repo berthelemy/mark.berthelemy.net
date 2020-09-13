@@ -62,7 +62,7 @@ In a nutshell, they provide a software platform through which you can more effic
 
 Their promo video gives an outline of what they do, but it&rsquo;s one of those products that will need a lot of conversation with them to see how it might fit your particular organisation.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Mpwl2p4GwZY" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+{% include youtube.html id='Mpwl2p4GwZY' %}
 
 #### <a href="http://www.advancedmedicalapplications.com/" target="_blank">AMA</a>
 
@@ -76,4 +76,4 @@ Not everyone will need this, but I can see it working really well in field-based
 
 The video below provides an example application:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tDp5NZaHcdE" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+{% include youtube.html id='tDp5NZaHcdE' %}

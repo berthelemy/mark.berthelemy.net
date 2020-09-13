@@ -47,7 +47,7 @@ The paper, Peer Instruction &#8211; ten years of experience and results &#8221; 
 
 Eugene Kim, from University of San Francisco School of Law, discusses how he uses the flipped classroom model to enable him and his students to teach and learn more effectively.
 
-https://www.youtube.com/watch?v=5lPlqG6nl5o
+{% include youtube.html id='5lPlqG6nl5o' %}
 
 ## Activity 3: Answer three &#8220;Warm-up&#8221; questions
 
@@ -58,11 +58,6 @@ Write as much as you like, and spend as much time as you need in doing the Warm 
 You will be asked for your workshop code, which should have been provided by the workshop organiser. Don&#8217;t worry if you can&#8217;t find it though!
 
 If the questions do not display below, or you would prefer to see them in a page on their own, then <a href="https://www.surveymonkey.com/s/P8MYH9V" target="_blank">open the questions in a new tab or window</a>.
-
-<div id="surveyMonkeyInfo" style="width: 600px; font-size: 10px; color: #666; border: 1px solid #ccc; padding: 4px;">
-  <div>
-  </div>
-</div>
 
 ## Supplementary resources
 

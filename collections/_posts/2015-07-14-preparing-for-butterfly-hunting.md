@@ -20,19 +20,19 @@ On the day, attendees will have the opportunity to choose which areas they want 
 
 Consider how you would teach someone to do this task without the augmented reality system:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eVV5tUmky6c" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+{% include youtube.html id='eVV5tUmky6c' %}
 
 #### Ubiquitous video
 
 Consider how you would teach someone to do this task without video. What would it cost?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0VaPOtC-Ans" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+{% include youtube.html id='0VaPOtC-Ans' %}
 
 #### Open badges
 
 The video describes "Open badges" as an enabling technology. What does it enable?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/fCQE1EGIFhQ" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+{% include youtube.html id='fCQE1EGIFhQ' %}
 
 #### Enterprise search
 
@@ -46,7 +46,7 @@ Where do people start when they&rsquo;re at work?
 
 If I can collect learner tracking data from any system, why do I need an LMS?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Uf9W3MU5ceg" frameborder="0" allowfullscreen="allowfullscreen"> </iframe>
+{% include youtube.html id='Uf9W3MU5ceg' %}
 
 #### H5P
 

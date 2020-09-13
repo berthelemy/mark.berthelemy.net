@@ -66,8 +66,7 @@ The Docebo team have put together a <a title="PDF" href="http://www.docebo.com/w
 
 Docebo already comes with many of the features needed to manage and administer online course delivery &#8211; in a very easy-to-use and attractive package. This current platform will provide a good launch point for many organisations &#8211; and will, with the roadmap already in place, enable those organisations to develop a modern L&amp;D provision.
 
-https://www.youtube.com/watch?v=kIetwc3vL3k
+{% include youtube.html id='kIetwc3vL3k' %}
 
-&nbsp;
 
  [1]: http://www.docebo.com/

@@ -89,12 +89,12 @@ Medina, J. (2008) &#8220;Brain rules&#8221; Pear Press, Seattle. See website at:
 
 The bibliography from the following paper would be a very good starting point for anyone wishing to dig into the research and thinking further:
 
-<span style="color: #000033;">RYAN, B.. <a href="http://jpaap.napier.ac.uk/index.php/JPAAP/article/view/64" target="_blank">Flipping Over: Student-Centred Learning and Assessment</a>. </span>Journal of Perspectives in Applied Academic Practice<span style="color: #000033;">, North America, 1, dec. 2013. </span>
+RYAN, B.. <a href="http://jpaap.napier.ac.uk/index.php/JPAAP/article/view/64" target="_blank">Flipping Over: Student-Centred Learning and Assessment</a>. Journal of Perspectives in Applied Academic Practice, North America, 1, dec. 2013.
 
 
 
-<div style="margin-bottom: 5px;">
-  <strong> <a title="Flipping the classroom" href="https://www.slideshare.net/MarkBerthelemy/flipping-the-classroom-35918909" target="_blank">Flipping the classroom</a> </strong> from <strong><a href="http://www.slideshare.net/MarkBerthelemy" target="_blank">Wyver Solutions Ltd</a></strong>
-</div>
+
+  <strong> <a title="Flipping the classroom" href="https://www.slideshare.net/MarkBerthelemy/flipping-the-classroom-35918909" target="_blank">Flipping the classroom slides</a>
+
 
  [1]: {{ site.url }}/2014/06/06/flipping-the-classroom/ "Flipping the classroom"
