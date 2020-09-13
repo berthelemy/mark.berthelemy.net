@@ -21,14 +21,6 @@ Much depends on where you&#8217;re starting from (eg. do you have existing mater
 
 ## Via a website
 
-<div id="attachment_534" style="width: 210px" class="wp-caption alignleft">
-  <img class="size-full wp-image-534" alt="Aside magazine cover" src="{{ site.url }}/wp-content/uploads/2013/01/01-web-screens.jpg" width="200" height="261" />
-
-  <p class="wp-caption-text">
-    Aside HTML5 magazine
-  </p>
-</div>
-
 These days, it&#8217;s common for websites to be designed so that they adapt automatically for various sized devices and screen formats. The key phrase to look out for is &#8220;[Responsive Web Design][1]&#8221; which includes a range of design and programming techniques that allow one website to be used on multiple devices.
 
 The key thing to remember, is that, unless the site has been programmed to save all the content to the device, your users will need to be online to view the content.

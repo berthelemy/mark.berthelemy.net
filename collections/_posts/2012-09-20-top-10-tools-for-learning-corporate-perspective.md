@@ -4,12 +4,11 @@ author: Wyver Solutions Admin
 excerpt: "Jane Hart's Top Tools for Learning is becoming a regular part of the calendar. Wyver Solutions proposes its own top 10 list, focussing on the corporate perspective."
 layout: post
 permalink: /2012/09/20/top-10-tools-for-learning-corporate-perspective/
-categories:
-  - Analysis and design
+tags:
+  - Technology
   - Learning
-  - Tools
 ---
-<img class="alignright size-full wp-image-413" title="10" src="http://www.wyversolutions.co.uk/cms/wp-content/uploads/2012/09/10.png" alt="10" width="178" height="168" />Jane Hart is currently collating [this year&#8217;s list of Top 100 tools for learning][1]. As usual, most of the tools that hit the top 10 list are likely to be those that are best at supporting personal learning &#8211; ie. those that bring most benefit to the individual.
+Jane Hart is currently collating [this year&#8217;s list of Top 100 tools for learning][1]. As usual, most of the tools that hit the top 10 list are likely to be those that are best at supporting personal learning &#8211; ie. those that bring most benefit to the individual.
 
 Certainly my own list, [already submitted via Learning Conversations][2], is heavily geared towards that:
 
@@ -39,7 +38,7 @@ So, here&#8217;s a different list, with a more &#8220;corporate&#8221; perspecti
   9. [iLife suite][21] &#8211; assuming you use Macs, these tools (Garageband, iPhoto and iMovie) are by far the easiest ways to be creative with sound, images and videos. The most recent incarnation of the suite is both powerful but simple. (Although they cannot compete with high-end software used by professional artists).
  10. [Enterprise Study][22] &#8211; a well thought out SaaS training administration suite that makes full use of the &#8220;network&#8221; to source training events from multiple suppliers.
 
-As I&#8217;ve said, if you come to us for help with finding suitable technologies, we won&#8217;t necessarily recommend any of these. Your needs and constraints (eg. cost, existing systems etc) may dictate a different solution. However, these do represent (in our opinion) the best of the current breed of tools that can help learning and development.
+As I&#8217;ve said, if you come to me for help with finding suitable technologies, I won&#8217;t necessarily recommend any of these. Your needs and constraints (eg. cost, existing systems etc) may dictate a different solution. However, these do represent (in my opinion) the best of the current breed of tools that can help learning and development.
 
  [1]: http://c4lpt.co.uk/top-100-tools-for-learning-2011/voting-2012/
  [2]: http://www.learningconversations.co.uk/main/index.php/2012/09/20/top-10-tools-for-learning?blog=5
