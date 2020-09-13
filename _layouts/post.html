@@ -17,7 +17,7 @@
   						<h2><a href="/articles">Articles</a> / {{ page.title }}</h2>
   						{{ content }}
               <hr />
-              <p><strong>Last updated:</strong> {{ page.date | date_to_long_string }}</p>
+              <p><strong>Posted:</strong> {{ page.date | date_to_long_string }}</p>
               <p>Tags: {% for tag in page.tags %}
               <span class="tag-link">{{ tag }}</span>
               {% endfor %}</p>
