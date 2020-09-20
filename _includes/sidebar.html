@@ -15,14 +15,14 @@
                       <h2 id="site-nav-heading" class="sr-only">Site navigation</h2>
                         <ul aria-labelledby="site-nav-heading">
                             <li><a class="lx" href="/">Welcome</a></li>
-                            <li><a class="lx" href="/services">Services</a></li>
                             <li><a class="lx" href="/about">About</a></li>
-                            <li><a class="lx" href="/portfolio">Portfolio</a></li>
+                            <li><a class="lx" href="/services">Services</a></li>
+                            <li><a class="lx" href="/websites">Websites</a></li>
                             {% assign psize = site.posts | size %}
                               {% if psize != 0 %}
                             <li><a class="lx" href="/articles">Articles</a></li>
                               {% endif %}
-                            <li><a class="lx" href="/training">Training</a></li>
+                            <!--<li><a class="lx" href="/training">Training</a></li>-->
                             <li><a class="lx" href="/contact">Contact</a></li>
                             <!-- l1 etc are to allow automated tabbing -->
                         </ul>

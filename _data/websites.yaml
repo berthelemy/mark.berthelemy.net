@@ -1,0 +1,29 @@
+- name: Sean Hendicott
+  url: https://seanhendicott.com
+  description: Heating and hot water specialist in Brittany, France
+  tools: Jekyll on Github Pages
+  status: active
+
+- name: Adventure Argentina
+  url: https://adventureargentina.co.uk/
+  description: Argentina-based adventure travel specialist
+  tools: Jekyll on Github Pages
+  status: inactive
+
+- name: Eglise Riverside
+  url: https://egliseriverside.fr
+  description: New church in Nantes
+  tools: Grav hosted on Host-Stage.net
+  status: alpha
+
+- name: Belper Town Wind band
+  url: https://belpertownwindband.co.uk/
+  description: Amateur music group in Belper
+  tools: Grav on Github Pages
+  status: active
+
+- name: Free tools for trainers
+  url: https://freetoolsfortrainers.wyversolutions.co.uk/list/
+  description: A list of free tools for trainers looking to move online
+  tools: Jekyll on Github Pages
+  status: active

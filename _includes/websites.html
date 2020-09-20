@@ -1,0 +1,11 @@
+<div class="row">
+{% for website in site.data.websites %}
+{% if website.status == 'active' %}
+<div class="col-4 col-12-xsmall col-6-small">
+<h3><a href="{{ website.url }}" target="_blank">{{ website.name }}</a></h3>
+<div><a href="{{ website.url }}" target="_blank"><img src="https://api.miniature.io?token=CbNBVEjliQcMP8D7&url={{ website.url }}&delay=8" /></a></div>
+  </div>
+  {% endif %}
+  {% endfor %}
+  </div>
+  <div>&nbsp;</div>

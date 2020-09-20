@@ -1,0 +1,47 @@
+- title: Strategic consulting
+  icon: fa-arrow-circle-right
+  text:
+    - Learning technology review
+    - Business case preparation
+    - Procurement support
+    - Solutions architecture design
+
+- title: Projects (agile & waterfall)
+  icon: fa-project-diagram
+  text:
+    - Workshop facilitation
+    - Planning
+    - Project management
+    - Troubleshooting and training
+
+- title: Moodle
+  icon: fa-chalkboard-teacher
+  text:
+    - Design and setup
+    - System administration
+    - Support and guidance
+    - Troubleshooting and training
+
+- title: Online communities
+  icon: fa-comments
+  text:
+    - Planning
+    - Choosing software
+    - Facilitating conversations
+    - Running events
+
+- title: Websites
+  icon: fa-id-card
+  text:
+    - Usability reviews
+    - Fast, mobile-friendly sites
+    - User-focussed design
+    - Search Engine Optimisation
+
+- title: Small company IT
+  icon: fa-laptop
+  text:
+    - Rural broadband setup
+    - Business software advice
+    - Computer/laptop/phone guidance
+    - Troubleshooting and training

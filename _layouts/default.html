@@ -8,30 +8,33 @@
     {% include head.html %}
     <body class="is-preload">
         {% include sidebar.html %}
-        <div id="wrapper">
-          <section tabindex="-1" id="{{ page.ref }}" class="wrapper {{ page.style }}">
-  					{% if page.style contains "spotlights" %}
-  						<section>
-  							{% endif %}
+        <div id="wrapper" class="wrapper {{ page.style }}">
+          <div class="inner">
+          <section tabindex="-1" id="{{ page.ref }}">
+
+
+            <div class="row">
   					{% if page.img %}
-  					<div class="image"><img src="images/{{ page.img }}" alt="{{ page.imgalt }}" data-position="center center" /></div>
-  					<div class="content">
+  					<div class="col-3"><img class="image fit" src="images/{{ page.img }}" alt="{{ page.imgalt }}" data-position="center center" /></div>
+  					<div class="col-9 content">
+            {% else %}
+            <div class="col-12 content">
   					{% endif %}
-  					<div class="inner">
+
   						{% if page.display-title %}
   						<h2>{{ page.title }}</h2>
   						{% endif %}
 
   						{{ content }}
 
-  					</div>
-  					{% if page.img %}
-  					</div><!-- end of content div -->
-  					{% endif %}
-  					{% if page.style contains "spotlights" %}
-  						<section>
-  							{% endif %}
-  				</section>
+
+
+          </div></div><!-- end of content div and row -->
+        </section>
+      </div> <!-- End of inner -->
+
+
+
         </div>
         {% include footer.html %}
         {% include scripts.html %}

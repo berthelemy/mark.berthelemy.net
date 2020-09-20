@@ -1,0 +1,14 @@
+<div class="features">
+{% for service in site.data.services %}
+  <section>
+    <span class="icon solid major {{ service.icon }}"></span>
+    <h3>{{ service.title }}</h3>
+    <ul>
+    {% for item in service.text %}
+      <li>{{ item }}</li>
+      {% endfor %}
+    </ul>
+  </section>
+      {% endfor %}
+</div>
+<div>&nbsp;</div>
