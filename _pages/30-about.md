@@ -1,6 +1,7 @@
 ---
 title: About
 display-title: true
+active: true
 ref: about
 style: style2
 img: mark-square-picture.png

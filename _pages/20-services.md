@@ -1,6 +1,7 @@
 ---
 title: Services
 display-title: true
+active: true
 ref: services
 style: style3
 front-page: true
