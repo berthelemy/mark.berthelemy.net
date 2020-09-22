@@ -1,5 +1,5 @@
 ---
-title: About
+title: About me
 display-title: true
 active: true
 ref: about
