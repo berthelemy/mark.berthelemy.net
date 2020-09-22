@@ -12,7 +12,7 @@ permalink: /about
 
 
 ---
-{{ site.description }} - {{ site.sub-description }}
+{{ site.description }}: {{ site.sub-description }}
 
 ### I bring...
 
