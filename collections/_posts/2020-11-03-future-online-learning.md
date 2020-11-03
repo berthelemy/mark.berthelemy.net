@@ -3,7 +3,7 @@ title: 'The future of online learning'
 author: Mark Berthelemy
 excerpt:
 layout: post
-permalink: /2020/09/01/future-online-learning
+permalink: /2020/11/03/future-online-learning
 tags:
   - Learning
   - Technology
