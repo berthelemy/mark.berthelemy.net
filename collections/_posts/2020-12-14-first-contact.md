@@ -13,13 +13,13 @@ You've most likely arrived here because I've sent you the link in preparation fo
 
 ## New clients
 
-For most of my new clients, I will ask:
+For most of my new clients, I ask:
 
-- What are you about? What do you do and why?
-- What are the problems you're experiencing that you want my help with?
-- How big are those problems? (If you can quantify them in some way that's incredibly useful)
-- What have you tried already?
-- What are you hoping to achieve?
+1. What are you about? What do you do and why?
+2. What are the problems you're experiencing that you want my help with?
+3. How big are those problems? (If you can quantify them in some way that's incredibly useful)
+4. What have you tried already?
+5. What are you hoping to achieve?
 
 The answers to these help me to assess where you are in your thinking and how I might be able to add value.
 
