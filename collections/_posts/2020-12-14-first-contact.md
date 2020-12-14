@@ -7,6 +7,7 @@ permalink: /2020/12/14/first-contact
 tags:
   - Learning
   - Technology
+  - Business
 
 ---
 You've most likely arrived here because I've sent you the link in preparation for our first meeting.
