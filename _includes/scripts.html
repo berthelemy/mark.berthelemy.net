@@ -9,9 +9,17 @@
             <script src="/assets/js/util.js"></script>
             <script src="/assets/js/main.js"></script>
             <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-            <script src="/assets/js/menu-toggle.js"></<script>
+            <script src="/assets/js/menu-toggle.js"></script>
 
-            </script>
+            {% if page.datatable %}
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+            <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.10.23/b-1.6.5/b-html5-1.6.5/b-print-1.6.5/r-2.2.6/rg-1.1.2/datatables.min.js"></script>
+
+              </script>
+              {% endif %}
+
+
 
 <script>
   jQuery(document).ready(function($) {
@@ -56,6 +64,53 @@
 
 
   });
+
+  {% if page.datatable == 'bibliography' %}
+  $('#bibliography').dataTable({
+    dom: 'lfrtip',
+    "responsive": { breakpoints: [
+        { name: 'desktop', width: Infinity },
+        { name: 'tablet',  width: 1024 },
+        { name: 'phone',   width: 768 }]},
+    "paging": false,
+    "order": [[ 0, "asc" ]],
+
+    "rowGroup": true,
+    "columnDefs": [
+            {
+                "targets": [ 0 ],
+                "visible": false,
+                "searchable": true,
+                "orderable": false,
+                "responsivePriority": 1
+            },
+            {
+                "targets": [ 1 ],
+                "width": "30%",
+                "orderable": false,
+                "className": "all"
+            },
+            {
+                "targets": [ 2 ],
+                "width": "20%",
+                "orderable": false,
+                "className": "min-desktop"
+            },
+            {
+                "targets": [ 3 ],
+                "orderable": false,
+                "className": "all"
+            },
+            {
+                "targets": [ 4 ],
+                "width": "10%",
+                "orderable": false,
+                className: 'dt-body-right',
+                "className": "min-desktop"
+            }
+        ]
+  });
+  {% endif %}
 </script>
 
 

@@ -635,6 +635,27 @@ body {
   background-color: #eee;
 }
 
+.bib-title {
+  font-weight: 600;
+}
+
+.dataTables_wrapper .dataTables_filter {
+  float:left;
+}
+
+table.dataTable tbody tr {
+  background-color: #5052b5;
+}
+
+table.dataTable tbody tr.dtrg-group td {
+  background-color: #4042a5; /* group highlight */
+  font-size: 1.1rem;
+}
+
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {
+  background-color: #5557ba; /* stripe highlight */
+}
+
 @media (max-width:900px) {
   #phone-wrapper {
     transform: scale(0.8, 0.8);

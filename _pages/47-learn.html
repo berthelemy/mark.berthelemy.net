@@ -1,0 +1,42 @@
+---
+title: Learn
+bibliography: true
+datatable: bibliography
+display-title: true
+active: true
+ref: articles
+style: style2
+img:
+imgalt:
+front-page: true
+layout: default
+permalink: /learn
+---
+<p>These are articles and websites that I either find myself constantly coming back to, or that have played a significant part in my own learning.</p>
+
+<table width=100% id={{ page.datatable }} class="stripe">
+  <!--<thead>
+    <tr>
+      <th>Tag</th>
+      <th>Title</th>
+      <th>Author(s)</th>
+      <th>Notes</th>
+      <th>Date of publication</th>
+    </tr>
+  </thead>-->
+  <tbody>
+{% for item in site.data.learning %}
+  {% assign tags = item.['Manual Tags'] | split: "; " %}{% for tag in tags %}
+
+  <tr>
+    <td>{{ tag }}</td>
+    <td class="bib-title"><a href="{{ item.Url }}" target="_blank">{{ item.Title }}</a></td>
+    <td>{% assign authors = item.Author | split: ";" %}{% for author in authors %}{{ author }}<br />{% endfor %}</td>
+    <td>{% if item.['Abstract Note'] != "" %}{{ item.['Abstract Note'] }} {% else %} {{ item.Notes }} {% endif %}</td>
+    <td>{{ item.['Publication Year'] }}</td>
+  </tr>
+
+  {% endfor %}
+{% endfor %}
+</tbody>
+</table>
