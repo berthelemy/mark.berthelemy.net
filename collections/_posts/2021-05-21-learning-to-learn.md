@@ -54,4 +54,4 @@ The blog became a way to interact with a wider network of people who were learni
 
 These days we can do that on Facebook and LinkedIn, but I still blog - simply because I own the space. Social media is just another way to get the link out.
 
-If you want to subscribe to this blog via RSS, just add https://mark.berthelemy.net/feed.xml to your favourite RSS reader.
+If you want to subscribe to this blog via RSS, just add [https://mark.berthelemy.net/feed.xml](https://mark.berthelemy.net/feed.xml) to your favourite RSS reader. (Note: If you click on that link, you'll likely see a load a techie stuff. Just ignore that and hit Back.)
