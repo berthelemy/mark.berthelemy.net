@@ -656,6 +656,12 @@ table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {
   background-color: #5557ba; /* stripe highlight */
 }
 
+canvas {
+  width: 100%;
+  border:none;
+  display: none;
+}
+
 @media (max-width:900px) {
   #phone-wrapper {
     transform: scale(0.8, 0.8);

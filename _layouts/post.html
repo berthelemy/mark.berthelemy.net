@@ -9,11 +9,13 @@
     <body class="is-preload">
         {% include sidebar.html %}
         <div id="wrapper">
-          <section tabindex="-1" class="wrapper style1">
 
+          <section tabindex="-1" class="wrapper style1">
+            <div class="col-12 image fit" id="postImage"></div>
 
   					<div class="inner">
 
+              <canvas id="canvas" width="1200" height="627"></canvas>
   						<h2><a href="/articles">Articles</a> / {{ page.title }}</h2>
   						{{ content }}
               <hr />

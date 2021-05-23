@@ -12,12 +12,17 @@
             <script src="/assets/js/menu-toggle.js"></script>
 
             {% if page.datatable %}
-            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
-            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
-            <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.10.23/b-1.6.5/b-html5-1.6.5/b-print-1.6.5/r-2.2.6/rg-1.1.2/datatables.min.js"></script>
+              <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+              <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
+              <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.10.23/b-1.6.5/b-html5-1.6.5/b-print-1.6.5/r-2.2.6/rg-1.1.2/datatables.min.js"></script>
+            {% endif %}
 
-              </script>
-              {% endif %}
+            {% if page.layout == 'post' %}
+              <script type="text/javascript" data-text="{{ page.title }}" src="/assets/js/js-to-png.js"></script>
+            {% endif %}
+
+
+
 
 
 
