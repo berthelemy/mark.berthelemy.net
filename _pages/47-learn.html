@@ -26,14 +26,14 @@ permalink: /learn
   </thead>-->
   <tbody>
 {% for item in site.data.learning %}
-  {% assign tags = item.['Manual Tags'] | split: "; " %}{% for tag in tags %}
+  {% assign tags = item['Manual Tags'] | split: "; " %}{% for tag in tags %}
 
   <tr>
     <td>{{ tag }}</td>
     <td class="bib-title"><a href="{{ item.Url }}" target="_blank">{{ item.Title }}</a></td>
     <td>{% assign authors = item.Author | split: ";" %}{% for author in authors %}{{ author }}<br />{% endfor %}</td>
-    <td>{% if item.['Abstract Note'] != "" %}{{ item.['Abstract Note'] }} {% else %} {{ item.Notes }} {% endif %}</td>
-    <td>{{ item.['Publication Year'] }}</td>
+    <td>{% if item['Abstract Note'] != "" %}{{ item['Abstract Note'] }} {% else %} {{ item.Notes }} {% endif %}</td>
+    <td>{{ item['Publication Year'] }}</td>
   </tr>
 
   {% endfor %}
