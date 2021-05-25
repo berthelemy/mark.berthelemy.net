@@ -34,8 +34,6 @@ Unlike social media, there is no marketing-driven algorithm choosing what I migh
 
 It allows me to have a single location to keep up-to-date with people and organisations that I trust. It means I don't have to trawl around all their websites. Instead the articles come to me.
 
-The image below shows an LSE article. On the left it's displayed directly on their website. On the right, it's the same article but displayed in Feedly.
-
 ## Blogging
 
 The more I started following other people in my RSS reader, the more I realised I needed somewhere to help me make sense of everything I was learning. (See the ["seek, sense, share" framework](https://jarche.com/pkm/))
