@@ -10,11 +10,17 @@
   tools: Jekyll on Github Pages
   status: inactive
 
+- name: Camping le Drennec
+  url: https://campingledrennec.com
+  description: A dual language campsite website
+  tools: Grav on HostStage
+  status: active
+
 - name: Eglise Riverside
   url: https://egliseriverside.fr
   description: New church in Nantes
   tools: Grav hosted on Host-Stage.net
-  status: alpha
+  status: active
 
 - name: Belper Town Wind band
   url: https://belpertownwindband.co.uk/
