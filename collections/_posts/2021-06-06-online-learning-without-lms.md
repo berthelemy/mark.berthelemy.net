@@ -14,7 +14,7 @@ The default solution is usually to find a learning management system and an auth
 
 Is that the only answer?
 
-<a class="button" href="https://www.linkedin.com/posts/markberthelemy_mark-berthelemy-online-learning-without-activity-6807209641307602944-J7FW" target="_blank">Join the conversation on LinkedIn]</a>
+<a class="button" href="https://www.linkedin.com/posts/markberthelemy_mark-berthelemy-online-learning-without-activity-6807209641307602944-J7FW" target="_blank">Join the conversation on LinkedIn</a>
 
 As a number of people suggested a week or so ago when I [raised this question on LinkedIn](https://www.linkedin.com/posts/markberthelemy_your-organisation-wants-to-get-into-online-activity-6802894694704525312-YbLv), the answer, of course, is no.
 
