@@ -1,18 +1,3 @@
-ve this question Follow
-asked
-Jan 23 '12 at 15:48
-
-Tim Brigham
-510●11 gold badge●55 silver badges●2121 bronze badges
-1 Answer
-order by 
-votes
-Up vote
-11
-Down vote
-Accepted
-You put the namespace declaration into the XSLT, like this:
-
 <xsl:stylesheet 
   version="1.0" 
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
