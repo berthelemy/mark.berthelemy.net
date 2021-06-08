@@ -22,7 +22,7 @@
     </div>
     <div style="margin-left:20px;margin-bottom:1em;font-size:10pt">
       <b><xsl:value-of select="atom:published" /> </b>
-      <xsl:value-of select="atom:summary"  disable-output-escaping="yes" />
+      <xsl:value-of select="atom:description"  disable-output-escaping="yes" />
     </div>
   </xsl:template>
 </xsl:stylesheet>
