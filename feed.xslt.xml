@@ -1,0 +1,27 @@
+<xsl:stylesheet version="3.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:template match="/">
+  <html>
+    <body style="font-family:Arial; font-size:13px;">
+      <h1>Latest articles on <a href="https://mark.berthelemy.net/articles">mark.berthelemy.net</a></h1>
+      <div style="border:1px solid #000;background-color: #eee; padding: 1rem;">
+        <p>This is an RSS feed. If you use an application like <a href='https://feedly.com/i/subscription/feed%2Fhttps%3A%2F%2Fmark.berthelemy.net%2Ffeed.xml' target='blank'>Feedly</a> then you can automatically receive all new articles, alongside any other websites that also publish an RSS feed.</p>
+      </div>
+       <xsl:for-each select="rss/channel/item">
+          <h2>
+            <xsl:value-of select="title"/>
+          </h2>
+          <div style="color: #200000; padding:2px; font-size:11px;">
+             Published: <span>
+               <xsl:value-of select="pubDate"/>
+             </span>
+          </div>
+          <div>
+            <xsl:value-of select="substring(description/text(),1,100)" disable-output-escaping="yes"/>...
+          </div>
+          <hr />
+    </xsl:for-each>
+   </body>
+ </html>
+</xsl:template>
+
+</xsl:stylesheet>
