@@ -13,6 +13,15 @@ p.small, span.small {
   font-size: 0.6em;
 }
 
+/* External links */
+
+a:not([href*='mark.berthelemy.net']):not([href^='#']):not([href^='/']):after {
+  font-family: 'FontAwesome';
+    content: " \f08e";
+}
+
+/* End external links */
+
 .youtube-wrapper {
   position: relative;
   width: 100%;
