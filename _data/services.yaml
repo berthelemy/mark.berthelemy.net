@@ -3,7 +3,7 @@
   text:
     - Learning technology review
     - Business case preparation
-    - Procurement support
+    - User experience reviews
     - Solutions architecture design
 
 - title: Projects (agile & waterfall)
@@ -22,26 +22,10 @@
     - Support and guidance
     - Troubleshooting and training
 
-- title: Online communities
-  icon: fa-comments
+- title: Procurement support
+  icon: fa-wordpress
   text:
-    - Planning
-    - Choosing software
-    - Facilitating conversations
-    - Running events
-
-- title: Websites
-  icon: fa-id-card
-  text:
-    - Usability reviews
-    - Fast, mobile-friendly sites
-    - User-focussed design
-    - Search Engine Optimisation
-
-- title: Small company IT
-  icon: fa-laptop
-  text:
-    - Broadband &amp; email setup
-    - Business software advice
-    - Computer/laptop/phone guidance
-    - Troubleshooting and training
+    - Needs analysis
+    - Long and short-listing
+    - Documentation
+    - Supplier selection
