@@ -10,8 +10,8 @@
   icon: fa-project-diagram
   text:
     - Workshop facilitation
-    - Planning
-    - Project management
+    - Lessons learned exercises
+    - Project manager coaching
     - Troubleshooting and training
 
 - title: Moodle
@@ -19,7 +19,7 @@
   text:
     - Design and setup
     - System administration
-    - Support and guidance
+    - Administrator & tutor coaching
     - Troubleshooting and training
 
 - title: Procurement support
