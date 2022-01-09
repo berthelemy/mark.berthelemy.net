@@ -15,7 +15,7 @@
     - Troubleshooting and training
 
 - title: Moodle
-  icon: fa-chalkboard-teacher
+  icon: fa-graduation-cap
   text:
     - Design and setup
     - System administration
@@ -23,7 +23,7 @@
     - Troubleshooting and training
 
 - title: Procurement support
-  icon: fa-wordpress
+  icon: fa-shopping-basket
   text:
     - Needs analysis
     - Long and short-listing
