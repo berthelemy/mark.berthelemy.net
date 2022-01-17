@@ -18,6 +18,10 @@ I've listed below some of the key skills that I would expect to cover in any bas
 
 These are basic skills. There's a whole lot more to Moodle that people will need to learn. But you probably don't need to cover all of that at the beginning. Hopefully a lot of that more advanced stuff will have been set up by your Moodle Solution Architect.
 
+### This isn't everything you need
+
+When launching a new Moodle site, there's a lot to discuss and agree. Not least things like naming conventions, use of images, roles and responsibilities and text style. Often this comes up during training sessions. Ideally they'll have been dealt with and agreed beforehand.
+
 ### Roles
 
 I've split the table into three distinct roles (which may all be the same person - but I hope not):
