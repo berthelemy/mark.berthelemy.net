@@ -7,7 +7,7 @@ datatable: curriculum-table
 permalink: /2022/01/16/moodle-basic-training
 img: universe-1566159_1280.jpg
 imgalt: Stars
-imgcredit: Image credit - <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Pixabay</a>
+imgcredit: <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Pixabay</a>
 tags:
   - Learning
   - Technology

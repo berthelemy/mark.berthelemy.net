@@ -11,9 +11,11 @@
         <meta prefix="og: http://ogp.me/ns#" property="og:title" content="{{ site.title }} | {{ page.title }}" />
 
         <meta prefix="og: http://ogp.me/ns#" property="og:description" content="{{ site.description }}: {{ site.sub-description }}" />
-
+        {% if page.img %}
+        <meta prefix="og: http://ogp.me/ns#" property="og:image" content="{{ site.url }}/assets/img/post-images/{{ page.img }}" />
+        {% else %}
         <meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://mark.berthelemy.net/images/mark-wide.png" />
-
+        {% endif %}
         <meta prefix="og: http://ogp.me/ns#" property="og:url" content="{{ site.url }}{{ page.url }}" />
 
         <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="/feed.xml">

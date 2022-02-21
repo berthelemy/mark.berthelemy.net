@@ -4,6 +4,9 @@ author: Mark Berthelemy
 excerpt:
 layout: post
 permalink: /2020/12/26/digital-nightmares
+img: apocalypse-483425_1280.jpg
+imgcredit: <a href="https://pixabay.com/users/mysticsartdesign-322497/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=483425">Mystic Art Design</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=483425">Pixabay</a>
+imgalt: Clouds with cats eyes superimposed
 tags:
   - Technology
   - Business
@@ -40,4 +43,4 @@ See the parallels yet?
 4. Instigate practices (not just tools) that aid communication, such as regular 1-1's, team stand ups, lessons learned workshops and visual task management
 5. Listen to customers, employees and volunteers - and make changes accordingly
 
-Turning a complex organisation around is probably going to take more than a week (unlike the restaurants in Gordon Ramsey's programme). But, given the will from senior leaders, digital transformation is possible, and can be done in a short time, as demonstrated by many organisations this year. 
+Turning a complex organisation around is probably going to take more than a week (unlike the restaurants in Gordon Ramsey's programme). But, given the will from senior leaders, digital transformation is possible, and can be done in a short time, as demonstrated by many organisations this year.

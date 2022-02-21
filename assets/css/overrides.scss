@@ -22,6 +22,48 @@ a:not([href*='mark.berthelemy.net']):not([href^='#']):not([href^='/']):after {
 
 /* End external links */
 
+/* Banner images */
+
+#postImage {
+  position: relative;
+  text-align:center;
+}
+
+#postImage img {
+  z-index: -100;
+}
+
+div.imgcredit {
+  z-index: 100;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  color: #fff;
+  padding:0.25rem 0.5rem;
+}
+
+div.imgtitle {
+  z-index: 100;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div.layer {
+  background-color: rgba(94,66,166,0.5);
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:50;
+}
+
+/* End of banner image */
+
 .youtube-wrapper {
   position: relative;
   width: 100%;
