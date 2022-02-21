@@ -11,16 +11,16 @@
         <div id="wrapper">
 
           <section tabindex="-1" class="wrapper style1">
-            <div class="col-12 image fit" id="postImage">
+            <div class="col-12 image fit" id="pageImage">
               {% if page.img %}
-              <div class="imgcredit">
+              {% if page.imgcredit %}<div class="imgcredit">
                 Image credit: {{ page.imgcredit }}
-              </div>
+              </div>{% endif %}
               <div class="imgtitle">
                 <h1>{{ page.title }}</h1>
               </div>
               <div class="layer"></div>
-              <img src="/assets/img/post-images/{{ page.img }}" alt="{{ page.imgalt }}" style="z-index: -100;" />
+              <img src="/assets/img/page-images/{{ page.img }}" alt="{{ page.imgalt }}" style="z-index: -100;" />
 
 
               {% else %}

@@ -4,7 +4,7 @@ display-title: true
 active: true
 ref: about
 style: style2
-img: mark-square-picture.png
+img: mark-wide.png
 imgalt: Portrait of Mark
 front-page: true
 layout: default

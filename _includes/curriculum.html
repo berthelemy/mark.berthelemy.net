@@ -1,0 +1,25 @@
+{% capture level %}{{ include.level }}{% endcapture %}
+<table width="100%" id="{{ include.datatable }}" class="stripe">
+  <thead><tr>
+  <th>Category</th>
+  <th>Learning objective</th>
+  <th>Relevant roles</th>
+  <th>Video tutorial</th>
+  </tr></thead>
+  <tbody>
+    {% for item in site.data.curriculum %}
+      {% if include.level %}{% if item.level == level %}{% endif %}
+      <tr>
+        <td>{{ item.Category }}</td>
+        <td>{{ item.Objective}}</td>
+        <td>
+          {% for role in item.Roles %}
+          {{ role }}<br />
+          {% endfor %}
+        </td>
+        <td>{% if item.Video %}<a href="{{ item.Video }}">Youtube link</a>{% endif %}</td>
+      </tr>
+      {% if include.level %}{% endif %}{% endif %}
+    {% endfor %}
+  </tbody>
+</table>

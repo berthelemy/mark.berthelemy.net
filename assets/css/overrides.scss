@@ -24,13 +24,16 @@ a:not([href*='mark.berthelemy.net']):not([href^='#']):not([href^='/']):after {
 
 /* Banner images */
 
-#postImage {
+#pageImage {
   position: relative;
   text-align:center;
+  height: 50%;
 }
 
-#postImage img {
+#pageImage img {
   z-index: -100;
+  object-fit: cover;
+  height: 20rem;
 }
 
 div.imgcredit {

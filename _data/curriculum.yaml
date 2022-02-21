@@ -1,0 +1,233 @@
+-
+    Category: Courses
+    Level: Basic
+    Roles:
+        - System administrator
+    Objective: 'Create an empty course'
+    Video: https://youtu.be/XxOCEZ4LkXs
+-
+    Category: Courses
+    Level: Basic
+    Objective: 'Add activities and resources to a course (Label, Page, Quiz, Assignment to start with)'
+    Roles:
+      - Course designer/teacher
+-
+    Category: Courses
+    Level: Basic
+    Objective: 'Backup a course'
+    Roles:
+      - Course designer/teacher
+-
+    Category: Courses
+    Level: Basic
+    Objective: 'Restore a course from a backup'
+    Roles:
+      - Course designer/teacher
+      - System administrator
+-
+    Category: Courses
+    Level: Basic
+    Objective: 'Add a block to a course'
+    Roles:
+      - Course designer/teacher
+      - System administrator
+-
+    Category: Courses
+    Level: Basic
+    Objective: 'Manage course categories'
+    Roles:
+      - System administrator
+-
+    Category: Courses
+    Level: Basic
+    Objective: 'Set up grade items'
+    Roles:
+      - Course designer/teacher
+-
+    Category: Courses
+    Level: Basic
+    Objective: 'Set up gradebook calculations'
+    Roles:
+      - Course designer/teacher
+-
+    Category: Courses
+    Level: Basic
+    Objective: 'Manage scales'
+    Roles:
+      - Course designer/teacher
+      - System administrator
+-
+    Category: Courses
+    Level: Basic
+    Objective: 'Review grade reports'
+    Roles:
+      - Course designer/teacher
+      - User administrator
+-
+    Category: Courses
+    Level: Basic
+    Objective: 'Review completion reports'
+    Roles:
+      - Course designer/teacher
+      - User administrator
+-
+    Category: Courses
+    Level: Basic
+    Objective: 'Manage activity completion settings'
+    Roles:
+      - Course designer/teacher
+-
+    Category: Courses
+    Level: Basic
+    Objective: 'Manage course completion settings'
+    Roles:
+      - Course designer/teacher
+-
+    Category: Courses
+    Level: Basic
+    Objective: 'Manage course item restrictions'
+    Roles:
+      - Course designer/teacher
+-
+    Category: Courses
+    Level: Basic
+    Objective: 'Choose a course format'
+    Roles:
+      - Course designer/teacher
+-
+    Category: Courses
+    Level: Basic
+    Objective: 'Sort courses in a category'
+    Roles:
+      - System administrator
+-
+    Category: Roles
+    Level: Basic
+    Objective: 'Describe the contexts in which a role can be added'
+    Roles:
+      - Course designer/teacher
+      - User administrator
+-
+    Category: Roles
+    Level: Basic
+    Objective: 'Add a role to a person'
+    Roles:
+      - Course designer/teacher
+      - User administrator
+-
+    Category: Roles
+    Level: Basic
+    Objective: 'Define a new role'
+    Roles:
+      - System administrator
+-
+    Category: Roles
+    Level: Basic
+    Objective: 'Troubleshoot roles'
+    Roles:
+      - System administrator
+      - User administrator
+-
+    Category: Roles
+    Level: Basic
+    Objective: 'Hide a block from users'
+    Roles:
+      - Course designer/teacher
+      - System administrator
+-
+    Category: System
+    Level: Basic
+    Objective: 'Manage site policy agreements'
+    Roles:
+      - System administrator
+    Course designer: {teacher: No}
+    'User administrator': {support: No}
+    'System administrator': Yes
+-
+    Category: System
+    Level: Basic
+    Objective: 'Manage data protection requests'
+    Roles:
+      - System administrator
+-
+    Category: System
+    Level: Basic
+    Objective: 'Edit the language pack'
+    Roles:
+      - System administrator
+-
+    Category: System
+    Level: Basic
+    Objective: 'Manage the front page settings'
+    Roles:
+      - System administrator
+-
+    Category: System
+    Level: Basic
+    Objective: 'Manage privacy settings'
+    Roles:
+      - System administrator
+-
+    Category: System
+    Level: Basic
+    Objective: 'Create user tours'
+    Roles:
+      - System administrator
+-
+    Category: 'User admin'
+    Level: Basic
+    Objective: 'Create the bulk upload spreadsheet'
+    Roles:
+      - User administrator
+-
+    Category: 'User admin'
+    Level: Basic
+    Objective: 'Run the bulk user upload process'
+    Roles:
+      - System administrator
+-
+    Category: 'User admin'
+    Level: Basic
+    Objective: 'Manually add a user'
+    Roles:
+      - System administrator
+-
+    Category: 'User admin'
+    Level: Basic
+    Objective: "Find a user's account"
+    Roles:
+      - System administrator
+      - User administrator
+-
+    Category: 'User admin'
+    Level: Basic
+    Objective: 'Login as another user'
+    Roles:
+      - User administrator
+-
+    Category: 'User admin'
+    Level: Basic
+    Objective: 'Manually enrol people in a course'
+    Roles:
+      - Course designer/teacher
+      - User administrator
+      - System administrator
+-
+    Category: 'User admin'
+    Level: Basic
+    Objective: 'Add a custom profile field'
+    Roles:
+      - System administrator
+-
+    Category: 'User admin'
+    Level: Basic
+    Objective: 'Add an enrolment method to a course'
+    Roles:
+      - Course designer/teacher
+      - System administrator
+-
+    Category: 'User admin'
+    Level: Basic
+    Objective: 'Manage authentication methods'
+    Roles:
+      - System administrator
