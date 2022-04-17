@@ -1,6 +1,6 @@
 - name: Sean Hendicott
   url: https://seanhendicott.com
-  description: Heating and hot water specialist in Brittany, France
+  description: Heating and hot water specialist in Brittany, France, who required a website in both French and English
   tools: Jekyll on Github Pages
   status: active
 
@@ -19,7 +19,7 @@
 - name: Belper Town Wind band
   url: https://belpertownwindband.co.uk/
   description: Amateur music group in Belper
-  tools: Grav on Github Pages
+  tools: Jekyll on Github Pages
   status: active
 
 - name: Free tools for trainers
