@@ -16,12 +16,6 @@
   tools: Grav on HostStage
   status: active
 
-- name: Eglise Riverside
-  url: https://egliseriverside.fr
-  description: New church in Nantes
-  tools: Grav hosted on Host-Stage.net
-  status: active
-
 - name: Belper Town Wind band
   url: https://belpertownwindband.co.uk/
   description: Amateur music group in Belper
