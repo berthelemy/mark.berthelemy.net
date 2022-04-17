@@ -1,6 +1,6 @@
 ---
 title: About me
-display-title: true
+display-title: false
 active: true
 ref: about
 style: style2

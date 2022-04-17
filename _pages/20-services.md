@@ -1,6 +1,6 @@
 ---
 title: Services
-display-title: true
+display-title: false
 active: true
 ref: services
 style: style3
