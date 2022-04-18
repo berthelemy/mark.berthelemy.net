@@ -1,14 +1,18 @@
 <div class="features">
 {% for service in site.data.services %}
-  <section>
+  <section id="{{ service.id }}">
     <span class="icon solid major {{ service.icon }}"></span>
-    <h3>{{ service.title }}</h3>
-    <ul>
-    {% for item in service.text %}
-      <li>{{ item }}</li>
-      {% endfor %}
-    </ul>
+    <h4>{{ service.title }}</h4>
+    {% for subservice in service.subservices %}
+      <div class="accordion">{{ subservice.title }}</div>
+      <div class="panel">
+        <h5>Outcomes</h5>
+        <p>{{ subservice.outcomes }}</p>
+        <h5>Approach</h5>
+        <p>{{ subservice.approach }}</p>
+      </div>
+    {% endfor %}
   </section>
-      {% endfor %}
+{% endfor %}
 </div>
 <div>&nbsp;</div>

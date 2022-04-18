@@ -1,31 +1,66 @@
 - title: Strategic consulting
+  id: service1
   icon: fa-arrow-circle-right
-  text:
-    - Learning technology review
-    - Business case preparation
-    - User experience reviews
-    - Solutions architecture design
+  subservices:
+    - title: Learning technology reviews
+      outcomes: An independent assessment of your current learning technology landscape, and a roadmap for the future.
+      approach: Interviews or workshops with key stakeholders, usually including product owners, IT, HR, Operations and end users.
+    - title: Business case preparation
+      outcomes: A solid business proposal, suitable for non-technical decision makers.
+      approach: Iterative workshops with the core team, designed to refine the message and develop a workable plan.
+    - title: User experience reviews
+      outcomes: A description of the user journey(s) with identified pain points.
+      approach: Examination of your product or service from a user's perspective, using available data to understand typical user journeys.
+    - title: Solutions architecture design
+      outcomes: A target operating model, comprising people, processes and technology to meet your specific needs.
+      approach: Iterative workshops leading to an illustrated solution design.
 
 - title: Projects (agile & waterfall)
+  id: service2
   icon: fa-project-diagram
-  text:
-    - Workshop facilitation
-    - Lessons learned exercises
-    - Project manager coaching
-    - Troubleshooting and training
-
+  subservices:
+    - title: Workshop facilitation
+      outcomes: A shared understanding of the current situation and future direction.
+      approach: Using questionning techniques and collaborative exercises to help align the team.
+    - title: Lessons learned exercises
+      outcomes: A report detailing what the organisation needs to learn from the project, for future projects to have greater chances of success.
+      approach: After the initial data capture, this would comprise a carefully managed workshop, with clear ground rules to ensure openness and honesty.
+    - title: Project manager coaching
+      outcomes: Project managers with confidence to manage the team and its stakeholders effectively.
+      approach: Weekly or fortnightly workshops, observations and feedback.
+    - title: Troubleshooting and training
+      outcomes: Your project either back on track, pivoted, or stopped quickly. Your people able to lead project teams effectively.
+      approach: Following workshops, interviews and observations to understand the current state and the project's aims, I will produce an action plan to deal with issues and mitigate your risks.
 - title: Moodle
+  id: service3
   icon: fa-graduation-cap
-  text:
-    - Design and setup
-    - System administration
-    - Administrator & tutor coaching
-    - Troubleshooting and training
+  subservices:
+    - title: Design and setup
+      outcomes: A Moodle site configured and ready to run with your target users.
+      approach: A series of iterative workshops to define the user needs, the system requirements and make &amp; document configuration changes.
+    - title: System administration
+      outcomes: Ongoing system administration support to handle Moodle configuration, user administration and liaison with technical teams.
+      approach: Having agreed the key processes, I will act as your Moodle product owner and help you achieve best results as efficiently as possible.
+    - title: Administrator & tutor coaching
+      outcomes: Consistent course designs and user-centred configuration that make the best of what Moodle offers.
+      approach: Weekly or fortnightly workshops, observations and feedback.
+    - title: Troubleshooting and training
+      outcomes: Your Moodle site back on track, with defined &amp; documented processes and well-trained administrators and course designers.
+      approach: Following workshops, interviews and observations to understand the current state, I will produce an action plan to deal with issues, and lead the follow-through.
 
 - title: Procurement support
+  id: service4
   icon: fa-shopping-basket
-  text:
-    - Needs analysis
-    - Long and short-listing
-    - Documentation
-    - Supplier liaison
+  subservices:
+    - title: Needs analysis &amp; solution design
+      outcomes: A clear understanding of your business, functional &amp; non-functional requirements and possible solutions to your problems.
+      approach: Iterative workshops and interviews to define the requirements and develop solutions.
+    - title: Long and short-listing
+      outcomes: An identified list of suppliers who may be able to meet your requirements.
+      approach: Desktop research against your requirements, followed by facilitated workshops to narrow down the list.
+    - title: Request for Proposal design
+      outcomes: A rigorous and fair RfP process that matches you with a supplier that fits your requirements.
+      approach: Clear documentation for suppliers and evaluation teams, that is mapped to your internal procurement processes, and designed to ensure you receive what you expect.
+    - title: RfP facilitation
+      outcomes: Clear communication between suppliers and the evaluation team, that leads to a good match.
+      approach: Ongoing commmunication with all stakeholders, facilitated evaluation workshops and exercises.

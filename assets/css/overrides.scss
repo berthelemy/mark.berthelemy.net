@@ -735,3 +735,61 @@ canvas {
     transform: scale(0.4, 0.4);
   }
 }
+
+/* Accordion */
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: inherit;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-size: 0.9rem;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #493382;
+  color: #eee;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 3px 10px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  color: #000;
+  font-size: 0.8rem;
+}
+
+
+.panel h5 {
+  color: #000;
+  font-size: 0.9rem;
+}
+
+
+
+
+
+/* Accordion icons */
+
+.accordion::after {
+  content: '+'; /* Unicode character for "plus" sign (+) */
+  font-size: 1.5em;
+  color: #fff;
+  float: right;
+  line-height: 1em;
+  margin-left: 5px;
+}
+
+.active::after {
+  content: "\02013"; /* Unicode character for "en dash" sign (-) */
+  font-size: 1.5em;
+}
