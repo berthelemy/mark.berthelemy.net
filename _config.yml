@@ -16,7 +16,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 title: Mark Berthelemy
-description: Advice and support at the intersection of learning, technology and business
+description: Advice and support at the intersection of knowledge, technology and business
 author: Mark Berthelemy
 
 defaults:
