@@ -15,8 +15,36 @@
               <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
               <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
               <script type="text/javascript" src="https://cdn.datatables.net/v/dt/jszip-2.5.0/dt-1.10.23/b-1.6.5/b-html5-1.6.5/b-print-1.6.5/r-2.2.6/rg-1.1.2/datatables.min.js"></script>
-              <<script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
-
+              <script type="text/javascript" src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
+              <script type="text/javascript" src="https://cdn.datatables.net/buttons/2.3.4/js/dataTables.buttons.min.js"></script>
+              <script type="text/javascript" src="https://cdn.datatables.net/rowgroup/1.3.0/css/rowGroup.dataTables.min.css"></script>
+              <script>
+              $(document).ready( function () {
+                  $('table').DataTable({
+                    "dom": '<f<t>ip>',
+                  {%- if page.tableRowgroup -%}
+                    "columnDefs": [
+                      {
+                        "targets": {{ page.tableRowgroup }},
+                        "visible": false,
+                        "searchable": true
+                      }
+                    ],
+                    "rowGroup": {
+                      "dataSrc": {{ page.tableRowgroup }}
+                    },
+                  {%- endif -%}
+                  {%- if page.tablePagination -%}
+                    "paging": true
+                  {%- else -%}
+                    "paging": false
+                  {%- endif -%}
+                  {%- if page.order -%}
+                    ,"order": [[{{ page.order }}, 'asc']]
+                  {%- endif -%}
+                    ,"searching": true
+                    } );
+                  });
               </script>
             {% endif %}
 
