@@ -1,5 +1,5 @@
 ---
-title: 'Instructional/Learning Design transition'
+title: 'Instructional or Learning Design transition'
 author: Mark Berthelemy
 excerpt: Resources to aid the move
 layout: post
