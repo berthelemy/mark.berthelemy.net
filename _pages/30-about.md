@@ -39,9 +39,7 @@ Having spent 11 years in a mixture of teaching and church support roles, I found
 
 Twelve years later, in 2012, I was ready to spread my wings and jump full-time into running an independent consulting business - helping all sorts of organisations find, design and use appropriate technologies to meet their training, education and communication needs.
 
-Now I'm living in France, still doing similar things, but as a French "auto-entrepreneur" - the approximate equivalent to the UK's "self-employed". My clients are mostly English-speaking, either in the Euro zone, or in the UK.
-
-For longer or larger projects, I put the contracts through [Challenge & Co](https://www.freelanceinfrance.com/), a "portage salarial", who manage the invoicing and payroll.
+Now I'm living in France, still doing similar things, but embedded in the French system. My clients are mostly English-speaking, either in the Euro zone, or in the UK.
 
 <ul class="actions">
   <li><a href="/services" class="l4 button scrolly">Services</a></li>
