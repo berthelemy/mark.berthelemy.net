@@ -797,3 +797,13 @@ canvas {
   content: "\02013"; /* Unicode character for "en dash" sign (-) */
   font-size: 1.5em;
 }
+
+
+div.actions {
+  margin-top:1rem;
+  text-align: center;
+}
+
+ul.actions {
+  display: inline-block;
+}
