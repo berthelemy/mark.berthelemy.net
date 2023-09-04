@@ -13,6 +13,34 @@ p.small, span.small {
   font-size: 0.6em;
 }
 
+ul.actions li {
+  padding-bottom: 1rem;
+}
+
+.wrapper.style1 {
+  background-color: #333;
+}
+
+.wrapper.style1-alt {
+  background-color: #333;
+}
+
+.wrapper.style2 {
+  background-color: #222;
+}
+
+.wrapper.style2-alt {
+  background-color: #222;
+}
+
+.wrapper.style3 {
+  background-color: #444;
+}
+
+.wrapper.style3-alt {
+  background-color: #444;
+}
+
 /* External links */
 
 /*
@@ -58,7 +86,7 @@ div.imgtitle {
 }
 
 div.layer {
-  background-color: rgba(94,66,166,0.5);
+  background-color: rgba(116,116,116,0.5);
   position: absolute;
   top:0;
   left:0;
@@ -193,7 +221,7 @@ a.tag-link:hover {
 $color-brand:         #e00;
 $color-gray-dark:     #252525;
 $color-text:          #252525;
-$color-link:          #06c;
+$color-link:          #fff;
 $color-link-hover:    #004080;
 
 
@@ -608,6 +636,10 @@ div.video {
     }
 }
 
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
+  background-color: #aaa;
+}
+
 
 /* Phone styled iFrame */
 
@@ -688,7 +720,7 @@ body {
 
 #views button:hover {
   color: #444;
-  background-color: #eee;
+  background-color: #aaa;
 }
 
 .bib-title {
