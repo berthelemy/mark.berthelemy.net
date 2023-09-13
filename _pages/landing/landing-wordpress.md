@@ -36,35 +36,51 @@ That will require some effort:
 
 #### Choose your hosting provider
 
-There are dozens of companies who will host Wordpress for you. Some focus on price, others on scalability, and others on security. I can help find a supplier that will meet your specific needs.
+There are dozens of companies who will host Wordpress for you. Some focus on price, others on scalability, and others on security.
+
+I can help find a supplier that will meet your specific needs.
 
 #### Choose your domain name
 
-Your "domain" is the name you'll be known by on the web. It's important to get this right, and to register it via a company that gives you full control over its use (not all do). I can help you choose your name,  organise its purchase, and set it up to point to your website and email system.
+Your "domain" is the name you'll be known by on the web. It's important to get this right, and to register it via a company that gives you full control over its use (not all do).
+
+I can help you choose your name,  organise its purchase, and set it up to point to your website and email system.
 
 #### Plan your site
 
-What types of information do you want to store and display? How can we help users to find it? What do you want users to do when they're there? I can help you work through these decisions.
+What types of information do you want to store and display? How can we help users to find it? What do you want users to do when they're there?
+
+I can help you work through these decisions.
 
 #### Design the look and feel
 
-If you don't yet have a logo, colors or typography, I can recommend some designers that I like to work with. Once you have those in place, then we can explore how to use them on your new site.
+If you don't yet have a logo, colors or typography, I can recommend some designers that I like to work with.
+
+Once you have those in place, then we can explore how to use them on your new site.
 
 #### Configure the system
 
-Wordpress has hundreds of configurable options, and plugins that can massively increase the capability and security of the system. I can take away the pain of making choices that will stand the test of time.
+Wordpress has hundreds of configurable options, and plugins that can massively increase the capability and security of the system.
+
+I can take away the pain of making choices that will stand the test of time.
 
 #### Build the site
 
-this is an iterative process of adding content, functionality and design elements to make a site that is findable, attractive, usable and accessible. I can do all or some of this for you - depending on your capabilities.
+This is an iterative process of adding content, functionality and design elements to make a site that is findable, attractive, usable and accessible.
+
+I can do all or some of this for you - depending on your capabilities.
 
 #### Monitoring and support
 
-Things go wrong with all websites - whether by accident or deliberate attack. You'll want to know quickly when something has happened, and that there is someone there to help. I can keep an eye on the site and liaise with the hosting and software providers to get you up and running as quickly as possible.
+Things go wrong with all websites - whether by accident or deliberate attack. You'll want to know quickly when something has happened, and that there is someone there to help.
+
+I can keep an eye on the site and liaise with the hosting and software providers to get you up and running as quickly as possible.
 
 #### Capability building
 
-If you want to become self-sufficient with your website, you'll probably require a lot of coaching and support to ensure you keep it working at its best. I can take you to the point where you're ready to run on your own.
+If you want to become self-sufficient with your website, you'll probably require a lot of coaching and support to ensure you keep it working at its best.
+
+I can take you to the point where you're ready to run on your own.
 
 <div class="actions">
   <ul class="actions">
