@@ -4,25 +4,27 @@ display-title: false
 active: true
 ref: about
 style: style2
-img: mark-wide.png
-imgalt: Portrait of Mark
 front-page: true
 layout: default
 permalink: /about
 
 
 ---
-{{ site.description }}: {{ site.sub-description }}
+I am an experienced technology consultant, project manager, digital product owner, solution architect, communicator and musician ([visit my teaching website](https://musique.berthelemy.net)).
 
-### I bring...
+What do I bring to organisations I work with?
 
-- Over 30 years **experience** at the intersection of Education, Learning & Development, Business and Information & Communications technologies
-- Deep **knowledge** of digital media and systems
-- Strong focus on **user experience**
-- Solid understanding of the **technologies** underpinning modern online systems
-- Strong **project management** and **business analysis** practices
-- Excellent inter-personal, facilitation, requirements gathering, troubleshooting and communications **skills**
-- High production **standards**
+- An ability to communicate and build bridges across Learning, Business and IT
+- A deep knowledge of digital media and systems
+- A solid understanding of the technologies underpinning modern online systems
+- Strong project management, business analysis and process design practices
+- Excellent facilitation, requirements gathering, troubleshooting and communications skills
+- An ability to sell - through bid-writing, conversations, workshops and presentations
+- Experience across public, private and charity sectors, in large and small organisations
+
+### Skills
+
+Strategy, supplier procurement, information architecture, learning design, user experience design, project management, data analysis, data migration
 
 ### I have worked with...
 
@@ -33,13 +35,8 @@ permalink: /about
 - Local authorities
 - Government agencies
 
-### Brief history
+<a href="https://www.linkedin.com/in/markberthelemy/" target="_blank"><i class="fab fa-linkedin"></i> https://www.linkedin.com/in/markberthelemy/</a>
 
-Having spent 11 years in a mixture of teaching and church support roles, I found my niche at Capita, where I developed my skills as a learning technology solutions architect. This allowed me to grow in all sorts of directions - developing sales propositions, managing online communities, building websites, running projects, designing systems, and working closely with technology suppliers.
-
-Twelve years later, in 2012, I was ready to spread my wings and jump full-time into running an independent consulting business - helping all sorts of organisations find, design and use appropriate technologies to meet their training, education and communication needs.
-
-Now I'm living in France, still doing similar things, but embedded in the French system. My clients are mostly English-speaking, either in the Euro zone, or in the UK.
 
 <ul class="actions">
   <li><a href="/services" class="l4 button scrolly">Services</a></li>

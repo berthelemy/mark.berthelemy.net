@@ -15,8 +15,7 @@ include: ['_pages']
 plugins:
   - jekyll-sitemap
   - jekyll-feed
-title: Mark Berthelemy
-description: Advice and support at the intersection of knowledge, technology and business
+
 author: Mark Berthelemy
 
 defaults:
