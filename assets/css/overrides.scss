@@ -77,24 +77,14 @@ img.home-image {
 
 #pageImage img {
   z-index: -100;
-  float:right;
-  padding: 0.5rem 2rem 0.5rem 0.5rem;
-  height: 10rem;
-  width: auto;
-  margin-top:60px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: 20rem;
+  width: 100%;
 }
 
-@media screen and (max-width: 780px) {
-  #pageImage {
-    height: 200px;
-  }
-  #pageImage img {
-    height: 100px;
-    margin-top:50px;
-    padding: 1rem 2rem 1rem 1rem;
-  }
-  
-}
 
 
 div.imgcredit {
