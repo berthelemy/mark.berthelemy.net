@@ -18,6 +18,14 @@ Mark is a hugely experienced, knowledgeable and well connected professional in t
 
 Mark, thank you for helping my dream come true of developing a learning platform and library that enables the advancement of diversity, equity and inclusion in the workplace. We're proud to have developed something that goes beyond the bog standard that is already in the market place and couldn't have done it without you.
 
+## Piers Lea - Chief Strategy Officer LTG
+
+Mark is one of the best contractors I have ever worked with. If you need something delivered he's your man.
+
+## Victoria Waring - Project and Programme Management Specialist
+
+Mark is a highly experienced and customer focused consutlant with deep technical knowledge of his subject area. He has worked with a really wide variety of clients and is able to tailor his approach to each one. He provided me and my team with consultancy and practical support which enabled us to review and plug gaps in our online learning provision.
+
 <ul class="actions">
   <li><a href="/services" class="l4 button scrolly">Services</a></li>
   <li><a href="/contact" class="l6 button scrolly primary">Get in touch</a></li>
