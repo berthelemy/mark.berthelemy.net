@@ -63,6 +63,11 @@ img.home-image {
   margin-left: 2rem;
 }
 
+div.imgtitle {
+  background-color: #000;
+  padding: 0.5rem;
+}
+
 /* Banner images */
 
 
@@ -79,9 +84,9 @@ img.home-image {
   z-index: -100;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  height: 20rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 100%;
   width: 100%;
 }
 
