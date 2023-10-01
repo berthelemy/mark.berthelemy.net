@@ -55,7 +55,7 @@ a:not([href*='mark.berthelemy.net']):not([href^='#']):not([href^='/']):after {
 h1.logo {
   font-size: 1rem;
   background-color: #fff;
-  color: #000;
+  color: #888;
   margin: 0 0 0 1rem;
   padding: 0.3rem;
 }
@@ -66,6 +66,7 @@ h1.logo a {
 
 h1.logo a:hover {
   text-decoration: dotted;
+  color: #000;
 }
 
 .wrapper > .inner {
