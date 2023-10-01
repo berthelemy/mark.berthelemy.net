@@ -56,8 +56,16 @@ h1.logo {
   font-size: 1rem;
   background-color: #fff;
   color: #000;
-  margin: 0 2rem 0 1rem;
-  padding: 0.25rem;
+  margin: 0 0 0 1rem;
+  padding: 0.3rem;
+}
+
+h1.logo a {
+  text-decoration: none;
+}
+
+h1.logo a:hover {
+  text-decoration: dotted;
 }
 
 .wrapper > .inner {
