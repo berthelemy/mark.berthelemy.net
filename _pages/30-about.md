@@ -24,7 +24,7 @@ What do I bring to organisations I work with?
 
 ### Skills
 
-Strategy, supplier procurement, information architecture, learning design, user experience design, project management, data analysis, data migration
+Strategy, supplier procurement, information architecture, learning design, user experience design, project management, data analysis, data migration, Learning management systems, content management systems, wikis
 
 ### I have worked with...
 
