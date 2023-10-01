@@ -35,7 +35,7 @@ Strategy, supplier procurement, information architecture, learning design, user 
 - Local authorities
 - Government agencies
 
-<a href="https://www.linkedin.com/in/markberthelemy/" target="_blank"><i class="fab fa-linkedin"></i> https://www.linkedin.com/in/markberthelemy/</a>
+<a href="https://www.linkedin.com/in/markberthelemy/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn profile</a>
 
 
 <ul class="actions">
