@@ -52,19 +52,20 @@ a:not([href*='mark.berthelemy.net']):not([href^='#']):not([href^='/']):after {
 
 /* End external links */
 
-h1.logo {
+a.logo h1 {
   font-size: 1rem;
+  height: 2rem;
   background-color: #fff;
   color: #888;
-  margin: 0 0 0 1rem;
-  padding: 0.3rem;
+  margin: 1rem 0 0 1rem;
+  padding: 0.4rem 0.3rem;
 }
 
-h1.logo a {
+a.logo {
   text-decoration: none;
 }
 
-h1.logo a:hover {
+a.logo:hover {
   text-decoration: dotted;
   color: #000;
 }
