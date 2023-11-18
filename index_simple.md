@@ -30,28 +30,48 @@ The aim is to ensure that accurate, up-to-date information is available and find
 
 ### What do I offer?
 
-Every project is different. Most will typically contain elements of the following:
+Every project is different. Some may just involve creating a single document. Others may go as far as redesigning an organsation's internal document management system.
+
+Most will typically contain elements of the following:
 
 <details>
   <summary>Review</summary>
   <ul>
-    <li>Understand the audience</li>
-    <li>Understand the information they need</li>
+    <li>Understand the audience's needs</li>
+    <li>Understand the information they need and when they need it</li>
     <li>Review how that information is currently organised and presented</li>
     <li>Review how the information is produced and governed</li>
+    <li>Identify the existing information systems</li>
+    <li>Identify the current pain points</li>
   </ul>
 </details>
 <details>
   <summary>Design</summary>
-  <p>To create processes and find technology to help fix your pain points</p>
+  <ul>
+    <li>Create high-level structures</li>
+    <li>Create mockups and prototypes</li>
+    <li>Test ideas with the target audience</li>
+    <li>Iterate towards a final, agreed design - with associated style guide</li>
+    <li>Propose system improvements</li>
+    <li>Map new processes</li>
+  </ul>
 </details>
 <details>
   <summary>Build</summary>
-  <p>To create information products and templates</p>
+  <ul>
+    <li>Create documents, spreadsheets, web sites, courses, templates etc - as required</li>
+    <li>Ensure they meet the style guide</li>
+    <li>Ensure products are located correctly in the high-level structure</li>
+    <li>Ensure appropriate links between the products<li>    
+  </ul>
 </details>
 <details>
   <summary>Train</summary>
-  <p>To help you becoming self-sustaining</p>
+  <ul>
+    <li>How to understand your audience</li>
+    <li>How to write for your audience</li>
+    <li>Information governance in practice</li>
+  </ul>
 </details> 
 
 ### Examples
