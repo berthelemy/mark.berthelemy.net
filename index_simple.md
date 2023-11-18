@@ -83,6 +83,6 @@ Most will typically contain elements of the following:
 
 <figure>
     <img src="assets/img/page-images/web.svg" width="100%" alt="Connected web of various ideas">
-    <figcaption>Connected web of ideas</figcaption>
+    <figcaption>Connected web of ideas [Credit: <a href="https://www.linkedin.com/in/julietmacdowell">Juliet MacDowell</a>]</figcaption>
 </figure>
 
