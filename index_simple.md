@@ -15,7 +15,7 @@ When information is designed for the audience:
 
 <aside>
     <figure>
-        <img src="{{ site.baseurl }}/assets/img/triangle.png" alt="People, processes, technology in a triangle">
+        <img src="{{ site.baseurl }}/assets/img/page-images/triangle.png" alt="People, processes, technology in a triangle">
         <figcaption>The information architecture triangle</figcaption>
     </figure>
 </aside>
