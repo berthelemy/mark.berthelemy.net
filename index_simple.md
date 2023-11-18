@@ -30,7 +30,7 @@ The aim is to ensure that accurate, up-to-date information is available and find
 
 ### What do I offer?
 
-Every project is different. Some may just involve creating a single document. Others may go as far as redesigning an organsation's internal document management system.
+Every project is different. Some may just involve creating a single document. Others may go as far as redesigning an organisation's internal document management system or web presence.
 
 Most will typically contain elements of the following:
 
