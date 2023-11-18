@@ -13,14 +13,14 @@ When information is designed for the audience:
 
 ### How does information architecture work?
 
+Information architecture brings together three elements:
+
 <aside>
     <figure>
         <img src="{{ site.baseurl }}/assets/img/page-images/triangle.png" alt="People, processes, technology in a triangle">
         <figcaption>The information architecture triangle</figcaption>
     </figure>
 </aside>
-
-Information architecture brings together three elements:
 
 - <b>People</b> - the audience for the information and those who will be processing it
 - <b>Processes</b> - ensuring information is collected, processed and presented as efficiently as possible, with the appropriate controls in place
@@ -32,10 +32,22 @@ The aim is to ensure that accurate, up-to-date information is available and find
 
 Every project is different. Pick from a menu of:
 
-- Review - to explore where your people have pain points with your information
-- Design - to create processes and find technology to help fix your pain points
-- Build - to create information products and templates
-- Train - to help you becoming self-sustaining  
+<details>
+  <summary>Review</summary>
+  <p>To explore where your people have pain points with your information</p>
+</details>
+<details>
+  <summary>Design</summary>
+  <p>To create processes and find technology to help fix your pain points</p>
+</details>
+<details>
+  <summary>Build</summary>
+  <p>To create information products and templates</p>
+</details>
+<details>
+  <summary>Train</summary>
+  <p>To help you becoming self-sustaining</p>
+</details> 
 
 ### Examples
 
