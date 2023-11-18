@@ -62,7 +62,7 @@ Most will typically contain elements of the following:
     <li>Create documents, spreadsheets, web sites, courses, templates etc - as required</li>
     <li>Ensure they meet the style guide</li>
     <li>Ensure products are located correctly in the high-level structure</li>
-    <li>Ensure appropriate links between the products<li>    
+    <li>Ensure appropriate links between the products</li>    
   </ul>
 </details>
 <details>
