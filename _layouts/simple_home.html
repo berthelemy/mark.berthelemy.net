@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+    {% include simple_head.html %}
+    <body>
+        <header>
+            <nav>
+                {% include simple_nav.html %}
+            </nav>
+            <h1>{{ site.title }}</h1>
+            <p>{{ site.description }}</p>
+        </header>
+        <main>
+            {{ content }}
+        </main>        
+        <footer>
+            {% include simple_footer.html %}
+        </footer>
+        
+        
+
+
+        {% include piwik.html %}
+        {% include scripts.html %}
+
+    </body>
+</html>
