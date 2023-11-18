@@ -2,9 +2,14 @@
     --accent: #77228f;
   }
 
+footer nav {
+    margin: 0 auto;
+    text-align: center;
+}
+
 footer nav ul {
     list-style: none;
-    margin: 0 auto;
+    padding: 0;
 }
 
 footer nav ul li {
