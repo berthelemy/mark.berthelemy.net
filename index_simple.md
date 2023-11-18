@@ -18,7 +18,7 @@ Information architecture brings together three elements:
 <aside>
     <figure>
         <img src="{{ site.baseurl }}/assets/img/page-images/triangle.png" alt="People, processes, technology in a triangle">
-        <figcaption>The information architecture triangle</figcaption>
+        <figcaption>Information architecture triangle</figcaption>
     </figure>
 </aside>
 
