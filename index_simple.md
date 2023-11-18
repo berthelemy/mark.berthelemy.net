@@ -74,6 +74,8 @@ Most will typically contain elements of the following:
   </ul>
 </details> 
 
+<a class="button" href="{{ site.baseurl }}/contact">Contact me</a>
+
 ### Examples
 
 - **Structure and write your documents** such as requests for proposals, reports, technical manuals, standard operating procedures and policies
