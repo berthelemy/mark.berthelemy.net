@@ -1,3 +1,13 @@
 :root {
     --accent: #77228f;
   }
+
+footer nav ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+footer nav ul li {
+    display: inline-block;
+    padding: 0 0.5rem;
+}
