@@ -2,39 +2,11 @@
 title: Home
 layout: simple_home
 ---
-		<!-- Wrapper -->
-			<div id="wrapper">
-				{% for page in site.pages %}
-				{% if page.front-page %}
-				<!-- {{ section.name }}-->
-				<section tabindex="-1" id="{{ page.ref }}" class="wrapper {{ page.style }}">
-					{% if page.style contains "spotlights" %}
-						<section>
-							{% endif %}
-					{% if page.img %}
-					<div class="image"><img src="images/{{ page.img }}" alt="{{ page.imgalt }}" data-position="center center" /></div>
-					<div class="content">
-					{% endif %}
-					<div class="inner">
-						{% if page.display-title %}
-						<h2>{{ page.title }}</h2>
-						{% endif %}
+An information architect ensures that your information is <mark>organised</mark> and <mark>presented</mark> in ways that make sense to the audience.
 
-						{{ page.content }}
-
-					</div>
-					{% if page.img %}
-					</div><!-- end of content div -->
-					{% endif %}
-					{% if page.style contains "spotlights" %}
-						<section>
-							{% endif %}
-				</section>
-				{% endif %}
-				{% endfor %}
+When information is designed for the audience, they will want to use it. They will gain value from it. It will be achieving what you'd hoped.
 
 
 
+<img src="assets/img/page-images/web.svg" alt="Connected web of various ideas">
 
-
-			</div>
