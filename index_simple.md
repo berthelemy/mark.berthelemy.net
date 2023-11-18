@@ -30,11 +30,16 @@ The aim is to ensure that accurate, up-to-date information is available and find
 
 ### What do I offer?
 
-Every project is different. Pick from a menu of:
+Every project is different. Most will typically contain elements of the following:
 
 <details>
   <summary>Review</summary>
-  <p>To explore where your people have pain points with your information</p>
+  <ul>
+    <li>Understand the audience</li>
+    <li>Understand the information they need</li>
+    <li>Review how that information is currently organised and presented</li>
+    <li>Review how the information is produced and governed</li>
+  </ul>
 </details>
 <details>
   <summary>Design</summary>
