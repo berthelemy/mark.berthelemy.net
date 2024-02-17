@@ -31,3 +31,8 @@ defaults:
       type: "posts"
     values:
       sitemap: false
+    scope:
+      path: ""
+      type: "lessons"
+    values:
+      layout: default
