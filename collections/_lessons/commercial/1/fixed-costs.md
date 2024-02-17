@@ -16,7 +16,4 @@ List the fixed costs associated with delivering a new service. If you don't have
 
 A **fixed cost** is one that will not change regardless of any other variables (such as the number of people, or the size of the files to be stored).
 
-Examples might include:
-
-- The salary of the senior manager responsible for the service
-- 
+https://en.wikipedia.org/wiki/Fixed_cost

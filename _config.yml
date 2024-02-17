@@ -36,3 +36,4 @@ defaults:
       type: "lessons"
     values:
       layout: default
+      style: style1
