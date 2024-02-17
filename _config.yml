@@ -35,5 +35,5 @@ defaults:
       path: ""
       type: "lessons"
     values:
-      layout: default
+      layout: lesson
       style: style1

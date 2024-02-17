@@ -1,7 +1,7 @@
 ---
 title: Fixed costs
 category: commercial
-level: 1
+level: Novice
 ---
 ## Challenge
 
