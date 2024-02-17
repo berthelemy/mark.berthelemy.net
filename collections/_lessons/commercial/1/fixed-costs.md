@@ -15,9 +15,9 @@ Use a spreadsheet with the following layout:
 
 | Cost item | Estimated amount |
 |---|---|
-|   |   |
-|   |   |
-| **Total fixed costs** |    |
+| Item A  | £--  |
+| Item B  | £--  |
+| **Total fixed costs** | **£--** |
 
 Set the currency of the estimates to match your local currency.
 
