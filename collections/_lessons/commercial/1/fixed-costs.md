@@ -25,4 +25,4 @@ Set the currency of the estimates to match your local currency.
 
 A **fixed cost** is one that will not change regardless of any other variables (such as the number of people, or the size of the files to be stored).
 
-https://en.wikipedia.org/wiki/Fixed_cost
+[Wikipedia: Fixed cost](https://en.wikipedia.org/wiki/Fixed_cost)
