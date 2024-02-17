@@ -12,6 +12,9 @@ domain: mark.berthelemy.net
 collections_dir: collections
 
 collections:
+  lessons:
+    output: true
+    permalink: /:collection/:path
 
 include: ['_pages']
 
