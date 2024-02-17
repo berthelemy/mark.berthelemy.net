@@ -17,6 +17,9 @@ layout: default
 
 {%- assign category = page.category -%}
 {%- for lesson in site.lessons | where: "category",category -%}
+{%- if lesson.url != page.url -%}
+{%- if lesson.level == page.level -%}
 <h3><a href="{{ lesson.url }}">{{ lesson.title }}</a></h3>
 <p>Level: {{ lesson.level }}</p>
+{%- endif -%}
 {%- endfor -%}
