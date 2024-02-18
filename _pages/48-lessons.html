@@ -11,7 +11,13 @@ imgalt:
 front-page: true
 layout: default
 ---
-
-{%- for lesson in site.lessons -%}
-<h3><a href="{{ lesson.url }}">{{ lesson.title }}</a></h3>
+{%- assign lessons = site.lessons | group_by: "category" -%}
+{%- for category.name in lessons -%}
+<h2>{{ category }}</h2>
+<ul>
+{%- for item in category.items -%}
+{%- for }
+<li><a href="{{ itel.url }}">{{ item.title }}</a></li>
+{%- endfor -%}
+</ul>
 {%- endfor -%}
