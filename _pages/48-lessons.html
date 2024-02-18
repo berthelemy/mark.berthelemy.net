@@ -3,7 +3,7 @@ title: Lessons
 layout: default
 permalink: /lessons
 active: true
-display-title: true
+display-title: false
 ref: lessons
 style: style1
 img:
@@ -15,6 +15,7 @@ layout: default
 <h2>{{ cat }}</h2>
 <ul>
 {%- for lesson in site.lessons -%}
+{{ lesson.category }}<br />
 {%- if lesson.category == cat -%}
 <li><a href="{{ lesson.url }}">{{ lesson.title }}</a></li>
 {%- endif -%}
