@@ -14,16 +14,37 @@ layout: simple_default
 <hr>
 <h3>Related lessons</h3>
 
-<ul>
+<h4>In this category: {{ page.category }}</h4>
+
 {%- assign category = page.category -%}
+{%- for level in site.levels -%}
+<h5>Level: {{ level }}</h5>
+<ul>
 {%- for lesson in site.lessons | where: "category",category -%}
 {%- if lesson.url != page.url -%}
-{%- if lesson.level == page.level -%}
+{%- if lesson.level == level -%}
 <li><a href="{{ lesson.url }}">{{ lesson.title }}</a></li>
 {%- endif -%}
 {%- endif -%}
 {%- endfor -%}
 </ul>
+{%- endfor -%}
+
+
+<h4>At this level: {{ page.level }}</h4>
+
+<ul>
+    {%- assign level = page.level -%}
+    {%- for lesson in site.lessons | where: "level",level -%}
+    {%- if lesson.url != page.url -%}
+    {%- if lesson.level == page.level -%}
+    <li><a href="{{ lesson.url }}">{{ lesson.title }}</a></li>
+    {%- endif -%}
+    {%- endif -%}
+    {%- endfor -%}
+    </ul>
+
+
 
 <hr>
 {%- if page.previous.url -%}
