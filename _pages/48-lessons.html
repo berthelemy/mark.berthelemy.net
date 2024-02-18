@@ -12,18 +12,14 @@ front-page: true
 layout: default
 ---
 {%- assign lessons = site.lessons | group_by: "category" -%}
-{% for lesson in lessons %}
-{{ lesson.name }}
-{{ lesson.items }}
-{% endfor %}
+
 {%- for cat in site.categories-order -%}
-Categories: {{ cat }}
-{% assign currentCat = lessons | where: 'name', cat | first %}
-Current category: {{ currentCat }}
-<h2>{{ currentCat.name }}</h2>
+<h2>{{ cat }}</h2>
 <ul>
-{%- for item in currentCat.items -%}
+{%- for lesson in lessons -%}
+{%- if lesson.category == cat -%}
 <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+{%- endif -%}
 {%- endfor -%}
 </ul>
 {%- endfor -%}
