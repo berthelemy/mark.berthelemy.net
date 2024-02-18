@@ -33,9 +33,11 @@ layout: simple_default
 
 <h4>At this level: {{ page.level }}</h4>
 
+{%- assign lessons-by-category = site.lessons | group_by: "category" -%}
+{%- for category in lessons-by-category -%}
+<h5>Category: {{ category.name }}</h5>
 <ul>
-    {%- assign level = page.level -%}
-    {%- for lesson in site.lessons | where: "level",level -%}
+    {%- for lesson in category.items -%}
     {%- if lesson.url != page.url -%}
     {%- if lesson.level == page.level -%}
     <li><a href="{{ lesson.url }}">{{ lesson.title }}</a></li>
@@ -43,6 +45,7 @@ layout: simple_default
     {%- endif -%}
     {%- endfor -%}
     </ul>
+    {%- endfor -%}
 
 
 
