@@ -11,12 +11,10 @@ imgalt:
 front-page: true
 layout: default
 ---
-{%- assign lessons = site.lessons | group_by: "category" -%}
-
 {%- for cat in site.categories-order -%}
 <h2>{{ cat }}</h2>
 <ul>
-{%- for lesson in lessons -%}
+{%- for lesson in site.lessons -%}
 {%- if lesson.category == cat -%}
 <li><a href="{{ lesson.url }}">{{ lesson.title }}</a></li>
 {%- endif -%}
