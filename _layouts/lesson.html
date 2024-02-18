@@ -31,21 +31,6 @@ layout: simple_default
 </ul>
 {%- endfor -%}
 
-{%- assign lessons-by-level = site.lessons | group_by: "level" -%}
-{%- for level in lessons-by-level -%}
-<h5>Level: {{ level.name }}</h5>
-<ul>
-    {%- for lesson in level.items -%}
-    {%- if lesson.url != page.url -%}
-    {%- if lesson.category == page.category -%}
-    <li><a href="{{ lesson.url }}">{{ lesson.title }}</a></li>
-    {%- endif -%}
-    {%- endif -%}
-    {%- endfor -%}
-    </ul>
-    {%- endfor -%}
-
-
 
 <h4>At this level: {{ page.level }}</h4>
 
