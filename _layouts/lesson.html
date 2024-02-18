@@ -1,19 +1,18 @@
 ---
 layout: simple_default
 ---
-<p>Level: {{ page.level }}</p>
-
-<ul>
-    <li><strong>Novice</strong>: Zero or very little experience in this subject area</li>
-    <li><strong>Intermediate</strong>: Has done some work in this area</li>
-    <li><strong>Advanced</strong>: Has done a lot of work in this area</li>
-</ul>
+<aside>
+    <p>Level: {{ page.level }}</p>
+</aside>
 
 {{ content }}
 
+<hr>
+
 <p>To receive feedback and ask questions, join my coaching programme.</p>
 
-<h2>Related lessons</h2>
+<hr>
+<h3>Related lessons</h3>
 
 <ul>
 {%- assign category = page.category -%}
@@ -21,12 +20,12 @@ layout: simple_default
 {%- if lesson.url != page.url -%}
 {%- if lesson.level == page.level -%}
 <li><a href="{{ lesson.url }}">{{ lesson.title }}</a></li>
-<p>Level: {{ lesson.level }}</p>
 {%- endif -%}
 {%- endif -%}
 {%- endfor -%}
 </ul>
 
+<hr>
 {%- if page.previous.url -%}
     <div>Previous lesson: <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></div>
 {%- endif -%}
