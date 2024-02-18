@@ -12,7 +12,9 @@ front-page: true
 layout: default
 ---
 {%- assign lessons = site.lessons | group_by: "category" -%}
-Lessons: {{ lessons }}
+{% for lesson in lessons %}
+{{ lesson.name }}
+{{ lesson.items }}
 {%- for cat in site.categories-order -%}
 Categories: {{ cat }}
 {% assign currentCat = lessons | where: 'name', cat | first %}
