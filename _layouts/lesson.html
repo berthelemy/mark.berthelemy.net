@@ -16,6 +16,21 @@ layout: simple_default
 
 <h4>In this category: {{ page.category }}</h4>
 
+{%- for level in site.levels -%}
+<h5>Level: {{ level }}</h5>
+<ul>
+{%- for lesson in site.lessons -%}
+{%- if lesson.category == page.category -%}
+{%- if lesson.url != page.url -%}
+{%- if lesson.level == level -%}
+<li><a href="{{ lesson.url }}">{{ lesson.title }}</a></li>
+{%- endif -%}
+{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+</ul>
+{%- endfor -%}
+
 {%- assign lessons-by-level = site.lessons | group_by: "level" -%}
 {%- for level in lessons-by-level -%}
 <h5>Level: {{ level.name }}</h5>
