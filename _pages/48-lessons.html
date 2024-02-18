@@ -11,8 +11,9 @@ imgalt:
 front-page: true
 layout: simple_default
 ---
+<h3>By level</h3>
 {%- for level in site.levels-order -%}
-<h3>{{ level }}</h3>
+<h4>{{ level }}</h4>
 <ul>
 {%- for lesson in site.lessons -%}
 {%- if lesson.level == level -%}
@@ -21,3 +22,16 @@ layout: simple_default
 {%- endfor -%}
 </ul>
 {%- endfor -%}
+
+<h3>By category</h3>
+{%- assign lessons-by-category = site.lessons | group_by: "category" -%}
+{%- for category in lessons-by-category -%}
+<h4>Category: {{ category.name }}</h4>
+<ul>
+    {%- for lesson in category.items -%}
+    <li><a href="{{ lesson.url }}">{{ lesson.title }}</a></li>
+    {%- endif -%}
+    {%- endif -%}
+    {%- endfor -%}
+    </ul>
+    {%- endfor -%}
