@@ -3,13 +3,13 @@ title: Variable costs
 category: Commercial
 level: Novice
 ---
-## Challenge
+### Challenge
 
 Estimate the variable costs associated with delivering a new service. If you don't have a service in mind, then go with this one:
 
 > Your organisation is proposing to provide online and face-to-face training for a large, public-sector organisation. 
 
-## Acceptance criteria
+### Acceptance criteria
 
 Use a spreadsheet with the following layout:
 
@@ -23,7 +23,7 @@ A unit is the thing that will vary.
 
 Set the currency of the estimates to match your local currency.
 
-## Resources
+### Resources
 
 A **variable cost** is one that will change as the number of the things delivered goes up or down.
 
