@@ -11,7 +11,8 @@
             <p>{{ site.simple_description }}</p>
         </header>
         <main>
-            {{ content }}
+            <h2>{{ page.title }}</h2>
+            {{ page.content }}
         </main>        
         <footer>
             {% include simple_footer.html %}
