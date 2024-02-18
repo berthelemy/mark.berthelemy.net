@@ -16,6 +16,11 @@ collections:
     output: true
     permalink: /:collection/:path
 
+categories-order:
+ - Novice
+ - Intermediate
+ - Advanced
+
 include: ['_pages']
 
 plugins:

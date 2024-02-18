@@ -12,10 +12,11 @@ front-page: true
 layout: default
 ---
 {%- assign lessons = site.lessons | group_by: "category" -%}
-{%- for category.name in lessons -%}
-<h2>{{ category }}</h2>
+{%- for cat in site.categories-order -%}
+{% assign currentCat = lessons | where: 'name', cat | first %}
+<h2>{{ currentCat.name }}</h2>
 <ul>
-{%- for item in category.items -%}
+{%- for item in currentCat.items -%}
 <li><a href="{{ itel.url }}">{{ item.title }}</a></li>
 {%- endfor -%}
 </ul>
