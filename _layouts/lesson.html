@@ -28,8 +28,8 @@ layout: default
 </ul>
 
 {%- if page.previous.url -%}
-    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+    <div>Previous lesson: <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></div>
 {%- endif -%}
 {%- if page.next.url -%}
-        <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+        <div>Next lesson: <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a></div>
 {%- endif -%}
