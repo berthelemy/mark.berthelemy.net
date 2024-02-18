@@ -16,7 +16,7 @@ layout: simple_default
 
 <h4>In this category: {{ page.category }}</h4>
 
-{%- for level in site.levels -%}
+{%- for level in site.levels-order -%}
 <h5>Level: {{ level }}</h5>
 <ul>
 {%- for lesson in site.lessons -%}
