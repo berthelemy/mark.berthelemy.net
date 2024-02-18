@@ -1,6 +1,6 @@
 ---
 title: Variable costs
-category: commercial
+category: Commercial
 level: Novice
 ---
 ## Challenge

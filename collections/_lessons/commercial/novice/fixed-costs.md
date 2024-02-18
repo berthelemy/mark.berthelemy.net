@@ -1,6 +1,6 @@
 ---
 title: Fixed costs
-category: commercial
+category: Commercial
 level: Novice
 ---
 ## Challenge

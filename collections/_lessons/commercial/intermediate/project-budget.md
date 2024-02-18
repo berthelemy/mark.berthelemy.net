@@ -1,6 +1,6 @@
 ---
 title: Project budget
-category: commercial
+category: Commercial
 level: Intermediate
 ---
 ## Challenge
