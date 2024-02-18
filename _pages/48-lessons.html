@@ -15,6 +15,7 @@ layout: default
 {% for lesson in lessons %}
 {{ lesson.name }}
 {{ lesson.items }}
+{% endfor %}
 {%- for cat in site.categories-order -%}
 Categories: {{ cat }}
 {% assign currentCat = lessons | where: 'name', cat | first %}
