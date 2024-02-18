@@ -11,12 +11,11 @@ imgalt:
 front-page: true
 layout: default
 ---
-{%- for cat in site.categories-order -%}
-<h2>{{ cat }}</h2>
+{%- for level in site.levels-order -%}
+<h2>{{ level }}</h2>
 <ul>
 {%- for lesson in site.lessons -%}
-{{ lesson.category }}<br />
-{%- if lesson.category == cat -%}
+{%- if lesson.level == level -%}
 <li><a href="{{ lesson.url }}">{{ lesson.title }}</a></li>
 {%- endif -%}
 {%- endfor -%}

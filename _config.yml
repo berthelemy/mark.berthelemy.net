@@ -16,7 +16,7 @@ collections:
     output: true
     permalink: /:collection/:path
 
-categories-order:
+levels-order:
  - Novice
  - Intermediate
  - Advanced
