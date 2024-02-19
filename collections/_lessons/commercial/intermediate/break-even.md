@@ -1,6 +1,6 @@
 ---
 title: Pricing mode
-category: Products
+category: Commercial
 level: Intermediate
 ---
 ### Challenge

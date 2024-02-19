@@ -1,6 +1,6 @@
 ---
 title: Product budget
-category: Products
+category: Commercial
 level: Intermediate
 ---
 ### Challenge
