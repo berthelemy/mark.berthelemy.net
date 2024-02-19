@@ -33,3 +33,22 @@ layout: simple_default
     {%- endfor -%}
     </ul>
     {%- endfor -%}
+
+<table>
+    <thead>
+        <th>Novice</th>
+        <th>Intermediate</th>
+        <th>Advanced</th>
+    </thead>
+{%- for category in lessons-by-category -%}
+<tr>
+    <td>{{ category.name }}</td>
+
+{%- assign lessons-by-level = category.items | group_by: "level" -%}
+<td>
+{%- for lesson in lessons-by-level.items -%}
+<p><a href="{{ lesson.url }}">{{ lesson.title }}</a></p>
+</td>
+</tr>
+
+</table>
