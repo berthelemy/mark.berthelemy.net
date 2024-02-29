@@ -1,9 +1,12 @@
 header {
-    color: #fff);
     background-image: url("/assets/img/page-images/background-dots.png");
     height: 150px;
     background-size: contain;
     background-repeat: repeat-y;
+}
+
+header h1 {
+    color: #fff;
 }
 
 footer nav {
