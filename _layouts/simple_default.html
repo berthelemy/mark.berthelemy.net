@@ -3,22 +3,25 @@
 <html lang="en">
     {% include simple_head.html %}
     <body>
+        
         <header>
             <nav>
                 {% include simple_nav.html %}
             </nav>
-            <h1>{{ site.title }}</h1>
-            <p>{{ site.simple_description }}</p>
+            
         </header>
         <main class="container">
+            <h1>{{ site.title }}</h1>
+            <p>{{ site.simple_description }}</p>
             <h2>{{ page.title }}</h2>
             
             {{ content }}
             
-        </main>        
+        </main>      
         <footer>
             {% include simple_footer.html %}
         </footer>
+    
         
         
 
