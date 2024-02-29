@@ -3,17 +3,17 @@
 <html lang="en">
     {% include simple_head.html %}
     <body>
-        
+        <nav class="container-fluid">
+            {% include simple_nav.html %}
+        </nav>
         <header>
-            <nav class="container-fluid">
-                {% include simple_nav.html %}
-            </nav>
-            </div>
+            
+            <p>{{ site.simple_description }}</p>
             
         </header>
         <main class="container">
             <h1>{{ site.title }}</h1>
-            <p>{{ site.simple_description }}</p>
+            
             <h2>{{ page.title }}</h2>
             
             {{ content }}
