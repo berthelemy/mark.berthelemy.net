@@ -43,6 +43,9 @@ body>header {
   }
   
   @media (width < 48em) {
+    body>header {
+       padding-top: 100px;
+      }
       nav.container-fluid {
         font-size: 1.7rem;  
         flex-wrap: wrap;
