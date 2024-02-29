@@ -1,19 +1,9 @@
-:root {
-    --accent: #77228f;
-    --background-color: #fff;
-  }
-
 header {
     text-align: center;
     background-image: url("/assets/img/page-images/background-dots.png");
-    height: 200px;
+    height: 150px;
     background-size: contain;
     background-repeat: repeat-y;
-}
-
-header p {
-    font-size: 4vw;
-    color: white;
 }
 
 footer nav {
@@ -37,7 +27,7 @@ body>header {
   }
   
   nav.container-fluid {
-      background-color: var(--background-color);
+      background-color: var(--pico-background-color);
     position: fixed;
     /* remove the 'flex-direction' to move menu to the right */
     /*flex-direction: row-reverse;*/
@@ -66,7 +56,7 @@ body>header {
               transition: max-height 0.3s ease-out;
         box-shadow: 0px 3px 8px;
         margin: 10px 10px;
-        background-color: tan;
+        background-color: var(--pico-background-color);
         & li {
           width: 100%;
         }
@@ -74,7 +64,7 @@ body>header {
           display: block;
         }
         & a:hover {
-          background-color: yellow;
+          background-color: var(--pico-primary-hover);
         }
           }
       & .menu-btn:checked ~ .menu {
