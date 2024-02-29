@@ -9,8 +9,8 @@ header {
         to bottom,
         rgb(255 255 0 / 50%),
         rgb(0 0 255 / 50%)
-      ), url("/assets/img/page-images/apocalypse-483425_1280.jpg");
-    height: 100px;
+      ), url("/assets/img/page-images/background-dots.png"), repeat-y;
+    height: 200px;
     object-fit: cover;
 }
 
