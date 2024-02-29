@@ -5,6 +5,13 @@
 
 header {
     text-align: center;
+    background-image: linear-gradient(
+        to bottom,
+        rgb(255 255 0 / 50%),
+        rgb(0 0 255 / 50%)
+      ), url("/assets/img/page-images/apocalypse-483425_1280.jpg");
+    height: 100px;
+    object-fit: cover;
 }
 
 header p {
@@ -32,7 +39,7 @@ body>header {
     padding-top: 80px;
   }
   
-  nav.container {
+  nav.container-fluid {
       background-color: var(--background-color);
     position: fixed;
     /* remove the 'flex-direction' to move menu to the right */
