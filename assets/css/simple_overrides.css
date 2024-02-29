@@ -29,7 +29,7 @@ body>header {
     /* remove the 'flex-direction' to move menu to the right */
     /*flex-direction: row-reverse;*/
       z-index: 1;
-      overflow: hidden;
+     /* overflow: hidden;*/
       align-items: center;
   }
   
