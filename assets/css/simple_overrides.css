@@ -3,6 +3,15 @@
     --background-color: #fff;
   }
 
+header {
+    text-align: center;
+}
+
+header p {
+    font-size: 2vw;
+    color: var(--accent);
+}
+
 footer nav {
     margin: 0 auto;
     text-align: center;
