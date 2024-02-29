@@ -44,7 +44,8 @@ body>header {
   
   @media (width < 48em) {
       nav.container-fluid {
-          flex-wrap: wrap;
+        font-size: 1.7rem;  
+        flex-wrap: wrap;
           & .menu-icon {
               display:block;
           }
@@ -64,7 +65,7 @@ body>header {
           display: block;
         }
         & a:hover {
-          background-color: var(--pico-primary-hover);
+          background-color: var(--pico-primary-hover-background);
         }
           }
       & .menu-btn:checked ~ .menu {
