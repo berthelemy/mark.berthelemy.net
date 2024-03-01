@@ -67,6 +67,19 @@ body>header {
       cursor: pointer;
       user-select: none;
   }
+
+  .tag-link {
+    background-color:var(--pico-primary-inverse);
+    border: none;
+    color:var(--pico-primary-background);
+    font-size: 0.6em;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 2px;
+    border-radius: 3px;
+  }
   
   @media (width < 48em) {
     body>header {
