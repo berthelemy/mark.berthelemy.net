@@ -20,4 +20,4 @@ Please note that cookies don't allow me to gain control of your computer in any 
 
 If you want to disable cookies, you can do it by accessing the settings of your internet browser. You can visit https://www.internetcookies.com, which contains comprehensive information on how to do this on a wide variety of browsers and devices.
 
-Source: <a href="https://www.websitepolicies.com/website/sample-privacy-policy-template" target="_blank">Web site policies</a
+Source: <a href="https://www.websitepolicies.com/website/sample-privacy-policy-template" target="_blank">Web site policies</a>

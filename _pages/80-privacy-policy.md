@@ -53,4 +53,4 @@ If you have already agreed to share your information with me, feel free to conta
 
 I will not lease, sell or distribute your personal information to any third parties, unless I have your permission. I might do so if the law forces me. Your personal information will be used when I need to send you promotional materials if you agree to this privacy policy. 
 
-Source: <a href="https://www.websitepolicies.com/website/sample-privacy-policy-template" target="_blank">Web site policies</a
+Source: <a href="https://www.websitepolicies.com/website/sample-privacy-policy-template" target="_blank">Web site policies</a>
