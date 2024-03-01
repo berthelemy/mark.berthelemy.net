@@ -11,12 +11,26 @@ imgalt:
 front-page: true
 ---
 
+{%- assign count = 0 -%}
 {%- assign resources-by-category = site.resources | group_by: "category" -%}
 {%- for category in resources-by-category -%}
-<h2>{{ category.name }}</h2>
+{%- if count==0 -%}
+<div class="grid">
+{%- endif -%}
+<div><article><header><h2>{{ category.name }}</h2></header>
 <ul>
     {%- for resource in category.items -%}
     <li><a href="{{ resource.url }}">{{ resource.title }}</a></li>
     {%- endfor -%}
     </ul>
+</article></div>
+{%- count = count | plus:1 -%}
+{%- if count == 3 -%}
+{%- assign count = 0 -%}
+</div>
+{%- endif -%}
     {%- endfor -%}
+    
+{%- if count != 3 -%}    
+</div>
+{%- endif -%}
