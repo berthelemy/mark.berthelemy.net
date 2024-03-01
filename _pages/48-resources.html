@@ -15,8 +15,9 @@ front-page: true
 {%- assign resources-by-category = site.resources | group_by: "category" -%}
 {%- for category in resources-by-category -%}
 
-<div class="grid">
-{%- endif -%}
+
+
+
 <div><article><header><h2>{{ category.name }}</h2></header>
 <ul>
     {%- for resource in category.items -%}
