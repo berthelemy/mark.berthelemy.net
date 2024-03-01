@@ -1,0 +1,22 @@
+---
+title: Resources
+layout: simple_default
+permalink: /resources
+active: true
+display-title: false
+ref: lessons
+style: style1
+img:
+imgalt:
+front-page: true
+---
+
+{%- assign resources-by-category = site.resources | group_by: "category" -%}
+{%- for category in resources-by-category -%}
+<h2>{{ category.name }}</h2>
+<ul>
+    {%- for resource in category.items -%}
+    <li><a href="{{ resource.url }}">{{ resource.title }}</a></li>
+    {%- endfor -%}
+    </ul>
+    {%- endfor -%}

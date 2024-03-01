@@ -15,6 +15,9 @@ collections:
   lessons:
     output: true
     permalink: /:collection/:path
+  resources:
+    output: true
+    permalink: /:collection/:path
 
 levels-order:
  - Novice
