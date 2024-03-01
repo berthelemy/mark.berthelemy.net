@@ -14,6 +14,10 @@ div.grid>a:has(button) {
     margin-right: auto
 }
 
+div#cta {
+    margin-top: var(--pico-spacing);
+}
+
 footer {
     font-size: 80%;
 }
