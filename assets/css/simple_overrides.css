@@ -13,15 +13,19 @@ footer {
     font-size: 80%;
 }
 
+footer h2 {
+    font-size: 80%;
+}
+
 p.centred {
     text-align: center;
 }
 
-footer div.grid:first-child {
+footer>div.grid:first-child {
     border-right: 1px solid var(--pico-muted-color);
 }
 
-footer div.grid:last-child {
+footer>div.grid:last-child {
     border-left: 1px solid var(--pico-muted-color);
 }
 
