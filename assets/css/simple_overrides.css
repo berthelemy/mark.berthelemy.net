@@ -74,9 +74,9 @@ div.button-group {
 }
 
   .tag-link {
-    background-color:var(--pico-primary-inverse);
+    background-color:var(--pico-primary-backgroun);
     border: none;
-    color:var(--pico-primary-background);
+    color:var(--pico-primary-inverse);
     font-size: 0.6em;
     padding: 2px 2px;
     text-align: center;
