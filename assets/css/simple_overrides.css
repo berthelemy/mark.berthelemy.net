@@ -68,6 +68,11 @@ body>header {
       user-select: none;
   }
 
+div.button-group {
+    width: 100%;
+    overflow-x: auto;
+}
+
   .tag-link {
     background-color:var(--pico-primary-inverse);
     border: none;
