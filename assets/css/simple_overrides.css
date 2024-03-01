@@ -9,20 +9,14 @@ header#main-header h1 {
     color: #fff;
 }
 
-footer nav {
-    margin: 0 auto;
+footer {
     text-align: center;
 }
 
-footer nav ul {
-    list-style: none;
-    padding: 0;
+footer>nav {
+    text-align: center;
 }
 
-footer nav ul li {
-    display: inline-block;
-    padding: 0 0.5rem;
-}
 
 body>header {
     /* usefule when "position: fixed" is turned-on */
@@ -34,7 +28,7 @@ body>header {
     border-bottom: 1px solid var(--pico-muted-color);
   }
   
-  nav.container-fluid {
+  nav#main-menu.container-fluid {
       background-color: var(--pico-background-color);
     position: fixed;
     /* remove the 'flex-direction' to move menu to the right */
@@ -54,7 +48,7 @@ body>header {
     body>header {
        padding-top: 120px;
       }
-      nav.container-fluid {
+      nav#main-menu.container-fluid {
         font-size: 1.7rem;  
         flex-wrap: wrap;
           & .menu-icon {
