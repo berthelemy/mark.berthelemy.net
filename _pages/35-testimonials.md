@@ -1,7 +1,7 @@
 ---
 title: Testimonials
 display-title: false
-active: true
+active: false
 ref: about
 style: style2
 front-page: true
