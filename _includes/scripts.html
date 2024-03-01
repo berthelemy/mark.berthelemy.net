@@ -62,9 +62,9 @@
 <script>
   jQuery(document).ready(function($) {
 
-    {% if page.isotope == true %}
-
     $("#wrapper a[href^='https://']").attr("target","_blank");
+
+    {% if page.isotope == true %}
     $(".all-portfolios").isotope({
       itemSelector: '.single-portfolio',
       layoutMode: 'fitRows',
@@ -103,11 +103,11 @@
       });
       return false;
     });
-
+    {% endif %}
 
   });
 
-  {% endif %}
+ 
 
   {% if page.datatable == 'bibliography' %}
   $('#bibliography').dataTable({
