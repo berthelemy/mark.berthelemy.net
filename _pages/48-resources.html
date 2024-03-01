@@ -14,7 +14,7 @@ front-page: true
 {%- assign count = 0 -%}
 {%- assign resources-by-category = site.resources | group_by: "category" -%}
 {%- for category in resources-by-category -%}
-{%- if count==0 -%}
+{%- if count == 0 -%}
 <div class="grid">
 {%- endif -%}
 <div><article><header><h2>{{ category.name }}</h2></header>
