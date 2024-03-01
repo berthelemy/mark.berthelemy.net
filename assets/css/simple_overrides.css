@@ -23,10 +23,12 @@ p.centred {
 
 footer>div.grid div:first-child {
     border-right: 1px solid var(--pico-muted-color);
+    padding-right: var(--pico-spacing);
 }
 
 footer>div.grid div:last-child {
     border-left: 1px solid var(--pico-muted-color);
+    padding-left: var(--pico-spacing);
 }
 
 
@@ -91,4 +93,13 @@ body>header {
         max-height: 100vh;
       }
       }
+      footer>div.grid div:first-child {
+        border-right: none;
+        padding-right: inherit;
+    }
+    
+    footer>div.grid div:last-child {
+        border-left: none;
+        padding-left: inherit;
+    }
   }
