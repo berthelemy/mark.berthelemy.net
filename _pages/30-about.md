@@ -10,6 +10,9 @@ permalink: /about
 
 
 ---
+<div class="grid">
+  <div markdown="1">
+  
 I am an experienced technology consultant, project manager, digital product owner, solution architect, communicator and musician ([visit my teaching website](https://musique.berthelemy.net)).
 
 What do I bring to organisations I work with?
@@ -21,10 +24,22 @@ What do I bring to organisations I work with?
 - Excellent facilitation, requirements gathering, troubleshooting and communications skills
 - An ability to sell - through bid-writing, conversations, workshops and presentations
 - Experience across public, private and charity sectors, in large and small organisations
+  
+  </div>
+  <div>
+  <img src="/assets/img/page-images/mark-portrait.png" alt="Portrait of a man wearing a coat" />
+  </div>
+</div>
 
+<div class="grid">
+  <div markdown="1">
+    
 ### Skills
 
 Strategy, supplier procurement, information architecture, learning design, user experience design, project management, data analysis, data migration, Learning management systems, content management systems, wikis
+
+  </div>
+  <div markdown="1">
 
 ### I have worked with...
 
@@ -33,12 +48,14 @@ Strategy, supplier procurement, information architecture, learning design, user 
 - Large corporations
 - Small companies
 - Local authorities
-- Government agencies
+- Government agencies  
 
-<a href="https://www.linkedin.com/in/markberthelemy/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn profile</a>
+  </div>
+</div>
 
 
 <ul class="actions">
-  <li><a href="/services" class="l4 button scrolly">Services</a></li>
-  <li><a href="/contact" class="l6 button scrolly primary">Get in touch</a></li>
+  
+  <li><button><a href="/contact" class="l6 button scrolly primary">Get in touch</a></button></li>
+  <li><button class="outline"><a href="/services" class="l4 button scrolly">Services</a></button></li>
 </ul>
