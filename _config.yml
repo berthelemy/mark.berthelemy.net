@@ -45,3 +45,8 @@ defaults:
     values:
       layout: lesson
       style: style1
+    scope:
+      path: ""
+      type: "resources"
+    values:
+      layout: resource
