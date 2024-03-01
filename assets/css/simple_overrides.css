@@ -47,6 +47,7 @@ body>header {
   @media (width < 48em) {
     body>header {
        padding-top: 120px;
+       height: 180px;
       }
       nav#main-menu.container-fluid {
         font-size: 1.7rem;  
