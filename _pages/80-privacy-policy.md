@@ -12,7 +12,6 @@ permalink: /privacy
 
 
 ---
-
 This privacy policy ("policy") will help you understand how Mark Berthelemy ("I", "my") uses and protects the data you provide to us when you visit and use https://mark.berthelemy.net ("website", "service").
 
 I reserve the right to change this policy at any given time. If you want to make sure that you are up to date with the latest changes, I advise you to frequently visit this page.
