@@ -33,10 +33,10 @@ permalink: /articles
 {%- endif -%}
     <div class="single-portfolio {{ tags }}">
         <article>
-          <header><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></header>
+          <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
           {% for tag in post.tags %}
           <span class="tag-link">{{ tag }}</span>
-          {% endfor %}<br>
+          {% endfor %}
           <!--<span class="small">Posted: {{ post.date | date_to_long_string }}</span>-->
         </article>
     </div><!-- end article -->
@@ -45,7 +45,7 @@ permalink: /articles
   {%- if count == 3 -%}
   {%- assign count = 0 -%}
   </div> <!-- end of row -->
-  
+
   {%- endif -%}
     {% endfor %}
 
