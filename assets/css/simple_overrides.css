@@ -18,6 +18,10 @@ div#cta {
     margin-top: var(--pico-spacing);
 }
 
+div.single-portfolio {
+    width: 33%; /* fix for isotope */
+}
+
 footer {
     font-size: 80%;
 }
