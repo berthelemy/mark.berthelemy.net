@@ -9,6 +9,11 @@ header#main-header h1 {
     color: #fff;
 }
 
+div.grid>a:has(button) {
+    margin-left: auto;
+    margin-right: auto
+}
+
 footer {
     font-size: 80%;
 }
