@@ -9,12 +9,12 @@ header#main-header h1 {
     color: #fff;
 }
 
-p.centred {
-    text-align: center;
+footer {
+    font-size: 80%;
 }
 
-footer h2 {
-    font-size: 90%;
+p.centred {
+    text-align: center;
 }
 
 footer div.grid:first-child {
