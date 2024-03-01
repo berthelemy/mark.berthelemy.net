@@ -21,11 +21,11 @@ p.centred {
     text-align: center;
 }
 
-footer>div.grid:first-child {
+footer>div.grid div:first-child {
     border-right: 1px solid var(--pico-muted-color);
 }
 
-footer>div.grid:last-child {
+footer>div.grid div:last-child {
     border-left: 1px solid var(--pico-muted-color);
 }
 
