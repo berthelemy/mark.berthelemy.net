@@ -11,6 +11,7 @@ imgalt:
 front-page: true
 ---
 
+{%- assign count = 0 -%}
 
 {%- assign resources-by-category = site.resources | group_by: "category" -%}
 {%- for category in resources-by-category -%}
@@ -26,7 +27,7 @@ front-page: true
     {%- endfor -%}
     </ul>
 </article></div>
-{%- count = count | plus:1 -%}
+{%- assign count = count | plus:1 -%}
 {%- if count == 3 -%}
 {%- assign count = 0 -%}
 </div>
