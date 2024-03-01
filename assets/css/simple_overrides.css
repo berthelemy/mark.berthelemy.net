@@ -26,7 +26,8 @@ footer nav ul li {
 
 body>header {
     /* usefule when "position: fixed" is turned-on */
-    padding-top: 80px;
+    padding-top: 100px;
+    height:180px;
   }
   
   nav.container-fluid {
@@ -47,7 +48,7 @@ body>header {
   
   @media (width < 48em) {
     body>header {
-       padding-top: 100px;
+       padding-top: 120px;
       }
       nav.container-fluid {
         font-size: 1.7rem;  
