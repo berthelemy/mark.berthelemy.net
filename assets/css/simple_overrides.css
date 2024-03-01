@@ -133,4 +133,7 @@ div.button-group {
         border-left: none;
         padding-left: inherit;
     }
+    div.single-portfolio {
+        width: inherit; /* fix for isotope */
+    }
   }
