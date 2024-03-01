@@ -9,13 +9,22 @@ header#main-header h1 {
     color: #fff;
 }
 
-footer p {
+p.centred {
     text-align: center;
 }
 
 footer h2 {
     font-size: 90%;
 }
+
+footer div.grid:first-child {
+    border-right: 1px solid var(--pico-muted-color);
+}
+
+footer div.grid:last-child {
+    border-left: 1px solid var(--pico-muted-color);
+}
+
 
 
 body>header {
