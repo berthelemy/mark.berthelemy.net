@@ -134,6 +134,6 @@ div.button-group {
         padding-left: inherit;
     }
     div.single-portfolio {
-        width: inherit; /* fix for isotope */
+        width: 100%; /* fix for isotope */
     }
   }
