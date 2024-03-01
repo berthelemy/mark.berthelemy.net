@@ -12,7 +12,7 @@ layout: simple_default
 permalink: /articles
 ---
 <div class="button-group text-center">
-    <div class="filter">
+    <div class="filter" role="group">
         <button class="active button" data-filter="*">All</button>
         {% assign tags = site.tags | sort %}
         {% for tag in tags %}
