@@ -5,7 +5,7 @@ active: true
 ref: about
 style: style2
 front-page: true
-layout: default
+layout: simple_default
 permalink: /testimonials
 
 
