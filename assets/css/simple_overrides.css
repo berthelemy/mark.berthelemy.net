@@ -29,6 +29,10 @@ body>header {
     padding-top: 100px;
     height:180px;
   }
+
+  nav#main-menu {
+    border-bottom: 1px solid var(--pico-muted-color);
+  }
   
   nav.container-fluid {
       background-color: var(--pico-background-color);
