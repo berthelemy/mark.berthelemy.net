@@ -9,11 +9,13 @@ header#main-header h1 {
     color: #fff;
 }
 
-footer {
+footer p {
     text-align: center;
 }
 
-
+footer h2 {
+    font-size: 90%;
+}
 
 
 body>header {
