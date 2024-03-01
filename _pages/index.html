@@ -8,12 +8,19 @@ front-page: true
 layout: simple_default
 permalink: /
 ---
-<img class="home-image" src="assets/img/page-images/web.svg" alt="Connected web of various ideas" />
-<h1>{{ site.title }}</h1>
-<h2>{{ site.description }}</h2>
+<div class="grid">
+  <div>
+    <h2>{{ site.description }}</h2>
+  </div>
+  <div>
+    <img class="home-image" src="assets/img/page-images/web.svg" alt="Connected web of various ideas" />
+  </div>
+</div>
 
-<ul class="actions">
-  <li><a href="/about" class="l3 button scrolly ">About me</a></li>
-  <li><a href="/services" class="l3 button scrolly ">Services</a></li>
-  <li><a href="/contact" class="l6 button scrolly primary">Get in touch</a></li>
-</ul>
+
+<div class="grid">  
+  <a href="/about"><button class="outline">About me</button></a>
+  <a href="/services"><button class="outline">Services</button></a>
+  <a href="/contact"><button class="secondary">Get in touch</button></a>  
+</div>
+
