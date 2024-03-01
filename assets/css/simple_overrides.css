@@ -1,3 +1,7 @@
+html {
+    scroll-padding-top: 4rem;
+  }
+
 header#main-header {
     background-image: url("/assets/img/page-images/background-dots.png");
     height: 150px;
