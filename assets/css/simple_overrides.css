@@ -74,10 +74,10 @@ div.button-group {
 }
 
   .tag-link {
-    background-color:var(--pico-primary-backgroun);
+    background-color:var(--pico-primary-background);
     border: none;
     color:var(--pico-primary-inverse);
-    font-size: 0.6em;
+    font-size: .75rem;
     padding: 2px 2px;
     text-align: center;
     text-decoration: none;
