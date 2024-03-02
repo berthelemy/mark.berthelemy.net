@@ -140,6 +140,9 @@ div.button-group {
     div.single-portfolio {
         width: 100%; /* fix for isotope */
     }
+    aside.floating-menu {
+        display:none;
+    }
   }
 
 div.resource-list h2 {
