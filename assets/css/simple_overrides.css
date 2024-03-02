@@ -154,7 +154,7 @@ aside.floating-menu {
     float: right;
     position: fixed;
     top: 200px;
-    right: var(--pico-spacing)
+    right: var(--pico-spacing);
     width: 25%;
     margin-left: var(--pico-spacing);
     margin-bottom: var(--pico-spacing);
