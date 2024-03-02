@@ -31,7 +31,7 @@ What measurements will you use to monitor whether the problem is solved?
 
 ## What stops people from doing good now?
 
-You might find <a href=https://blog.cathy-moore.com/is-training-really-the-answer-ask-the-flowchart" target="_blank">Cathy Moore's flowchart</a> a good place to go at this point.
+You might find [Cathy Moore's flowchart](https://blog.cathy-moore.com/is-training-really-the-answer-ask-the-flowchart) a good place to go at this point.
 
 Is it their environment, culture or tools?
 
