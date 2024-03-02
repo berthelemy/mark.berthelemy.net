@@ -3,7 +3,7 @@ title: Scenarios template
 category: Software selection
 ---
 <div class="grid">
-<div>
+<div markdown="1">
 
 When purchasing a new software system, it’s often really helpful to create some scenarios describing how it will be used.
 
