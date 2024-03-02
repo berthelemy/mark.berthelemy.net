@@ -1,26 +1,14 @@
 ---
 title: Scenarios template
 category: Software selection
+img: w-scenario-template.png
+img-alt: Scenario template boxes
+description: |
+    When purchasing a new software system, it’s often really helpful to create some scenarios describing how it will be used.
+    This not only helps you, the customer, to decide what you need. It also helps the suppliers decide if their system is right for you.
+    Within procurement projects, I usually ask suppliers to demonstrate how their software will support each scenario.
+    For each type of user, fill in one scenario template.
 ---
-<div class="grid">
-<div markdown="1">
-
-When purchasing a new software system, it’s often really helpful to create some scenarios describing how it will be used.
-
-This not only helps you, the customer, to decide what you need. It also helps the suppliers decide if their system is right for you.
-
-Within procurement projects, I usually ask suppliers to demonstrate how their software will support each scenario.
-
-For each type of user, fill in one scenario template.
-
-</div>
-<div markdown="1">
-
-![Scenario template boxes](/assets/img/page-images/scenario-template.png)
-
-</div>
-</div>
-
 ## Who are the users?
 
 List the types of users.
