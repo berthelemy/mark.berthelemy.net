@@ -4,7 +4,7 @@ category: Learning design
 img: w-problem-solving.png
 img-alt: Problem solving boxes
 description: |
-    It's always tempting to go straight to "solutioneering" when faced with a problem.
+    It's tempting to go straight to "solutioneering" when faced with a problem.
     But first, let's understand the problem itself.
 ---
 
