@@ -1,6 +1,10 @@
 ---
-title: Scenarios template
-category: 
+title: Test 
+category: Information architecture
+img:
+img-alt:
+description: |
+
 ---
 When purchasing a new software system, it’s often really helpful to create some scenarios describing how it will be used.
 
