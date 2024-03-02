@@ -14,7 +14,7 @@ Within procurement projects, I usually ask suppliers to demonstrate how their so
 For each type of user, fill in one scenario template.
 
 </div>
-<div>
+<div markdown="1">
 
 ![Scenario template boxes](/assets/img/page-images/scenario-template.png)
 
