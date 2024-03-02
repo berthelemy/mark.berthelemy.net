@@ -23,7 +23,10 @@ front-page: true
 <div><article><header><h2>{{ category.name }}</h2></header>
 <ul>
     {%- for resource in category.items -%}
-    <li><a href="{{ resource.url }}">{{ resource.title }}</a></li>
+    <li>
+        <a href="{{ resource.url }}">{{ resource.title }}</a><br>
+        <img src="{{ resource.img }}" alt="{{ resource.img-alt }}" />
+    </li>
     {%- endfor -%}
     </ul>
 </article></div>
