@@ -141,3 +141,11 @@ div.button-group {
         width: 100%; /* fix for isotope */
     }
   }
+
+div.resource-list h2 {
+    font-size: 0.7rem;
+}
+
+div.resource-list h3 {
+    font-size: 0.6rem;
+}

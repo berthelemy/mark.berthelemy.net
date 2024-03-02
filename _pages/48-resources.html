@@ -20,9 +20,9 @@ front-page: true
 <div class="grid">
 {%- endif -%}
 
-<div><article><header><strong>{{ category.name }}</strong></header>
+<div class="resource-list"><article><header><h2>{{ category.name }}</h2></header>
     {%- for resource in category.items -%}
-    <h2><a href="{{ resource.url }}">{{ resource.title }}</a></h2>
+    <h3><a href="{{ resource.url }}">{{ resource.title }}</a></h3>
     <p><a href="{{ resource.url }}"><img src="/assets/img/page-images/{{ resource.img }}" alt="{{ resource.img-alt }}" /></a></p>
     
     {%- endfor -%}
