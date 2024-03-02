@@ -2,6 +2,9 @@
 title: Scenarios template
 category: Software selection
 ---
+<div class="grid">
+<div>
+
 When purchasing a new software system, it’s often really helpful to create some scenarios describing how it will be used.
 
 This not only helps you, the customer, to decide what you need. It also helps the suppliers decide if their system is right for you.
@@ -10,7 +13,13 @@ Within procurement projects, I usually ask suppliers to demonstrate how their so
 
 For each type of user, fill in one scenario template.
 
+</div>
+<div>
+
 ![Scenario template boxes](/assets/img/page-images/scenario-template.png)
+
+</div>
+</div>
 
 ## Who are the users?
 
