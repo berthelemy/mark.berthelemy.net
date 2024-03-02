@@ -29,7 +29,7 @@ Can you put any numbers to it?
 
 What measurements will you use to monitor whether the problem is solved?
 
-## What stops people from doing good now?
+## What stops people from doing the "right" thing now?
 
 You might find [Cathy Moore's flowchart](https://blog.cathy-moore.com/is-training-really-the-answer-ask-the-flowchart) a good place to go at this point.
 
