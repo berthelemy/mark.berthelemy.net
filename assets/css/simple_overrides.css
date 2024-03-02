@@ -60,10 +60,6 @@ body>header {
     height:180px;
   }
 
-header#main-header {
-    box-sizing: content-box;
-}
-
   nav#main-menu {
     border-bottom: 1px solid var(--pico-muted-color);
   }
@@ -127,6 +123,10 @@ aside.floating-menu {
        padding-top: 120px;
        height: 180px;
       }
+    header#main-header {
+        box-sizing: content-box;
+        width:90%
+    }
     div.container-75 {
         width: 100%;
     }
