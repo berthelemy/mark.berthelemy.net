@@ -23,15 +23,33 @@ For each type of user, fill in one scenario template.
 
 ## Who are the users?
 
-List the types of users. Eg. End user, Client administrator, Client managers, Site Administrator. You might want to do a scenario for each type of user.
+List the types of users.
+
+Eg. End user, Client administrator, Client managers, Site Administrator.
+
+You might want to do a scenario for each type of user.
 
 ## How are the users organised?
 
-Are all the users going to be from one organisation? If not, will you need to keep the data for each organisation separate? Who will need to see data about users from each organisation? Will you need to break down the users into further sub-groups? For what reasons?
+Are all the users going to be from one organisation? If not, will you need to keep the data for each organisation separate?
+
+Who will need to see data about users from each organisation?
+
+Will you need to break down the users into further sub-groups? For what reasons?
 
 ## How will the users be brought into the system?
 
-How will your users be brought into the system? How will they receive their login details? Will you be connecting into one or more Identity Providers (like Microsoft, Google, Facebook etc)? Will users self-register? Will users pay for their own access? How? Will users pay on behalf of other users? How?
+How will your users be brought into the system?
+
+How will they receive their login details?
+
+Will you be connecting into one or more Identity Providers (like Microsoft, Google, Facebook etc)?
+
+Will users self-register?
+
+Will users pay for their own access? How?
+
+Will users pay on behalf of other users? How?
 
 ## What will users have access to?
 
