@@ -25,7 +25,7 @@ front-page: true
     {%- for resource in category.items -%}
     <li>
         <a href="{{ resource.url }}">{{ resource.title }}</a><br>
-        <img src="{{ resource.img }}" alt="{{ resource.img-alt }}" />
+        <img src="/assets/img/page-images/{{ resource.img }}" alt="{{ resource.img-alt }}" />
     </li>
     {%- endfor -%}
     </ul>
