@@ -1,58 +1,17 @@
-<!DOCTYPE HTML>
-<!--
-    Hyperspace by HTML5 UP
-    html5up.net | @ajlkn
-    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html lang="en">
-    {% include head.html %}
-    <body class="is-preload">
-        {% include piwik.html %}
-        {% include sidebar.html %}
-        <div id="wrapper">
+---
+layout: simple_default
+---
+<nav aria-label="breadcrumb">
+  <ul>
+    <li><a href="/articles">Articles</a></li>
+    <li>{{ page.title }}</li>
+  </ul>
+</nav>
 
-          <section tabindex="-1" class="wrapper style1">
-            <div class="col-12 image fit" id="pageImage">
-              {% if page.img %}
-              {% if page.imgcredit %}<div class="imgcredit">
-                Image credit: {{ page.imgcredit }}
-              </div>{% endif %}
-              <div class="imgtitle">
-                <h1>{{ page.title }}</h1>
-              </div>
-              <div class="layer"></div>
-              <img src="/assets/img/page-images/{{ page.img }}" alt="{{ page.imgalt }}" style="z-index: -100;" />
-
-
-              {% else %}
-              <div class="imgcredit">
-                Image credit: <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Pixabay</a>
-              </div>
-              <div class="imgtitle">
-                <h1>{{ page.title }}</h1>
-              </div>
-              <div class="layer"></div>
-              <img src="/assets/img/page-images/universe-1566159_1280.jpg" alt="Stars background image" />
-              {% endif %}
-            </div>
-
-  					<div class="inner">
-
-
-  						<h2><a href="/articles">Articles</a> / {{ page.title }}</h2>
-  						{{ content }}
-              <hr />
-              <p><strong>Posted:</strong> {{ page.date | date_to_long_string }}</p>
-              <p>Tags: {% for tag in page.tags %}
-              <span class="tag-link">{{ tag }}</span>
-              {% endfor %}</p>
-  					</div>
-
-
-  				</section>
-        </div>
-        {% include footer.html %}
-        {% include scripts.html %}
-
-    </body>
-</html>
+{{ content }}
+<hr />
+<p><strong>Posted:</strong> {{ page.date | date_to_long_string }}</p>
+<p>Tags: {% for tag in page.tags %}
+<span class="tag-link">{{ tag }}</span>
+{% endfor %}</p>
+  					
