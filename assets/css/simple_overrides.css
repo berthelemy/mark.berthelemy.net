@@ -115,7 +115,7 @@ aside.floating-menu {
     margin-left: var(--pico-spacing);
     margin-bottom: var(--pico-spacing);
     background-color: var(--pico-background-color);
-    filter: drop-shadow(2px 3px 2px var(--pico-primary-background);
+    filter: drop-shadow(2px 3px 2px var(--pico-primary-background));
 }
   
   @media (width < 48em) {
