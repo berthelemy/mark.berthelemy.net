@@ -123,6 +123,9 @@ aside.floating-menu {
        padding-top: 120px;
        height: 180px;
       }
+    div.container-75 {
+        width: 100%;
+    }
       nav#main-menu.container-fluid {
         font-size: 1.7rem;  
         flex-wrap: wrap;
