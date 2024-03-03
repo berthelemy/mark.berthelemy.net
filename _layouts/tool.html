@@ -23,8 +23,11 @@ layout: simple_default
 {{ content }}
 
 <hr>
-<h3>Related tools</h3>
 
+{%- assign toolcat = site.toolkit | where "category",page.category -%}
+{%- if toolcat.size >= 2 -%}
+<h3>Related tools</h3>
+{%- endif -%}
 <ul>
 {%- for tool in site.toolkit -%}
 {%- if tool.category == page.category -%}
