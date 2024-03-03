@@ -1,7 +1,7 @@
 ---
 title: Writing for the web checklist
 category: Learning design
-img: ap-keyboard-498396_800.jpg
+img: p-keyboard-498396_800.jpg
 img-alt: Person writing with a keyboard
 img-credit: Pixabay
 img-url: https://pixabay.com/en/keyboard-type-computer-computing-498396/
