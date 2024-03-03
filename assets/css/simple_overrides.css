@@ -94,7 +94,7 @@ div.button-group {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: calc(var(--pico-spacing)/2) var(--pico-spacing) calc(var(--pico-spacing)/2) var(--pico-spacing);
+    margin: calc(var(--pico-spacing)/2) var(--pico-spacing) calc(var(--pico-spacing)/2) 0;
     border-radius: 3px;
   }
 
