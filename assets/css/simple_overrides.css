@@ -26,8 +26,8 @@ div#cta {
     margin-top: var(--pico-spacing);
 }
 
-div.single-portfolio img {
-    max-width: 100%; /* fix for isotope */
+div.single-portfolio {
+    width: 30%; /* fix for isotope */
 }
 
 footer {
