@@ -47,6 +47,6 @@ defaults:
       style: style1
     scope:
       path: ""
-      type: "resources"
+      type: "toolkit"
     values:
-      layout: resource
+      layout: tool
