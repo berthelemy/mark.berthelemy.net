@@ -14,8 +14,8 @@ front-page: true
 <div class="button-group text-center">
     <div class="filter" role="group">
         <button class="active button" data-filter="*">All</button>
-        {%- assign resources-by-category = site.resources | group_by: "category" -%}
-        {%- for category in resources-by-category -%}
+        {%- assign tools-by-category = site.toolkit | group_by: "category" -%}
+        {%- for category in tools-by-category -%}
         
           <button class="button" data-filter=".{{ category.name | slugify }}">{{ category.name }}</button>
         {% endfor %}
