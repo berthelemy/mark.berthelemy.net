@@ -31,9 +31,9 @@ front-page: true
     <div class="single-portfolio {{ tool.category | slugify }}">
         <article>
             <h2><a href="{{ tool.url }}">{{ tool.title }}</a></h2>
+            <p><small>Category: {{ tool.category }}</small></p>
             <p><a href="{{ tool.url }}"><img src="/assets/img/page-images/{{ tool.img }}" alt="{{ tool.img-alt }}" /></a></p>
-            <p><small>Category: {{ tool.category }}</small></p>  
-        </article>  
+        </article>
     </div>
 
 {%- assign count = count | plus:1 -%}
