@@ -90,7 +90,7 @@ div.button-group {
     border: none;
     color:var(--pico-primary-inverse);
     font-size: .75rem;
-    padding: calc(var(--pico-spacing)/2) var(--pico-spacing) calc(var(--pico-spacing)/2) var(--pico-spacing);
+    padding: calc(var(--pico-spacing)/3) var(--pico-spacing) calc(var(--pico-spacing)/3) var(--pico-spacing);
     text-align: center;
     text-decoration: none;
     display: inline-block;
