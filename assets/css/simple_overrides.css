@@ -30,7 +30,7 @@ div.single-portfolio {
     width: 29%; /* fix for isotope */
 }
 
-button.active {
+div.button-group button.active {
     z-index: -10; /* Fix for menu button going over header
 }
 
