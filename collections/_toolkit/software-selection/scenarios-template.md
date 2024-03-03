@@ -4,11 +4,18 @@ category: Software selection
 img: w-scenario-template.png
 img-alt: Scenario template boxes
 description: |
-    When purchasing a new software system, it’s often really helpful to create some scenarios describing how it will be used.
-    This not only helps you, the customer, to decide what you need. It also helps the suppliers decide if their system is right for you.
-    Within procurement projects, I usually ask suppliers to demonstrate how their software will support each scenario.
-    For each type of user, fill in one scenario template.
+    How to create scenarios to help choose your new software supplier.
 ---
+## How to use
+
+When purchasing a new software system, it’s often really helpful to create some scenarios describing how it will be used.
+
+This not only helps you, the customer, to decide what you need. It also helps the suppliers decide if their system is right for you.
+
+Within procurement projects, I usually ask suppliers to demonstrate how their software will support each scenario.
+
+For each type of user, fill in one scenario template.
+
 ## Who are the users?
 
 List the types of users.
