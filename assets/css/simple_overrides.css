@@ -3,7 +3,7 @@ html {
   }
 
 div.container-75 {
-    width: 75%;
+    width: 75%; /* Fix for when using a right hand menu */
 }
 
 header#main-header {
@@ -27,7 +27,11 @@ div#cta {
 }
 
 div.single-portfolio {
-    width: 30%; /* fix for isotope */
+    width: 29%; /* fix for isotope */
+}
+
+button.active {
+    z-index: -10; /* Fix for menu button going over header
 }
 
 footer {
