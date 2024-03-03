@@ -13,7 +13,7 @@ front-page: true
 ---
 <div class="button-group text-center">
     <div class="filter" role="group">
-        <button class="active button" data-filter="*">All</button>
+        <button class="active button" data-filter="*">Show all</button>
         {%- assign tools-by-category = site.toolkit | group_by: "category" -%}
         {%- for category in tools-by-category -%}
         
