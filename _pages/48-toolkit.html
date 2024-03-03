@@ -48,32 +48,3 @@ front-page: true
 
 
     </div> <!-- end of all-portfolio div -->
-
-
-{%- assign count = 0 -%}
-
-{%- assign resources-by-category = site.resources | group_by: "category" -%}
-{%- for category in resources-by-category -%}
-
-{%- if count == 0 -%}
-<div class="grid">
-{%- endif -%}
-
-<div class="resource-list"><article><header><h2>{{ category.name }}</h2></header>
-    {%- for resource in category.items -%}
-    <h3><a href="{{ resource.url }}">{{ resource.title }}</a></h3>
-    <p><a href="{{ resource.url }}"><img src="/assets/img/page-images/{{ resource.img }}" alt="{{ resource.img-alt }}" /></a></p>
-    
-    {%- endfor -%}
-    </ul>
-</article></div>
-{%- assign count = count | plus:1 -%}
-{%- if count == 3 -%}
-{%- assign count = 0 -%}
-</div>
-{%- endif -%}
-{%- endfor -%}
-    
-{%- if count == 1 or count == 2 -%}    
-</div>
-{%- endif -%}
