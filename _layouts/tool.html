@@ -23,14 +23,14 @@ layout: simple_default
 {{ content }}
 
 <hr>
-<h3>Related resources</h3>
+<h3>Related tools</h3>
 
 <ul>
-{%- for resource in site.resources -%}
-{%- if resource.category == page.category -%}
-{%- if resource.url != page.url -%}
+{%- for tool in site.toolkit -%}
+{%- if tool.category == page.category -%}
+{%- if tool.url != page.url -%}
 
-<li><a href="{{ resource.url }}">{{ resource.title }}</a></li>
+<li><a href="{{ tool.url }}">{{ tool.title }}</a></li>
 
 {%- endif -%}
 {%- endif -%}
