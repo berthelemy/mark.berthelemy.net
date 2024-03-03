@@ -12,34 +12,41 @@ The goal of creating materials on the web is communication. The checklist below 
 
 ## Accessibility
 
-- Have all your images got &lt;alt&gt; text - for use by people who rely on screen readers?
-- Have you used h1, h2, h3 etc in an order that makes sense? So that people who rely on these to interpret the pages structure are not confused.
-- If you've set text and background colours, do they have enough contrast?
+Have all your images got &lt;alt&gt; text - for use by people who rely on screen readers?
+
+Have you used h1, h2, h3 etc in an order that makes sense? So that people who rely on these to interpret the pages structure are not confused.
+
+If you've set text and background colours, do they have enough contrast?
 
 ## Active voice
 
-- Have you written your materials using an active voice throughout?<br>eg. “The board proposed the legislation” not “The regulation was proposed by the board.”
+Have you written your materials using an active voice throughout?<br>eg. “The board proposed the legislation” not “The regulation was proposed by the board.”
 
 ## Building scent
 
-- Do all your links to other pages contain enough information to let people know where they're going?<br>eg. "<u>More information</u>"&nbsp;not "Click <u>here</u>&nbsp;for more information".
-- Have you underlined text that is not a link? That will be highly confusing for your audience.
+Do all your links to other pages contain enough information to let people know where they're going?<br>eg. "<u>More information</u>"&nbsp;not "Click <u>here</u>&nbsp;for more information".
+
+Have you underlined text that is not a link? That will be highly confusing for your audience.
 
 ## Scannability
 
-- Can your materials be quickly scanned? (Noting that people actually <b>read</b>&nbsp;very little - about 25% - of most web pages)
-- Are they broken into small chunks?
-- Do they have headings that are easily understood?
-- Do they use bullet points rather than lists in paragraphs?
+Can your materials be quickly scanned? (Noting that people actually **read** very little - about 25% - of most web pages)
+
+Are they broken into small chunks?
+
+Do they have headings that are easily understood?
+
+Do they use bullet points rather than lists in paragraphs?
 
 ## Front loading
 
-- Have you started with the material that's most important for your audience, with extra detail further down?
+Have you started with the material that's most important for your audience, with extra detail further down?
 
 ## User language
 
-- Are you using terms that your audience will understand?
-- If your audience was searching for this material, what terms would they use?
+Are you using terms that your audience will understand?
+
+If your audience was searching for this material, what terms would they use?
 
 ## Useful resources
 
