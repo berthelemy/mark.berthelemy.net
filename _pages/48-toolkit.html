@@ -31,8 +31,9 @@ front-page: true
     <div class="single-portfolio {{ tool.category | slugify }}">
         <article>
             <h2><a href="{{ tool.url }}">{{ tool.title }}</a></h2>
+            <p class="category-tag">{{ tool.category }}</p>
             <p><small>{{ tool.description }}</small></p>
-            <p class="category-tag">Category: {{ tool.category }}</p>
+            
             <p><a href="{{ tool.url }}"><img src="/assets/img/page-images/{{ tool.img }}" alt="{{ tool.img-alt }}" /></a></p>
         </article>
     </div>

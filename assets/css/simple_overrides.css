@@ -90,11 +90,11 @@ div.button-group {
     border: none;
     color:var(--pico-primary-inverse);
     font-size: .75rem;
-    padding: 2px 2px;
+    padding: calc(var(--pico-spacing)/2) var(--pico-spacing) calc(var(--pico-spacing)/2) var(--pico-spacing);
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: var(--pico-spacing);
+    margin: calc(var(--pico-spacing)/2) var(--pico-spacing) calc(var(--pico-spacing)/2) var(--pico-spacing);
     border-radius: 3px;
   }
 
