@@ -29,9 +29,11 @@ front-page: true
   <div class="grid">
   {%- endif -%} 
     <div class="single-portfolio {{ tool.category | slugify }}">
-    <h2><a href="{{ tool.url }}">{{ tool.title }}</a></h2>
-    <p><a href="{{ tool.url }}"><img src="/assets/img/page-images/{{ tool.img }}" alt="{{ tool.img-alt }}" /></a></p>
-    <p><small>Category: {{ tool.category }}</small></p>    
+        <article>
+            <h2><a href="{{ tool.url }}">{{ tool.title }}</a></h2>
+            <p><a href="{{ tool.url }}"><img src="/assets/img/page-images/{{ tool.img }}" alt="{{ tool.img-alt }}" /></a></p>
+            <p><small>Category: {{ tool.category }}</small></p>  
+        </article>  
     </div>
 
 {%- assign count = count | plus:1 -%}
