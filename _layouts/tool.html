@@ -14,9 +14,10 @@ layout: simple_default
         <p>{{ page.description }}</p>
     </div>
     
-        <div><img src="/assets/img/page-images/{{ page.img }}" alt="{{ page.img-alt }}" /></div>
+        <div>
+        <img src="/assets/img/page-images/{{ page.img }}" alt="{{ page.img-alt }}" />
         <p><small>Image credit: <a href="{{ page.img-url }}" target="_blank">{{ page.img-credit }}</a></small></p>
-    
+        </div>
 </div>
 <hr>
 {{ content }}
