@@ -85,7 +85,7 @@ div.button-group {
     overflow-x: auto;
 }
 
-  .tag-link {
+  .tag-link, .category-tag {
     background-color:var(--pico-primary-background);
     border: none;
     color:var(--pico-primary-inverse);
