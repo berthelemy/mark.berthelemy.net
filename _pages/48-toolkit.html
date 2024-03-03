@@ -28,9 +28,9 @@ front-page: true
   {%- if count == 0 -%}
   <div class="grid">
   {%- endif -%} 
-    <div class="single-portfolio {{ tool.category }}"></div>
-    <h2><a href="{{ resource.url }}">{{ resource.title }}</a></h2>
-    <p><a href="{{ resource.url }}"><img src="/assets/img/page-images/{{ resource.img }}" alt="{{ resource.img-alt }}" /></a></p>
+    <div class="single-portfolio {{ tool.category | slugify }}"></div>
+    <h2><a href="{{ tool.url }}">{{ resource.title }}</a></h2>
+    <p><a href="{{ tool.url }}"><img src="/assets/img/page-images/{{ tool.img }}" alt="{{ tool.img-alt }}" /></a></p>
     <p><small>Category: {{ tool.category }}</small></p>    
 </div>
 
