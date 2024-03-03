@@ -1,4 +1,4 @@
-[---
+---
 title: Writing for the web checklist
 category: Learning design
 img: ap-keyboard-498396_800.jpg
