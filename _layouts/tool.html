@@ -40,9 +40,12 @@ layout: simple_default
 
 
 <hr>
-{%- if page.previous.url -%}
-    <div>Previous lesson: <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></div>
+
+{% include cta.html %}
+
+<!--{%- if page.previous.url -%}
+    <div>Previous tool: <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></div>
 {%- endif -%}
 {%- if page.next.url -%}
-        <div>Next lesson: <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a></div>
-{%- endif -%}
+        <div>Next tool: <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a></div>
+{%- endif -%}-->
