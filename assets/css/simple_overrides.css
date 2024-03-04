@@ -15,7 +15,7 @@ div.container-75 {
 header#main-header {
     background-image: url("/assets/img/page-images/background-dots.png");
     height: 4rem;
-    background-size: contain;
+    background-size: cover;
     background-repeat: repeat-y;
     padding: 1rem;
 }
@@ -77,7 +77,7 @@ body>header {
   
   nav#main-menu.container {
       background-color: var(--pico-background-color);
-    position: fixed;
+    /*position: fixed;*/
     /* remove the 'flex-direction' to move menu to the right */
     /*flex-direction: row-reverse;*/
       z-index: 1;
