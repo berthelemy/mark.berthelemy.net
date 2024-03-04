@@ -25,7 +25,7 @@ front-page: true
         <article>
             <header><h3><a href="{{ item.url }}">{{ item.title }}</a></h3></header>
             <p>{{ item.description }}</p>
-            <div><img src="/assets/img/page-images/{{ tool.img }}" alt="{{ tool.img-alt }}" /></div>
+            <div><img src="/assets/img/page-images/{{ item.img }}" alt="{{ item.img-alt }}" /></div>
         </article>
         {%- endfor -%}
     </div>
