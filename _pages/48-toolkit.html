@@ -39,7 +39,7 @@ front-page: true
     {%- if count == 1 or count == 2 -%}    
     </div>
     {%- endif -%}
-
+<!--
 <div class="button-group text-center">
     <div class="filter" role="group">
         <button class="active button" data-filter="*">Show all</button>
@@ -49,10 +49,10 @@ front-page: true
           <button class="button" data-filter=".{{ category.name | slugify }}">{{ category.name }}</button>
         {% endfor %}
     </div>
-</div>
+</div>-->
 
 <div class="all-portfolios"><!-- used by isotope -->
-    {%- assign count = 0 -%}
+ <!--   {%- assign count = 0 -%}
   {% for tool in site.toolkit %}
   {%- if count == 0 -%}
   <div class="grid">
@@ -76,6 +76,6 @@ front-page: true
 {%- if count == 1 or count == 2 -%}    
 </div>
 {%- endif -%}
-
+-->
 
     </div> <!-- end of all-portfolio div -->
