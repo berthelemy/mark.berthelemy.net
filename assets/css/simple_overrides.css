@@ -9,7 +9,7 @@ article img {
 }
 
 div.container-75 {
-    width: 75%; /* Fix for when using a right hand menu */
+    width: 70%; /* Fix for when using a right hand menu */
 }
 
 header#main-header {
@@ -118,12 +118,10 @@ div.resource-list h3 {
 }
 
 aside.floating-menu {
-    float: right;
     position: fixed;
-    top: 4rem;
-    right: var(--pico-spacing);
+    top: 8rem;
+    right: calc(4*var(--pico-spacing));
     width: 23%;
-    margin-left: var(--pico-spacing);
     margin-bottom: var(--pico-spacing);
     background-color: var(--pico-background-color);
     filter: drop-shadow(2px 3px 2px var(--pico-primary-background));
