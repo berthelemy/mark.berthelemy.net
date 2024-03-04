@@ -11,6 +11,35 @@ img:
 imgalt:
 front-page: true
 ---
+{% assign tools_by_category = site.toolkit | group_by: "category" %}
+
+{%- assign count = 0 -%}
+{% for category in tools_by_category %}
+{%- if count == 0 -%}
+<div class="grid">
+    {%- endif -%} 
+
+    <div>
+        <h2>{{ category.name }}</h2>
+        {%- for item in category.items -%}
+        <article>
+            <header><h3><a href="{{ item.url }}">{{ item.title }}</a></h3></header>
+            <p>{{ item.description }}</p>
+            <div><img src="/assets/img/page-images/{{ tool.img }}" alt="{{ tool.img-alt }}" /></div>
+        </article>
+        {%- endfor -%}
+    </div>
+
+    {%- assign count = count | plus:1 -%}
+    {%- if count == 3 -%}
+    {%- assign count = 0 -%}
+    </div>
+    {%- endif -%}
+    {%- endfor -%}
+    {%- if count == 1 or count == 2 -%}    
+    </div>
+    {%- endif -%}
+
 <div class="button-group text-center">
     <div class="filter" role="group">
         <button class="active button" data-filter="*">Show all</button>
