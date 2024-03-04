@@ -75,7 +75,7 @@ body>header {
     border-bottom: 1px solid var(--pico-muted-color);
   }
   
-  nav#main-menu.container-fluid {
+  nav#main-menu.container {
       background-color: var(--pico-background-color);
     position: fixed;
     /* remove the 'flex-direction' to move menu to the right */
@@ -143,7 +143,7 @@ aside.floating-menu {
     div.container-75 {
         width: 100%;
     }
-      nav#main-menu.container-fluid {
+      nav#main-menu.container {
         font-size: 1.7rem;  
         flex-wrap: wrap;
           & .menu-icon {
