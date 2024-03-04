@@ -14,9 +14,10 @@ div.container-75 {
 
 header#main-header {
     background-image: url("/assets/img/page-images/background-dots.png");
-    height: 150px;
+    height: 4rem;
     background-size: contain;
     background-repeat: repeat-y;
+    padding: 1rem;
 }
 
 header#main-header h1 {
@@ -135,7 +136,9 @@ aside.floating-menu {
       }
     header#main-header {
         box-sizing: content-box;
-        width:90%
+        width:90%;
+        height: 2rem;
+        padding: 1rem;
     }
     div.container-75 {
         width: 100%;
