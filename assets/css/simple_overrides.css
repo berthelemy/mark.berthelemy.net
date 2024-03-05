@@ -110,7 +110,8 @@ div.button-group {
   }
 
   article.tool h2 {
-    font-size: 1.2rem;
+    font-size: var(--pico-spacing);
+    margin-bottom: var(--pico-spacing);
 }
 
 aside.floating-menu {
