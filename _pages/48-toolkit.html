@@ -11,24 +11,19 @@ img:
 imgalt:
 front-page: true
 ---
-{% assign tools_by_category = site.toolkit | group_by: "category" %}
-
 {%- assign count = 0 -%}
-{% for category in tools_by_category %}
+{% for tool in site.toolkit %}
 {%- if count == 0 -%}
 <div class="grid">
     {%- endif -%} 
 
     <div>
-        
-        {%- for item in category.items -%}
         <article class="tool">
-            <header><h2><a href="{{ item.url }}">{{ item.title }}</a></h2></header>
-            <p class="category-tag">{{ category.name }}</p>
+            <header><h2><a href="{{ tool.url }}">{{ tool.title }}</a></h2></header>
+            <p class="category-tag">{{ tool.category }}</p>
             <p>{{ item.description }}</p>
-            <div><img src="/assets/img/page-images/{{ item.img }}" alt="{{ item.img-alt }}" /></div>
+            <div><img src="/assets/img/page-images/{{ tool.img }}" alt="{{ tool.img-alt }}" /></div>
         </article>
-        {%- endfor -%}
     </div>
 
     {%- assign count = count | plus:1 -%}
