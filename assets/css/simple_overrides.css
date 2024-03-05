@@ -15,7 +15,7 @@ div.container-75 {
 header#main-header {
     background-image: url("/assets/img/page-images/background-dots.png");
     /*height: 4rem;*/
-    background-size: cover;
+    background-size: contain;
     background-repeat: repeat-y;
     padding: 1rem;
 }
