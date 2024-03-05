@@ -24,7 +24,7 @@ front-page: true
         {%- for item in category.items -%}
         <article class="tool">
             <header><h2><a href="{{ item.url }}">{{ item.title }}</a></h2></header>
-            <p class="category-tag">{{ tool.category }}</p>
+            <p class="category-tag">{{ category.name }}</p>
             <p>{{ item.description }}</p>
             <div><img src="/assets/img/page-images/{{ item.img }}" alt="{{ item.img-alt }}" /></div>
         </article>
