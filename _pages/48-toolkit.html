@@ -20,10 +20,11 @@ front-page: true
     {%- endif -%} 
 
     <div>
-        <h2>{{ category.name }}</h2>
+        
         {%- for item in category.items -%}
-        <article>
-            <header><h3><a href="{{ item.url }}">{{ item.title }}</a></h3></header>
+        <article class="tool">
+            <header><h2><a href="{{ item.url }}">{{ item.title }}</a></h2></header>
+            <p class="category-tag">{{ tool.category }}</p>
             <p>{{ item.description }}</p>
             <div><img src="/assets/img/page-images/{{ item.img }}" alt="{{ item.img-alt }}" /></div>
         </article>

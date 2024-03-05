@@ -109,12 +109,8 @@ div.button-group {
     border-radius: 3px;
   }
 
-  div.resource-list h2 {
+  article.tool h2 {
     font-size: 1.2rem;
-}
-
-div.resource-list h3 {
-    font-size: 1.1rem;
 }
 
 aside.floating-menu {
