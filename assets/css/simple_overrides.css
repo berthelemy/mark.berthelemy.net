@@ -123,6 +123,10 @@ aside.floating-menu {
     background-color: var(--pico-background-color);
     filter: drop-shadow(2px 3px 2px var(--pico-primary-background));
 }
+
+aside.floating-menu {
+  padding-inline-start: var(--pico-spacing);
+}
   
   @media (width < 48em) {
     body>header {
