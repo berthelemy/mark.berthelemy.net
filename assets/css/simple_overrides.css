@@ -115,6 +115,7 @@ div.button-group {
 }
 
 aside.floating-menu {
+    float:right;
     top: 8rem;
     right: calc(4*var(--pico-spacing));
     width: 23%;
