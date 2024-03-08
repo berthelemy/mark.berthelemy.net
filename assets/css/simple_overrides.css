@@ -127,7 +127,15 @@ aside.floating-menu {
 aside.floating-menu {
   padding-inline-start: var(--pico-spacing);
 }
-  
+
+div.banner {
+  object-fit: cover;
+  margin-bottom: var(--pico-spacing);
+  height: 10vh;
+}
+
+/* MOBILE VIEW */
+
   @media (width < 48em) {
     body>header {
        padding-top: 120px;
