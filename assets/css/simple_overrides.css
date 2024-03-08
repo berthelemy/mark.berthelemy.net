@@ -130,7 +130,8 @@ aside.floating-menu {
 
 div.banner {
   object-fit: cover;
-  margin-bottom: var(--pico-spacing);
+  /*margin-bottom: var(--pico-spacing);*/
+  margin: 0;
   height: 20vw;
   overflow: hidden;
 }
