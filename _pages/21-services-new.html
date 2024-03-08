@@ -9,7 +9,7 @@ permalink: /services-test
     <div>
         <article>
             <header>
-                <h2>{{ service.title }}</h2>
+                <h2><a href="{{ service.url }}">{{ service.title }}</a></h2>
             </header>
             <div class="card" style="background-image: url(/assets/img/page-images/{{ service.img }});">
                 <p>{{ service.description }}</p>
