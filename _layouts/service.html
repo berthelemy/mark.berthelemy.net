@@ -21,7 +21,7 @@ Image credit: <a href="{{ page.img-credit-url }}" target="_blank">{{ page.img-cr
 
 <ul>
 {%- for service in site.services -%}
-{%- if tool.url != page.url -%}
+{%- if service.url != page.url -%}
 
 <li><a href="{{ service.url }}">{{ service.title }}</a></li>
 
