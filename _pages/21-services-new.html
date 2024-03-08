@@ -1,0 +1,19 @@
+---
+title: Services
+active: true
+layout: simple_default
+permalink: /services-test
+---
+<div class="grid">
+{%- for service in site.services -%}
+    <div>
+        <article>
+            <header>
+                <h2>{{ service.title }}</h2>
+            </header>
+            <div class="card" style="background-image: url(/assets/img/page-images/{{ service.img }});">
+                <p>{{ service.description }}</p>
+            </div>
+        </article>
+    </div>
+</div>

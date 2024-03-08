@@ -1,0 +1,44 @@
+---
+layout: simple_default
+---
+<nav aria-label="breadcrumb">
+    <ul>
+      <li><a href="/services">Services</a></li>
+      <li>{{ page.title }}</li>
+    </ul>
+  </nav>
+<img src="/assets/img/page-images/{{ page.img }}" alt="{{ page.img-alt }}">
+{{ content }}
+
+Image credit: <a href="{{ page.img-credit-url }}" target="_blank">{{ page.img-credit }}</a>
+
+<hr>
+
+{%- assign toolcat = site.toolkit | where: "category",page.category -%}
+{%- if toolcat.size >= 2 -%}
+<h3>Related tools</h3>
+{%- endif -%}
+<ul>
+{%- for tool in site.toolkit -%}
+{%- if tool.category == page.category -%}
+{%- if tool.url != page.url -%}
+
+<li><a href="{{ tool.url }}">{{ tool.title }}</a></li>
+
+{%- endif -%}
+{%- endif -%}
+{%- endfor -%}
+</ul>
+
+
+
+<hr>
+
+{% include cta.html %}
+
+<!--{%- if page.previous.url -%}
+    <div>Previous tool: <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></div>
+{%- endif -%}
+{%- if page.next.url -%}
+        <div>Next tool: <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a></div>
+{%- endif -%}-->

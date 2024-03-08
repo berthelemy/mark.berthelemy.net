@@ -18,6 +18,9 @@ collections:
   toolkit:
     output: true
     permalink: /:collection/:path
+  services:
+    output: true
+    permalink: /:collection/:path
 
 levels-order:
  - Novice
@@ -50,3 +53,8 @@ defaults:
       type: "toolkit"
     values:
       layout: tool
+    scope:
+      path: ""
+      type: "services"
+    values:
+      layout: service
