@@ -8,37 +8,27 @@ layout: simple_default
     </ul>
   </nav>
 <img src="/assets/img/page-images/{{ page.img }}" alt="{{ page.img-alt }}">
+
+<p>{{ page.description }}</p>
+
 {{ content }}
 
 Image credit: <a href="{{ page.img-credit-url }}" target="_blank">{{ page.img-credit }}</a>
 
 <hr>
 
-{%- assign toolcat = site.toolkit | where: "category",page.category -%}
-{%- if toolcat.size >= 2 -%}
-<h3>Related tools</h3>
-{%- endif -%}
+<h3>Other services</h3>
+
 <ul>
-{%- for tool in site.toolkit -%}
-{%- if tool.category == page.category -%}
+{%- for service in site.services -%}
 {%- if tool.url != page.url -%}
 
-<li><a href="{{ tool.url }}">{{ tool.title }}</a></li>
+<li><a href="{{ service.url }}">{{ service.title }}</a></li>
 
-{%- endif -%}
 {%- endif -%}
 {%- endfor -%}
 </ul>
 
-
-
 <hr>
 
 {% include cta.html %}
-
-<!--{%- if page.previous.url -%}
-    <div>Previous tool: <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a></div>
-{%- endif -%}
-{%- if page.next.url -%}
-        <div>Next tool: <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a></div>
-{%- endif -%}-->
