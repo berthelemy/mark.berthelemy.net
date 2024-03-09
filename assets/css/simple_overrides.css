@@ -139,7 +139,7 @@ article.services footer {
 }
 
 div.banner {
-  object-fit: cover;
+  background-size:contain;
   /*margin-bottom: var(--pico-spacing);*/
   margin: 0;
   height: 20vw;
