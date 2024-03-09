@@ -5,8 +5,6 @@ img: p-teamwork-7259416_1280.png
 img-alt: Illustration of people working together
 img-credit: Pixabay
 img-credit-url: https://pixabay.com/vectors/teamwork-team-gears-drive-people-7259416/
-
-https://pixabay.com/vectors/conversation-talk-to-speak-chat-7721486/
 ---
 I can help you:
 

@@ -4,7 +4,7 @@ description: In moments of change it often helps to have an independent, externa
 img: p-conversation-7721486_1280.png
 img-alt: Illustration of people having a conversation
 img-credit: Pixabay
-img-credit-url: https://pixabay.com/fr/illustrations/apocalypse-des-nuages-heure-de-fin-483425/
+img-credit-url: https://pixabay.com/vectors/conversation-talk-to-speak-chat-7721486/
 ---
 You might be new in your role, or trying something new in your organisation. If it involves learning, technology or projects or any combination of these, then <a href="/contact">give me a call</a>.
 
