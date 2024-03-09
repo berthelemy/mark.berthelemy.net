@@ -130,10 +130,12 @@ aside.floating-menu {
 
 article.services p {
   min-height: 35vh;
+
 }
 
 article.services footer {
   height: 40vh;
+  background-size: contain;
 }
 
 div.banner {
