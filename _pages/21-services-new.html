@@ -7,8 +7,8 @@ permalink: /services-test
 <div class="grid">
 {%- for service in site.services -%}
     <div>
-        <article>
-            <header class="services">
+        <article class="services">
+            <header>
                 <h2><a href="{{ service.url }}">{{ service.title }}</a></h2>
             </header>
             <p>{{ service.description }}</p>
