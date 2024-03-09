@@ -128,6 +128,10 @@ aside.floating-menu {
   padding-inline-start: var(--pico-spacing);
 }
 
+article.services footer {
+  height: 10vh;
+}
+
 div.banner {
   object-fit: cover;
   /*margin-bottom: var(--pico-spacing);*/
@@ -135,6 +139,7 @@ div.banner {
   height: 20vw;
   overflow: hidden;
 }
+
 
 /* MOBILE VIEW */
 
