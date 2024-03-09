@@ -1,8 +1,8 @@
 ---
 title: Coaching sessions
 description: In moments of change it often helps to have an independent, external person to talk things through, provide some guidance and ask the right questions.
-img: apocalypse-483425_1280.jpg
-img-alt: Test
+img: p-conversation-7721486_1280.png
+img-alt: Illustration of people having a conversation
 img-credit: Pixabay
 img-credit-url: https://pixabay.com/fr/illustrations/apocalypse-des-nuages-heure-de-fin-483425/
 ---

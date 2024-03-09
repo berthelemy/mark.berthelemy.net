@@ -1,7 +1,7 @@
 ---
 title: Information architecture
 description: When people can find, navigate and understand your information, they are much more likely to buy what you're selling, or to work in the way you need them to work.
-img: organization-chart-5957122_1280.jpg
+img: p-organization-chart-5957122_1280.jpg
 img-alt: blocks in a tree diagram
 img-credit: Pixabay
 img-credit-url: https://pixabay.com/illustrations/organization-chart-executive-staff-5957122/
