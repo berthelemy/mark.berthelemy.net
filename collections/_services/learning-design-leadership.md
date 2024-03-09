@@ -1,10 +1,10 @@
 ---
 title: Learning design leadership
 description: Learning design is about performance consulting, solution design, relationships with subject matter experts, effective writing, graphic design and media asset creation.
-img: apocalypse-483425_1280.jpg
-img-alt: Test
+img: conversation-7721486_1280.png
+img-alt: Illustration of people having a conversation
 img-credit: Pixabay
-img-credit-url: https://pixabay.com/fr/illustrations/apocalypse-des-nuages-heure-de-fin-483425/
+img-credit-url: https://pixabay.com/vectors/conversation-talk-to-speak-chat-7721486/
 ---
 I can help you:
 
