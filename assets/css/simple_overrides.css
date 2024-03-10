@@ -139,6 +139,16 @@ article.services header {
   background-position: center center;
 }
 
+article.services header p.img-credit-card {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  background-color: var(--pico-background-color);
+  color: var(--pico-primary-background);
+  font-size: calc(var(--pico-font-size)/2);
+  padding: var(--pico-spacing);
+}
+
 div.banner {
   background-size:contain;
   /*margin-bottom: var(--pico-spacing);*/

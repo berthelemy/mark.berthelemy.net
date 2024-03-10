@@ -1,10 +1,10 @@
 ---
 title: Learning design leadership
 description: Learning design is about performance consulting, solution design, relationships with subject matter experts, effective writing, graphic design and media asset creation.
-img: p-teamwork-7259416_1280.png
-img-alt: Illustration of people working together
-img-credit: Pixabay
-img-credit-url: https://pixabay.com/vectors/teamwork-team-gears-drive-people-7259416/
+img: m-dog-sled-1000984.jpg
+img-alt: Dog sled team on a snowy landscape
+img-credit: Mark Berthelemy
+img-credit-url: https://faouetinformatique.net
 ---
 I can help you:
 

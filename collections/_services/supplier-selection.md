@@ -1,10 +1,10 @@
 ---
 title: Supplier selection
 description: Finding the right supplier is about connecting multiple dots, such as business requirements, culture, technology, legal and user experience.
-img: apocalypse-483425_1280.jpg
-img-alt: Test
-img-credit: Pixabay
-img-credit-url: https://pixabay.com/fr/illustrations/apocalypse-des-nuages-heure-de-fin-483425/
+img: m-skidoo-1000878.jpg
+img-alt: A line of parked skidoos on snow
+img-credit: Mark Berthelemy
+img-credit-url: https://faouetinformatique.net
 ---
 I can help you:
 
