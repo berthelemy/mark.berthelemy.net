@@ -170,6 +170,7 @@ div.banner {
   margin: 0;
   height: 20vw;
   overflow: hidden;
+  position: relative;
 }
 
 div.banner img {
