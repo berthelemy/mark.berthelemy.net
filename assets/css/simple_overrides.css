@@ -152,9 +152,17 @@ article.services header p.img-credit-card {
   background-color: var(--pico-color);
   color: var(--pico-contrast-inverse);
   font-size: calc(var(--pico-font-size)/2);
-  padding: calc(var(--pico-spacing)/4) var(--pico-spacing);
+  padding: calc(var(--pico-spacing)/4);
   text-align: right;
   margin-bottom: 0;
+}
+
+p.img-credit a {
+  color: var(--pico-contrast-inverse);
+}
+
+p.img-credit a:hover {
+  color: var(--pico-muted-border-color);
 }
 
 div.banner {
