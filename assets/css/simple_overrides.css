@@ -128,12 +128,9 @@ aside.floating-menu {
   padding-inline-start: var(--pico-spacing);
 }
 
-article.services p {
-  min-height: 35vh;
 
-}
 
-article.services footer, article.services header {
+article.services header {
   height: 40vh;
   background-size: contain;
 }
