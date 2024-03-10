@@ -133,7 +133,7 @@ article.services p {
 
 }
 
-article.services footer {
+article.services footer, article.services header {
   height: 40vh;
   background-size: contain;
 }

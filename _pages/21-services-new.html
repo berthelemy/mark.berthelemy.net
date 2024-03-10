@@ -12,11 +12,11 @@ permalink: /services-test
 
     <div>
         <article class="services">
-            <header>
-                <h2><a href="{{ service.url }}">{{ service.title }}</a></h2>
+            <header style="background-image: url(/assets/img/page-images/{{ service.img }});">
             </header>
+            <h2><a href="{{ service.url }}">{{ service.title }}</a></h2>
             <p>{{ service.description }}</p>
-            <footer style="background-image: url(/assets/img/page-images/{{ service.img }});">
+            <footer>
             </footer>
         </article>
     </div>
