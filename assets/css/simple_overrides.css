@@ -135,6 +135,7 @@ article.services p {
 
 article.services header {
   height: 40vh;
+  position: relative;
 }
 
 article.services header img {
