@@ -144,7 +144,7 @@ article.services header img {
   object-fit: cover;
 }
 
-article.services header p.img-credit-card {
+article.services header p.img-credit {
   position: absolute;
   min-height: auto;
   right: 0;
