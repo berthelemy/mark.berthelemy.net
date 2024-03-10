@@ -136,6 +136,7 @@ article.services p {
 article.services header {
   height: 40vh;
   background-size: cover;
+  background-position: center center;
 }
 
 div.banner {

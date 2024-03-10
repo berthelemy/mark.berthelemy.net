@@ -1,10 +1,10 @@
 ---
 title: Coaching sessions
 description: In moments of change it often helps to have an independent, external person to talk things through, provide some guidance and ask the right questions.
-img: m-sunrise-IMG20231016082735.png
+img: m-sunrise-IMG20231016082735.jpg
 img-alt: Sunrise over a field
 img-credit: Mark Berthelemy
-img-credit-url: https://nestledinbrittany.co.uk
+img-credit-url: https://faouetinformatique.net
 ---
 You might be new in your role, or trying something new in your organisation. If it involves learning, technology or projects or any combination of these, then <a href="/contact">give me a call</a>.
 
