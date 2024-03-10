@@ -135,16 +135,21 @@ article.services p {
 
 article.services header {
   height: 40vh;
-  background-size: cover;
-  background-position: center center;
+}
+
+article.services header img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 article.services header p.img-credit-card {
   position: relative;
+  z-index:999;
   right: 0;
   bottom: 0;
   background-color: var(--pico-background-color);
-  color: var(--pico-primary-background);
+  color: var(--pico-color);
   font-size: calc(var(--pico-font-size)/2);
   padding: var(--pico-spacing);
 }
