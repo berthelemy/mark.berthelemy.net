@@ -159,6 +159,7 @@ article.services header p.img-credit {
 
 p.img-credit a {
   color: var(--pico-contrast-inverse);
+  text-decoration-color: var(--pico-contrast-inverse);
 }
 
 p.img-credit a:hover {
@@ -166,12 +167,15 @@ p.img-credit a:hover {
 }
 
 div.banner {
-  background-size:contain;
-  background-position: center center;
-  /*margin-bottom: var(--pico-spacing);*/
   margin: 0;
   height: 20vw;
   overflow: hidden;
+}
+
+div. banner img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 
