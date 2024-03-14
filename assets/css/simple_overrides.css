@@ -128,8 +128,8 @@ aside.floating-menu {
   padding-inline-start: var(--pico-spacing);
 }
 
-article.services p.description {
-  min-height: 35vh;
+article.services {
+  height: 32rem;
 }
 
 article.services header {
@@ -229,6 +229,10 @@ div.banner img {
         border-right: none;
         padding-right: inherit;
     }
+    article.services {
+      height: auto;
+    }
+    
     
     footer>div.grid div:last-child {
         border-left: none;
