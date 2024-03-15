@@ -13,6 +13,8 @@ imgalt: Stars
 imgcredit: <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Pixabay</a>
 tags:
   - Skills
+  - Resources
+  - Coaching
 ---
 
 The links below are jumping-off points designed for someone who is transitioning to an instructional or learning design role. Most of them are **resources** rather than **courses**, simply because that's the route I tend to take myself. Courses are great if you need the structure to force you to practice. My learning is typically a little bit more ad hoc, happening at the point of need, and based on an extreme curiosity about how things work.

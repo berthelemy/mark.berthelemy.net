@@ -12,6 +12,8 @@ tags:
   - Learning
   - Technology
   - Moodle
+  - Resources
+  - System implementation
 ---
 You've got your Moodle site setup and configured to meet your organisation's needs. So now it's time to introduce your team to it.
 

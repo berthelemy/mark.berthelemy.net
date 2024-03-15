@@ -8,6 +8,8 @@ tags:
   - Technology
   - Business
   - Change
+  - Resources
+  - Learning design
 ---
 The following is a summary of advice taken from a number of sources (links below) on how to run an online conference.
 

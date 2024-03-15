@@ -8,6 +8,7 @@ permalink: /2017/06/20/lti-missed-opportunity
 tags:
   - Technology
   - Learning
+  - Opinion
 thumb: /post-images/2017/06/computer-2148713_thumb.jpg
 banner: /post-images/2017/06/computer-2148713_banner.jpg
 alt: LTI graphic
