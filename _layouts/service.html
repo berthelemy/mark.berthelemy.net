@@ -22,7 +22,7 @@ layout: simple_default
 <h3>Other services</h3>
 
 <ul>
-{%- for service in site.services | sort: "order" -%}
+{%- for service in site.services -%}
 {%- if service.url != page.url -%}
 
 <li><a href="{{ service.url }}">{{ service.title }}</a></li>

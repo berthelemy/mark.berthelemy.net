@@ -20,6 +20,7 @@ collections:
     permalink: /:collection/:path
   services:
     output: true
+    sort_by: order
     permalink: /:collection/:path
 
 levels-order:

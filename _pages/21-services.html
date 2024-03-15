@@ -5,7 +5,7 @@ layout: simple_default
 permalink: /services
 ---
 {%- assign count = 0 -%}
-{%- for service in site.services | sort: "order" -%}
+{%- for service in site.services -%}
 {%- if count == 0 -%}
 <div class="grid">
 {%- endif -%}
