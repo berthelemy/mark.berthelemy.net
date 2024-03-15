@@ -12,3 +12,13 @@ I can help you:
 - Hold your suppliers to account
 - Communicate with senior stakeholders
 - Keep to budget, quality and timescale commitments
+- Configure systems
+- Train your teams
+
+I can support you with:
+
+- Learning management systems, such as Moodle and TalentLMS
+- Knowledge management systems, such as Confluence and Gitbook
+- Content management systems, such as Wordpress and Grav
+- User support systems, such as Zoho Desk and Freshdesk
+- Project management systems, such as Smartsheet and Zoho Project
