@@ -1,6 +1,7 @@
 ---
 title: System implementation
 description: Your learning technology implementation projects depend on someone who can liaise between multiple technical and non-technical stakeholders.
+order: 2
 img: m-pulley-1000895.jpg
 img-alt: Old pulley with steel cable around it
 img-credit: Faouët Informatique

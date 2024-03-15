@@ -1,6 +1,7 @@
 ---
 title: Coaching sessions
 description: In moments of change it often helps to have an independent, external person to talk things through, provide some guidance and ask the right questions.
+order: 5
 img: m-sunrise-IMG20231016082735.jpg
 img-alt: Sunrise over a field
 img-credit: Faouët Informatique

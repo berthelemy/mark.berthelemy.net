@@ -1,6 +1,7 @@
 ---
 title: Information architecture
 description: When people can find, navigate and understand your information, they are much more likely to buy what you're selling, or to work in the way you need them to work.
+order: 3
 img: m-mountains-IMG_20190402_121936-small.jpg
 img-alt: Panorama of mountains and a valley
 img-credit: Faouët Informatique
