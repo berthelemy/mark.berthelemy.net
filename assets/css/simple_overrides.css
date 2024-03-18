@@ -149,7 +149,7 @@ p.img-credit {
   min-height: auto;
   right: 0;
   bottom: 0;
-  background-color: var(--pico-color);
+  background-color: #373c44bb;
   color: var(--pico-contrast-inverse);
   font-size: calc(var(--pico-font-size)/2);
   padding: calc(var(--pico-spacing)/4);
