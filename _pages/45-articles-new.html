@@ -13,7 +13,7 @@ permalink: /articles-new
 ---
 {% assign tags = site.tags | sort %}
 {%- for tag in tags -%}
-  <p><a href="{{ tag[0] | slugify }}">{{ tag[0] }}</a> ({{ site.tags.tag[0] | size }})</p>
+  <p><a href="{{ tag[0] | slugify }}">{{ tag[0] }}</a> ({{ tag[1] | size }})</p>
 {%- endfor -%}
 
 
