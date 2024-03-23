@@ -13,12 +13,12 @@ permalink: /articles-new
 ---
 {% assign tags = site.tags | sort %}
 {% assign tagnumber = site.tags | size %}
-{% assign count = 1 %}
+{% assign count = 0 %}
 {% assign halfcount = tagnumber | divided_by: 2 %}
 Halfcount = {{ halfcount }}
 <div class="grid">
 {%- for tag in tags -%}
-{%- if count == 1 -%}
+{%- if count == 0 -%}
   <div>
 {%- endif -%}
   <details>
@@ -31,7 +31,7 @@ Halfcount = {{ halfcount }}
 {% assign count = count | plus: 1 %}
 {%- if count == halfcount -%}
   </div>
-  {% assign count = 1 %}
+  {% assign count = 0 %}
 {%- endif -%}
 {%- endfor -%}
 {%- if count != 0 -%}
@@ -39,6 +39,6 @@ Halfcount = {{ halfcount }}
 {%- endif -%}
 </div>
 
-<div id="cta">  
+<div id="cta" class="grid">  
   <a href="/contact"><button class="secondary">Get in touch</button></a>
 </div>
