@@ -14,7 +14,7 @@ permalink: /articles-new
 {% assign tags = site.tags | sort %}
 {% assign tagnumber = site.tags | size %}
 {% assign count = 0 %}
-{% assign halfcount = tagnumber | divided_by: 2 %}
+{% assign halfcount = tagnumber | divided_by: 2 | plus: 1 %}
 Halfcount = {{ halfcount }}
 <div class="grid">
 {%- for tag in tags -%}
