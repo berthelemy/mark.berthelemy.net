@@ -17,7 +17,7 @@ permalink: /articles-new
 {% assign halfcount = count | divided_by: 2 %}
 <div class="grid">
 {%- for tag in tags -%}
-{%- if count = 0 -%}
+{%- if count == 0 -%}
 <div>
 {%- endif -%}
   <details>
@@ -28,7 +28,7 @@ permalink: /articles-new
   {%- endfor -%}
 </details>
 {% assign count = count | plus: 1 %}
-{%- if count = halfcount -%}
+{%- if count == halfcount -%}
 </div>
 {% assign count = 0 %}
 {%- endif -%}
