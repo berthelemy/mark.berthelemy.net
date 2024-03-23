@@ -11,96 +11,34 @@ front-page: true
 layout: simple_default
 permalink: /articles
 ---
-<div class="button-group text-center">
-    <div class="filter" role="group">
-        <button class="active button" data-filter="*">All</button>
-        {% assign tags = site.tags | sort %}
-        {% for tag in tags %}
-          <button class="button" data-filter=".{{ tag[0] | slugify }}">{{ tag[0] }}</button>
-        {% endfor %}
-    </div>
+{% assign tags = site.tags | sort %}
+{% assign tagnumber = site.tags | size %}
+{% assign count = 0 %}
+{% assign halfcount = tagnumber | divided_by: 2 | plus: 1 %}
+
+<div class="grid">
+{%- for tag in tags -%}
+{%- if count == 0 -%}
+  <div>
+{%- endif -%}
+  <details>
+  <summary><h2>{{ tag[0] }}  ({{ tag[1] | size }})</h2></summary>
+  {%- assign taglist = tag[1] -%}
+  {%- for p in taglist -%}
+  <p><a href="{{ p.url }}">{{ p.title }}</a></p>
+  {%- endfor -%}
+</details>
+{% assign count = count | plus: 1 %}
+{%- if count == halfcount -%}
+  </div>
+  {% assign count = 0 %}
+{%- endif -%}
+{%- endfor -%}
+{%- if count != 0 -%}
+  </div>
+{%- endif -%}
 </div>
 
-<div class="all-portfolios"><!-- used by isotope -->
-  {%- assign count = 0 -%}
-  {% for post in site.posts %}
-{% capture tags %}{% for tag in post.tags %}{{ tag | slugify }} {% endfor %}{% endcapture %}
-
-
-{% if count == 0 -%}
-  <div class="grid">
-
-{%- endif -%}
-    <div class="single-portfolio {{ tags }}">
-        <article>
-          <p><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></p>
-          <p>{% for tag in post.tags %}
-          <span class="tag-link">{{ tag }}</span>
-          {% endfor %}</p>
-          <!--<span class="small">Posted: {{ post.date | date_to_long_string }}</span>-->
-        </article>
-    </div><!-- end article -->
-
-  {%- assign count = count | plus:1 -%}
-  {%- if count == 3 -%}
-  {%- assign count = 0 -%}
-  </div> <!-- end of row -->
-
-  {%- endif -%}
-    {% endfor %}
-
-    </div> <!-- end of all-portfolio div -->
-
-
-
-<!--<div class="row article-grid">
-
-  {% for post in site.posts %}
-{% capture tags %}{% for tag in post.tags %}{{ tag | slugify }} {% endfor %}{% endcapture %}
-
-  <div class="article-item {{ tags }} col-4 col-12-xsmall col-6-small ">
-    <article>
-      <p><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
-        {% for tag in post.tags %}
-        <span class="tag-link"><a href="{{ tag | slugize }}">{{ tag }}</a></span>
-        {% endfor %}
-      </p>
-
-    </article>
-
-
-
-    </div>
-    {% endfor %}
-  </div>-->
-
-
-
-
-<!--
-<div class="row">
-{% assign count = 0 %}
-  {% for tag in site.tags %}
-    {% assign count = count | plus: 1 %}
-  <div class="col-4 col-12-xsmall col-6-small">
-    {% capture tag_name %}{{ tag | first }}{% endcapture %}
-    <div id="#{{ tag_name | slugize }}"></div>
-
-
-    <h3 class="tag-head">{{ tag_name }}</h3>
-    <a name="{{ tag_name | slugize }}"></a>
-    {% for post in tag[1] limit:4 %}
-    <article class="archive-item">
-      <p><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></p>
-
-    </article>
-    {% endfor %}
-  </div>
-
-  {% if count == 3 %}</div><div class="row">{% assign count = 0 %}{% endif %}
-{% endfor %}
-
-</div>-->
 <div id="cta" class="grid">  
   <a href="/contact"><button class="secondary">Get in touch</button></a>
 </div>
