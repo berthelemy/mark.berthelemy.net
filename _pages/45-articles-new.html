@@ -15,7 +15,10 @@ permalink: /articles-new
 {%- for tag in tags -%}
 <details>
   <summary>{{ tag[0] }}  ({{ tag[1] | size }})</summary>
-  <p>{{ tag[1].title }}</p>
+  {%- assign tag = tag[1] -%}
+  {%- for post in tag -%}
+  <p>{{ post.title }}</p>
+  {%- endfor -%}
 </details>
 
   
