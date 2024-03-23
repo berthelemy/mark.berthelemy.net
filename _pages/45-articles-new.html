@@ -14,10 +14,10 @@ permalink: /articles-new
 {% assign tags = site.tags | sort %}
 {%- for tag in tags -%}
 <details>
-  <summary>{{ tag[0] }}  ({{ tag[1] | size }})</summary>
+  <summary><h2>{{ tag[0] }}  ({{ tag[1] | size }})</h2></summary>
   {%- assign taglist = tag[1] -%}
   {%- for p in taglist -%}
-  <p>{{ p.title }}</p>
+  <p><a href="{{ p.url }}">{{ p.title }}</a></p>
   {%- endfor -%}
 </details>
 
