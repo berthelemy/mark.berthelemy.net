@@ -15,13 +15,14 @@ permalink: /articles-new
 {% assign tagnumber = site.tags | size %}
 {% assign count = 0 %}
 {% assign halfcount = count | divided_by: 2 %}
+Halfcount = {{ halfcount }}
 <div class="grid">
 {%- for tag in tags -%}
 {%- if count == 0 -%}
 <div>
 {%- endif -%}
   <details>
-  <summary><h2>{{ tag[0] }}  ({{ tag[1] | size }})</h2></summary>
+  <summary><h2>{{ count }} {{ tag[0] }}  ({{ tag[1] | size }})</h2></summary>
   {%- assign taglist = tag[1] -%}
   {%- for p in taglist -%}
   <p><a href="{{ p.url }}">{{ p.title }}</a></p>
@@ -38,6 +39,6 @@ permalink: /articles-new
 {%- endif -%}
 </div>
 
-<div id="cta" class="grid">  
+<div id="cta">  
   <a href="/contact"><button class="secondary">Get in touch</button></a>
 </div>
