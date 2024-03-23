@@ -19,7 +19,7 @@ Halfcount = {{ halfcount }}
 <div class="grid">
 {%- for tag in tags -%}
 {%- if count == 1 -%}
-<div>
+  <div>
 {%- endif -%}
   <details>
   <summary><h2>{{ count }} {{ tag[0] }}  ({{ tag[1] | size }})</h2></summary>
@@ -30,12 +30,12 @@ Halfcount = {{ halfcount }}
 </details>
 {% assign count = count | plus: 1 %}
 {%- if count == halfcount -%}
-</div>
-{% assign count = 0 %}
+  </div>
+  {% assign count = 1 %}
 {%- endif -%}
 {%- endfor -%}
 {%- if count != 0 -%}
-</div>
+  </div>
 {%- endif -%}
 </div>
 
