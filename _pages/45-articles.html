@@ -25,7 +25,9 @@ permalink: /articles
   <summary><h2>{{ tag[0] }}  ({{ tag[1] | size }})</h2></summary>
   {%- assign taglist = tag[1] -%}
   {%- for p in taglist -%}
+  {%- if p.published != false -%}
   <p><a href="{{ p.url }}">{{ p.title }}</a></p>
+  {%- endif -%}
   {%- endfor -%}
 </details>
 {% assign count = count | plus: 1 %}

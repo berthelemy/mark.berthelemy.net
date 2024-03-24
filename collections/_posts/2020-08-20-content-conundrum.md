@@ -5,8 +5,7 @@ excerpt: Considerations on choosing a content authoring strategy
 layout: post
 permalink: /2020/08/20/content-conundrum
 tags:
-  - Learning
-  - Technology
+  - Content management
 thumb: /post-images/2020/08/question-mark-1872665_455.png
 banner: /post-images/2020/08/question-mark-1872665_900.png
 alt: Question marks

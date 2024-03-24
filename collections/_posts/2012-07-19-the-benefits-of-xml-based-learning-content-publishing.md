@@ -5,7 +5,6 @@ excerpt: Following a question on a learning technology mailing list, I discuss t
 layout: post
 permalink: /2012/07/19/the-benefits-of-xml-based-learning-content-publishing/
 tags:
-  - Technology
   - Content management
 ---
 A recent question on the <a href="http://www.alt.ac.uk/" target="_blank">ALT</a> mailing list asked:

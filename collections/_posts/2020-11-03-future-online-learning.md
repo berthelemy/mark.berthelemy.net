@@ -5,8 +5,7 @@ excerpt:
 layout: post
 permalink: /2020/11/03/future-online-learning
 tags:
-  - Learning
-  - Technology
+  - Opinion
 
 ---
 I was asked recently for my thoughts on the future of online learning, especially with the continuing changes to my working and educational lives.

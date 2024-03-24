@@ -8,9 +8,8 @@ img: apocalypse-483425_1280.jpg
 imgcredit: <a href="https://pixabay.com/users/mysticsartdesign-322497/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=483425">Mystic Art Design</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=483425">Pixabay</a>
 imgalt: Clouds with cats eyes superimposed
 tags:
-  - Technology
+  - Coaching
   - Business
-  - Change
 
 ---
 If you've watched Ramsey's Kitchen Nightmares you'll know that the standard approach is:

@@ -1,6 +1,7 @@
 ---
 title: 'Free online tools for trainers'
 author: Mark Berthelemy
+published: false
 excerpt: |
     Tools to help you get started quickly in online training
 layout: post
