@@ -1,12 +1,13 @@
 ---
 title: xAPI concept map
+published: false
 author: Wyver Solutions Admin
 excerpt: I often use concept maps as part of my workshops. They&rsquo;re a brilliant way to stimulate conversation at the same time as getting the big picture across. This one provides an overview of xAPI and how it might be implemented.
 layout: post
 permalink: /2015/03/11/xapi-concept-map/
 tags:
   - Technology
-  - xAPI
+  - Standards
 thumb: /assets/cmaptools-icon.jpg
 banner: /assets/cmap-xapi.png
 alt: Cmap tools and xAPI logos

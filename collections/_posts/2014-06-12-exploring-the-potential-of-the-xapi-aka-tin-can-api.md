@@ -5,10 +5,8 @@ excerpt: The Experience API has the potential to disrupt the entire learning tec
 layout: post
 permalink: /2014/06/12/exploring-the-potential-of-the-xapi-aka-tin-can-api/
 tags:
-
-
-
-  - xAPI
+  - Standards
+  - Learning design
 ---
 
 If we, the global learning community, choose to adopt the Experience API, I will be able to release learning content and activities from the confines of the Learning Management System, and track both their usage and their real-life impact.

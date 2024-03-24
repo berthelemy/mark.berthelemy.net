@@ -5,10 +5,9 @@ excerpt: I look back over a year where clients have started to explore what xAPI
 layout: post
 permalink: /2014/12/23/end-of-year-news/
 tags:
-- xAPI
-- Learning
-- Technology
-- Moodle
+- Standards
+- Learning design
+- Open source
 ---
 I'd like to thank you for working with me over the past year, and to wish you a ***Happy Christmas*** and an exciting New Year!
 

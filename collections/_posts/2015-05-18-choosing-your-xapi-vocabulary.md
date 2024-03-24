@@ -4,8 +4,7 @@ author: Wyver Solutions Admin
 excerpt: At first glance, the xAPI specification is deceptively simple. But the vocabulary you choose to use within your statements will have a massive impact on the useful information you can pull out of your Learning Record Store reports.
 layout: post
 tags:
-  - Technology
-  - xAPI
+  - Standards
 thumb: /assets/xapi-logo.png
 banner: /assets/xapi-bgd.png
 alt: xAPI logo

@@ -6,7 +6,7 @@ excerpt:
 layout: post
 permalink: /2015/10/19-xapi-booklet-in-chinese
 tags:
-  - xAPI
+  - Standards
 thumb: /post-images/2015/10/xapi-booklet-thumb.png
 banner: /post-images/2015/10/xapi-booklet-banner.png
 alt: xAPI booklet cover

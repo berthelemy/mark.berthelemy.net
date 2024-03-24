@@ -1,6 +1,7 @@
 ---
 title: Introducing Sean Buckland
 author: Wyver Solutions Admin
+published: false
 excerpt: my Lean Learning Masterclass will be led by Sean Buckland, an expert in implementing Lean principles in service organisations.
 layout: post
 permalink: /2014/12/21/introducing-sean-buckland/

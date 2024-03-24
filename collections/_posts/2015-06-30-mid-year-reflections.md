@@ -6,9 +6,8 @@ excerpt: |
 layout: post
 permalink: /2015/06/30/mid-year-reflections/
 tags:
-  - Technology
-  - Moodle
-  - xAPI
+  - Standards
+  - Open source
 thumb: /assets/P1010067-reflection-thumb.jpg
 banner: /assets/reflection-1000-cropped.png
 alt: Church reflected in glass
