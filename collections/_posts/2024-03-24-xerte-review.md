@@ -18,7 +18,9 @@ tags:
 ---
 The more I play with [Xerte](https://www.xerte.org.uk/), the more I realise how powerful it can be in the right hands.
 
-But let's take a step back to look at what is Xerte and why is it important.
+Let's take a step back to look at what is Xerte and why is it important.
+
+## Introduction to Xerte
 
 Xerte is an open-source, multi-user, server-based content authoring and delivery sytem. It's come from the university sector - with the main development team based at the University of Nottingham. But don't let that put you off. I've seen it used very successfully in a commercial "Teaching English as a Foreign Language" setting.
 
@@ -62,5 +64,5 @@ Xerte is extremely powerful and useful in the right contexts. It does take some 
 
 If you are going to use Xerte, then consider "paying" for it by volunteering with the documentation or the marketing. That's where you will probably have the most impact.
 
-![Xerte screenshot](/post-images/xerte-screenshot.png)
+![Xerte screenshot](/post-images/2024/xerte-screenshot.png)
 
