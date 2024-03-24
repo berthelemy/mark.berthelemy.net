@@ -91,6 +91,12 @@ body>header {
       user-select: none;
   }
 
+nav[aria-label=breadcrumb] {
+  background-color: var(--pico-code-background-color);
+  padding:var(--pico-spacing);
+  margin-bottom: var(--pico-spacing);
+}
+
 div.button-group {
     width: 100%;
     overflow-x: auto;
