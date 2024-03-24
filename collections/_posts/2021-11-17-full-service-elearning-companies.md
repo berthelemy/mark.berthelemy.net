@@ -5,8 +5,7 @@ excerpt:
 layout: post
 permalink: /2021/11/17/full-service-elearning-companies
 tags:
-  - Learning
-  - Technology
+  - Supplier selection
 ---
 I was asked recently which companies I would recommend to offer a "full" elearning service. By "full", I mean offering the whole works:
 

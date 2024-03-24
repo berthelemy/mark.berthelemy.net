@@ -5,8 +5,7 @@ excerpt:
 layout: post
 permalink: /2021/07/26/future-of-scorm
 tags:
-  - Learning
-  - Technology
+  - Standards
   - Opinion
 ---
 Recently I wrote the following [post on LinkedIn](https://www.linkedin.com/posts/markberthelemy_scorm-versions-the-evolution-of-the-elearning-activity-6820236617282797568-QmWc):
