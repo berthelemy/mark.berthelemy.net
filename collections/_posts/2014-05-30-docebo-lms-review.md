@@ -6,7 +6,7 @@ layout: post
 permalink: /2014/05/30/docebo-lms-review/
 tags:
 
-  - Review
+  - Reviews
   - Learning management
 ---
 My friends at <a href="http://www.docebo.com/" target="_blank">Docebo</a> (pronounced Doch-ay-bo) asked me to review their new &#8220;Elearning Platform&#8221; from my independent perspective.

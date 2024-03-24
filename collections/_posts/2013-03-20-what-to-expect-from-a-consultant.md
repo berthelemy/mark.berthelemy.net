@@ -1,11 +1,12 @@
 ---
 title: What to expect from a consultant
 author: Wyver Solutions Admin
-excerpt: "A Wyver Solutions consultant is always asking questions. In this post I set out some of the initial questions I use to help understand what you're looking for, and how I can support you."
+excerpt: "A consultant is always asking questions. In this post I set out some of the initial questions I use to help understand what you're looking for, and how I can support you."
 layout: post
 permalink: /2013/03/20/what-to-expect-from-a-consultant/
 tags:
-  - Projects
+  - Coaching
+
 ---
 If you call me in to help you with a problem, the first thing I&#8217;ll do is ask you lots of questions. Yes, I do have a preferred, and constantly evolving, toolbox of ideas, processes, applications and systems, but there&#8217;s no way I could suggest any particular way of doing things until I really know what you need.
 

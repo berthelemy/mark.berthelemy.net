@@ -6,6 +6,7 @@ layout: post
 permalink: /2012/10/09/whos-managing-this-project/
 tags:
   - Projects
+  - System implementation
 ---
 You&#8217;ve signed the deal with your new technology provider and their project manager gets started organising meetings, creating risk registers, writing Project Initiation Documents etc. It&#8217;s all great.
 

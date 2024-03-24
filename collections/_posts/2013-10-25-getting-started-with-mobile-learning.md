@@ -1,6 +1,7 @@
 ---
 title: Getting started with mobile learning
 author: Wyver Solutions Admin
+published: false
 excerpt: |
   |
     Many organizations see mobile learning as something new, difficult or expensive. In this post, Craig Taylor explores a few ideas as to how you can start to maximise your mobile presence, which doesn't mean "elearning on a mobile device"!

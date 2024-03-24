@@ -7,6 +7,9 @@ permalink: /2013/07/02/adapt-elearning-framework/
 tags:
   
   - Content management
+  - Open source
+  - Learning design
+  - Standards
   
 ---
 My friends at [Kineo][1] today hosted an industry workshop to look at their Adapt responsive elearning framework, and to discuss how it could be managed as an open-source project.
@@ -26,8 +29,6 @@ The key is in the name: &#8220;Adapt responsive elearning framework&#8221;.
 Many in the industry are currently creating elearning packages that are designed to work across a range of screen sizes and orientations &#8211; using a concept known as Responsive Web Design (see my [Introduction to Responsive Design][2]).
 
 Many start with an existing framework, such as [Bootstrap][3] (from Twitter), which takes much of the pain out of creating these types of resource. They then build in the elearning-specific items like multiple-choice questions and other interactive elements, and also a SCORM (or now Tin Can / xAPI) tracking data interface.
-
-(NB. Readers may be interested in the author&#8217;s article: &#8220;[Is SCORM a barrier to learning?][4]&#8221; on the [Learning Conversations][5] blog)
 
 What Kineo have done is build their own framework, from a number of clever technology building blocks ([Backbone.js][6], [Underscore.js][7], [Handlebars][8], [jQuery][9] and [Modernizr][10]), that is specifically designed to operate in the elearning context, and also designed to allow semi-technical people to populate it with content.
 

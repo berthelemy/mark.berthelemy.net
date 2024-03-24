@@ -1,6 +1,7 @@
 ---
 title: Elearning authoring tool survey
 author: Wyver Solutions Admin
+published: false
 excerpt: 'Does your elearning authoring tool do what you need it to? Is it able to grow with your team? Please take my simple survey to help me feed into the Xerte open-source development process. '
 layout: post
 permalink: /2013/12/01/elearning-authoring-tool-survey/

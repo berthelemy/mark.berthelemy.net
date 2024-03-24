@@ -1,11 +1,11 @@
 ---
 title: 'The consultant&#8217;s toolkit'
 author: Wyver Solutions Admin
-excerpt: 'My lead consultant, Mark Berthelemy, discusses the software tools he uses to support his consultancy role - specifically around project planning, document creation, diagram creation and presentations. '
+published: false
+excerpt: 'Mark Berthelemy, discusses the software tools he uses to support his consultancy role - specifically around project planning, document creation, diagram creation and presentations. '
 layout: post
 permalink: /2013/05/22/consultants_toolkit/
 tags:
-
   - Projects
   - Technology
 

@@ -1,12 +1,13 @@
 ---
 title: 'Tin Can &#8211; a chance to dig deep'
 author: Wyver Solutions Admin
+published: false
 excerpt: "Bring a tin can to the next Elearning Network event. It'll be an excellent chance to explore what the Experience API might mean to your organisation."
 layout: post
 permalink: /2014/03/13/tin-can-a-chance-to-dig-deep/
 tags:
- - Learning
- - xAPI
+ - Learning design
+ - Standards
 
 ---
 On 4th April, the <a href="http://www.elearningnetwork.org/" target="_blank">Elearning Network</a> are hosting an <a href="http://www.elearningnetwork.org/events/lms-and-tin-can" target="_blank">event about Learning Management Systems and Tin Can</a>.

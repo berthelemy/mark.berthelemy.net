@@ -1,5 +1,6 @@
 ---
 title: Text messages as part of your communications strategy
+published: false
 author: Wyver Solutions Admin
 excerpt: "Given the prominence of technology in my daily lives, it's very easy to become preoccupied with the latest hardware and software and fail to recognise some fantastic opportunities to utilise existing technologies."
 layout: post
@@ -14,7 +15,7 @@ tags:
 </p>
 
 <p dir="ltr">
-  Given the prominence of technology in my daily lives, it&#8217;s very easy to become preoccupied with the latest hardware and software and fail to recognise some fantastic opportunities to utilise existing technologies.
+  Given the prominence of technology in our daily lives, it&#8217;s very easy to become preoccupied with the latest hardware and software and fail to recognise some fantastic opportunities to utilise existing technologies.
 </p>
 
 <p dir="ltr">

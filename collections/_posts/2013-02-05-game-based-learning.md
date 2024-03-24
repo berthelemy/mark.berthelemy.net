@@ -1,11 +1,12 @@
 ---
 title: Applying game-based thinking to increase learner engagement
+published: false
 author: Wyver Solutions Admin
 excerpt: As part of Towards Maturity’s eXchanges programme at Learning Technologies 2013, Wyver Solutions director, Mark Berthelemy, chaired a conversation with Ben Betts.
 layout: post
 permalink: /2013/02/05/game-based-learning/
 tags:
-  - Learning
+  - Learning design
 ---
 As part of [Towards Maturity&#8217;s eXchanges programme][1] at Learning Technologies 2013, Wyver Solutions director, Mark Berthelemy, chaired a conversation with [Ben Betts][2].
 

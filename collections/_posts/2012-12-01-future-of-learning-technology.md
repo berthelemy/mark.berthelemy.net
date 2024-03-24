@@ -1,5 +1,6 @@
 ---
 title: The future of learning technology?
+published: false
 author: Wyver Solutions Admin
 excerpt: "I look at Donald Taylor's (@DonaldHTaylor) recent predictions for L&amp;D in 2013 and discuss some of the technology implications - focussing on what can provide the most impact and be most effective."
 layout: post

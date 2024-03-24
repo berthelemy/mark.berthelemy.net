@@ -5,7 +5,7 @@ excerpt: Does elearning always equate to a series of pages connected by next and
 layout: post
 permalink: /2013/11/03/wheres-the-next-button-gone/
 tags:
- - Learning
+ - Learning design
 
 ---
 A guest post by <a href="https://twitter.com/CraigTaylor74" target="_blank">@CraigTaylor74</a>.

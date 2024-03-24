@@ -6,7 +6,6 @@ layout: post
 permalink: /2013/01/02/mobile-content-delivery/
 tags:
   - Content management
-  - Technology
 ---
 You&#8217;ve decided that there&#8217;s a valid business case for getting your organisation&#8217;s training content onto your employees&#8217; or customers&#8217; mobile devices &#8211; whether tablets or smaller.
 

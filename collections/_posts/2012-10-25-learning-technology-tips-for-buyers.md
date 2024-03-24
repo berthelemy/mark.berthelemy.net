@@ -5,8 +5,7 @@ excerpt: "Choosing a learning technology solution isn't just about coming up wit
 layout: post
 permalink: /2012/10/25/learning-technology-tips-for-buyers/
 tags:
-  - Learning
-  - Technology
+  - Supplier selection
 ---
 You&#8217;ve decided that your company is in the market for a new learning technology solution. You&#8217;ve identified a problem and are looking for a solution, but you want to make sure that:
 

@@ -5,11 +5,11 @@ excerpt: "In the news this week we've learned that many of my national and local
 layout: post
 permalink: /2014/03/26/weighing-up-the-risks-a-sensible-attitude-to-security/
 tags:
- - Technology
- - Projects
+ - System implementation
+ - Supplier selection
 
 ---
-In the news this week I've learned that many of my national and local government websites, as well as NHS ones are highly vulnerable to being hacked and defaced.
+In the news this week I've learned that many  national and local government websites, as well as NHS ones are highly vulnerable to being hacked and defaced.
 
 See: [UK Government sites hacked with pharma spam][2] and [UK Parliament XSS flaw disclosed][3]
 

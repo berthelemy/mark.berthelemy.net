@@ -14,7 +14,7 @@ imgcredit: Mark Berthelemy
 tags:
   - Open source
   - Content management
-  - Review
+  - Reviews
 ---
 The more I play with [Xerte](https://www.xerte.org.uk/), the more I realise how powerful it can be in the right hands.
 

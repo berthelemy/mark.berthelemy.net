@@ -5,8 +5,8 @@ excerpt: "Some will argue that I shouldn't have a separate elearning strategy - 
 layout: post
 permalink: /2014/05/11/what-to-include-in-an-elearning-strategy/
 tags:
- - Learning
- - Technology
+ - Learning design
+ - Coaching
 
 ---
 Some will argue that we shouldn&#8217;t have a separate elearning strategy &#8211; that it&#8217;s all part of the learning strategy. Whilst this may be true for mature organisations, for many there is still a role for a document that describes where you&#8217;re heading with learning technology, and the rationale behind it.

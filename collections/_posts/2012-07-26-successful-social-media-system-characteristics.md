@@ -1,5 +1,6 @@
 ---
 title: Successful social media system characteristics
+published: false
 author: Wyver Solutions Admin
 excerpt: 'How do you know whether the social tools you are looking at will work? I discuss the characteristics of successful tools  - focussing on ubiquity, interoperability, integration and guidance.'
 layout: post

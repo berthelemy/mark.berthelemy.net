@@ -5,7 +5,7 @@ excerpt: Whenever you are looking for new software, whether for content creation
 layout: post
 permalink: /2012/08/02/it-system-fundamental-questions/
 tags:
-  - Technology
+  - Supplier selection
 ---
 
 

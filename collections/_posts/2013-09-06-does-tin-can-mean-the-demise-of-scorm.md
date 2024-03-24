@@ -5,11 +5,8 @@ excerpt: In this article, first published in Training Journal (September 2013), 
 layout: post
 permalink: /2013/09/06/does-tin-can-mean-the-demise-of-scorm/
 tags:
-
-
   - Supplier selection
-
-  - xAPI
+  - Standards
 ---
 <div style="padding: 5px; border: 1px solid #5b5b5b; margin: 5px; text-align: center;">
   This article was first published in <a href="http://www.trainingjournal.com/magazine/" target="_blank">Training Journal</a> &#8211; September 2013

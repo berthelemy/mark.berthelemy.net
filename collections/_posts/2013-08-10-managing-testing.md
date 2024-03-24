@@ -5,7 +5,9 @@ excerpt: Testing is one of those tasks, like writing documentation, that most of
 layout: post
 permalink: /2013/08/10/managing-testing/
 tags:
-  - Projects
+  - System implementation
+  - Open source
+  - Reviews
 ---
 I often work on large projects where at least some elements of the solution are bespoked for the client, whether it&#8217;s code, application configuration, administration processes or workflows.
 
@@ -73,13 +75,4 @@ Of course, that rigour is only as good as the test cases that have been written.
 
 There&#8217;s a bit of an art to writing test cases that try to replicate real user behaviour. Often, it&#8217;s not until you first try the whole system with real people, that you find many of the bugs. At that point, it&#8217;s important to create the process of replicating the bug as a test case so you can make sure it doesn&#8217;t get missed again.
 
-## TestLink services
-
-My clients, if necessary, will have access to the Wyver Solutions TestLink system for use on your projects.
-
-If you want to know more, please [give me a call][2].
-
-Based on an original post on <a href="http://www.learningconversations.co.uk/main/index.php/2009/10/21/review-testlink-an-open-source-test-mana?blog=5" target="_blank">Learning Conversations</a>.
-
  [1]: http://teamst.org
- [2]: {{ site.url }}/contact/ "Contact me"

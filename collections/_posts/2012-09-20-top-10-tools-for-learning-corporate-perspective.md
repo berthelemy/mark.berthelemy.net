@@ -1,6 +1,7 @@
 ---
 title: 'Top 10 tools for learning &#8211; a corporate perspective'
 author: Wyver Solutions Admin
+published: false
 excerpt: "Jane Hart's Top Tools for Learning is becoming a regular part of the calendar. Wyver Solutions proposes its own top 10 list, focussing on the corporate perspective."
 layout: post
 permalink: /2012/09/20/top-10-tools-for-learning-corporate-perspective/

@@ -5,13 +5,13 @@ excerpt: 'I discuss three key principles for effectively managing large projects
 layout: post
 permalink: /2013/04/22/large-project-principles/
 tags:
-  - Projects
+  - System implementation
 ---
 Recently, I was asked how I would lead a large, complex project.
 
 Three key principles emerged from the conversation:
 
-  1. <span style="line-height: 13px;">Communication is critical</span>
+  1. Communication is critical
   2. Know your stakeholders
   3. Build in flexibility within defined boundaries
 

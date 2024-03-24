@@ -5,7 +5,7 @@ excerpt: "As your needs change, you'll need to bring in new software tools for s
 layout: post
 permalink: /2013/06/03/joining-up-your-systems/
 tags:
- - Technology
+ - Supplier selection
 
 ---
 Finding the one application that will do everything is the &#8220;holy grail&#8221; of most learning technologists. That&#8217;s where companies like [SAP][1] and [Saba][2] position themselves &#8211; as a one-stop-shop to support all your formal and informal learning needs. These systems are very fully featured and configurable, so, as well as a large license cost, they also require a significant investment in implementation to make sure you&#8217;re getting full value from them.

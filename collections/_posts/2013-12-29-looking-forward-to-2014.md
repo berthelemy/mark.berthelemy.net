@@ -1,6 +1,7 @@
 ---
 title: Looking forward to 2014
 author: Wyver Solutions Admin
+published: false
 excerpt: 'I look ahead into 2014 at some innovations to be aware of in the field of learning technology - focussing on digital by default policies, collaboration between corporate and academic institutions, and open-source authoring tools.'
 layout: post
 permalink: /2013/12/29/looking-forward-to-2014/

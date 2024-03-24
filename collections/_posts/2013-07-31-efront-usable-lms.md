@@ -7,8 +7,7 @@ permalink: /2013/07/31/efront-usable-lms/
 tags:
   
   - Content management
-  
-  - Learning
+  - Reviews
   - Supplier selection
 ---
 I've been spending quite a bit of time recently with <a href="http://www.efrontlearning.net/" target="_blank">eFront</a>. It comes from the team at Epignosis who have also brought me <a href="http://www.talentlms.com/" target="_blank">TalentLMS</a> (a fantastically user-friendly, cloud-based basic learning management system).

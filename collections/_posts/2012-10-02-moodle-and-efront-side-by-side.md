@@ -1,5 +1,6 @@
 ---
 title: Moodle and eFront side-by-side
+published: false
 author: Wyver Solutions Admin
 excerpt: "With eFront's recent string of awards, I thought it was about time I took a look at this relative newcomer to the open source Learning Management System market."
 layout: post
