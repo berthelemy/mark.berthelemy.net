@@ -18,8 +18,6 @@ tags:
 ---
 The more I play with [Xerte](https://www.xerte.org.uk/), the more I realise how powerful it can be in the right hands.
 
-Let's take a step back to look at what is Xerte and why is it important.
-
 ## Introduction to Xerte
 
 Xerte is an open-source, multi-user, server-based content authoring and delivery sytem. It's come from the university sector - with the main development team based at the University of Nottingham. But don't let that put you off. I've seen it used very successfully in a commercial "Teaching English as a Foreign Language" setting.
@@ -51,7 +49,7 @@ Xerte encapsulates the positives and negatives of open source software. There is
 
 ## Areas for improvement
 
-- Xerte has been in active development for over 15 years, and there's a lot that is left over from previous versions, such as Flash files and out of date copyright messages. But more worrying is that the core elearning package design is not responsive. It doesn't work well on mobile devices. I'm surprised at that, given the target learner group - university students.
+- Xerte has been in active development for over 15 years, and there's a lot that is left over from previous versions, such as Flash files and out of date copyright messages. Even more worrying is that the core elearning package design is not responsive. It doesn't work well on mobile devices. I'm surprised at that, given the target learner group - university students.
 - The documentation is all over the place. There's a wiki, a readthedocs site, legacy documents in the main website and documents last updated in 2013 inside the installation package. Unfortunately, a Google search for Xerte documentation returns the out-of-date docs as the first link. And the documentation that does exist is difficult to use and not complete - especially that for administrators.
 - The last release was in March 2023 (as of March 2024). Work is taking place inside Github, but it's not making its way out to users. It gives the impression that the software is no longer well supported, which I believe to be untrue.
 - The marketing is confused. Is is called Xerte? Is it Xerte Online Toolkits? Is it XOT? Personally, I'd go with the simplest - "Xerte". The online toolkits moniker seems to be a leftover from previous incarnations.
@@ -62,7 +60,7 @@ Xerte encapsulates the positives and negatives of open source software. There is
 
 Xerte is extremely powerful and useful in the right contexts. It does take some work to set up - including some fairly technical stages. But once that's done, then it's relatively easy for content authors to pick up and produce quality materials.
 
-If you are going to use Xerte, then consider "paying" for it by volunteering with the documentation or the marketing. That's where you will probably have the most impact.
+If you are going to use Xerte, then, unless you're a developer, consider "paying" for it by volunteering with the documentation or the marketing. That's where you will probably have the most impact.
 
 ![Xerte screenshot](/post-images/2024/xerte-screenshot.png)
 
