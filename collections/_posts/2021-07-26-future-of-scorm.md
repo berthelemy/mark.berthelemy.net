@@ -1,7 +1,7 @@
 ---
 title: 'The future of SCORM?'
 author: Mark Berthelemy
-excerpt:
+excerpt: Does SCORM even have a future in modern learning architectures?
 layout: post
 permalink: /2021/07/26/future-of-scorm
 tags:
