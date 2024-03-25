@@ -9,10 +9,8 @@ img: universe-1566159_1280.jpg
 imgalt: Stars
 imgcredit: <a href="https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Gerd Altmann</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1566159">Pixabay</a>
 tags:
-  - Coaching
-  - Moodle
-  - Resources
   - System implementation
+  - Coaching
 ---
 You've got your Moodle site setup and configured to meet your organisation's needs. So now it's time to introduce your team to it.
 
