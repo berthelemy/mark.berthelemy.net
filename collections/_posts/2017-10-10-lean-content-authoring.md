@@ -1,8 +1,7 @@
 ---
 title: 'Lean content authoring'
 author: Mark Berthelemy
-excerpt: |
-
+excerpt:
 layout: post
 permalink: /2017/10/10/lean-content-authoring
 tags:

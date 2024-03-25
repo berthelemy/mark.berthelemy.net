@@ -1,8 +1,7 @@
 ---
 title: 'LTI - a missed opportunity?'
 author: Mark Berthelemy
-excerpt: |
-
+excerpt:
 layout: post
 permalink: /2017/06/20/lti-missed-opportunity
 tags:
