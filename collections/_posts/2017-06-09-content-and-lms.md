@@ -1,7 +1,7 @@
 ---
 title: 'Content and your LMS'
 author: Mark Berthelemy
-excerpt: |
+excerpt:
 
 layout: post
 permalink: /2017/06/09/content-and-lms/
