@@ -103,10 +103,10 @@ div.button-group {
 }
 
   .tag-link, .category-tag {
-    background-color:var(--pico-primary-background);
+    background-color:var(--pico-ins-color);
     border: none;
     color:var(--pico-primary-inverse);
-    font-size: calc(var(--pico-spacing)/3);
+    font-size: calc(var(--pico-spacing)/1.75);
     padding: calc(var(--pico-spacing)/4) calc(var(--pico-spacing)/4) calc(var(--pico-spacing)/4) calc(var(--pico-spacing)/4);
     text-align: center;
     text-decoration: none;
