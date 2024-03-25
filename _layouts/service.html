@@ -38,7 +38,7 @@ layout: simple_default
 <h2>Related articles</h2>
 
 {%- assign filtered_posts = site.posts | where_exp:"item",
-"item.tag contains page.title" -%}
+"item.tags contains page.title" -%}
 {{ filtered_posts }}
 {%- assign count = 0 -%}
 {%- for post in filtered_posts | limit: 6 -%}
