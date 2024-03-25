@@ -36,9 +36,9 @@ layout: simple_default
 {% include cta.html %}
 
 <h2>Related articles</h2>
-{%- assign title = page.title }
-{% assign filtered_posts = site.posts | where_exp:"item",
-"item.tag contains title" %}
+{%- assign title = page.title -%}
+{%- assign filtered_posts = site.posts | where_exp:"item",
+"item.tag contains title" -%}
 {%- assign count = 0 -%}
 {%- for post in posts | limit: 6 -%}
 {%- if count == 0 -%}
