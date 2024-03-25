@@ -1,7 +1,7 @@
 ---
 title: 'Lean content authoring'
 author: Mark Berthelemy
-excerpt:
+excerpt: How to apply lean principles in content authoring
 layout: post
 permalink: /2017/10/10/lean-content-authoring
 tags:
@@ -51,11 +51,7 @@ You just need to think about the *types* of presentation you're going to need. L
 
 Define what each of those types looks like, and then apply that **type** to the appropriate bits of content.
 
-
-
 You should only apply direct formatting (ie. outside of a style) in very exceptional circumstances.
-
-
 
 You can also see the same thing happening in most web pages:
 
