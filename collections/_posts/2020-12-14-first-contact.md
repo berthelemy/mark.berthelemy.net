@@ -6,7 +6,6 @@ layout: post
 permalink: /2020/12/14/first-contact
 tags:
   - Coaching
-  - Business
   - Resources
 
 ---
