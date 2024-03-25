@@ -5,7 +5,8 @@ excerpt: 'A post which outlines preparation activity for a short workshop for un
 layout: post
 permalink: /2014/06/06/flipping-the-classroom/
 tags:
-  - Learning
+  - Coaching
+  - Learning design
 
 ---
 This post is designed as preparation activity prior to a short workshop for university staff on &#8220;Flipping the classroom&#8221;.

@@ -7,8 +7,6 @@ layout: post
 permalink: /2013/12/01/elearning-authoring-tool-survey/
 tags:
   - Content management
-  - Technology
-  - Learning
 ---
 Over the past few years a number of tools designed to help people author elearning materials have come to the market.
 

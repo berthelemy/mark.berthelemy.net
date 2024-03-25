@@ -6,7 +6,6 @@ excerpt: 'I look ahead into 2014 at some innovations to be aware of in the field
 layout: post
 permalink: /2013/12/29/looking-forward-to-2014/
 tags:
-- Technology
 - Content management
 - Learning
 ---
