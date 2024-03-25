@@ -106,12 +106,12 @@ div.button-group {
     background-color:var(--pico-primary-background);
     border: none;
     color:var(--pico-primary-inverse);
-    font-size: .75rem;
-    padding: calc(var(--pico-spacing)/3) var(--pico-spacing) calc(var(--pico-spacing)/3) var(--pico-spacing);
+    font-size: calc(var(--pico-spacing)/3);
+    padding: calc(var(--pico-spacing)/4) calc(var(--pico-spacing)/4) calc(var(--pico-spacing)/4) calc(var(--pico-spacing)/4);
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin: calc(var(--pico-spacing)/2) var(--pico-spacing) calc(var(--pico-spacing)/2) 0;
+    margin: calc(var(--pico-spacing)/2) calc(var(--pico-spacing)/2) calc(var(--pico-spacing)/2) calc(var(--pico-spacing)/2);
     border-radius: 3px;
   }
 
