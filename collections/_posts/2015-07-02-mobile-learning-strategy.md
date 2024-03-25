@@ -6,8 +6,9 @@ excerpt:
 layout: post
 permalink: /2015/07/02/mobile-learning-strategy/
 tags:
-  - Technology
-  - Learning
+  - Learning design
+  - System implementation
+  - Supplier selection
 thumb: /assets/ipad-MT241216-cropped.png
 banner: /assets/ipad-MT241216-cropped.png
 alt: iPad being used in garden

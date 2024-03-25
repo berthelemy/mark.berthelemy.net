@@ -5,8 +5,8 @@ excerpt: This short explainer video describes how H5P content packages can be us
 layout: post
 
 tags:
-  - Technology
-  - Learning
+  - Supplier selection
+  - Content management
 ---
 This short explainer video describes how H5P content packages can be used within your own website, either by embedding, or by importing into your own H5P-enabled content management system.
 

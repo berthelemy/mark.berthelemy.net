@@ -9,7 +9,9 @@ layout: post
 permalink: /2015/04/16/lean-learning-masterclass-video-highlights/
 tags:
 
-  - Learning
+  - System implementation
+  - Content management
+  - Coaching
 ---
 Wyver Solutions invited Sean Buckland from Design for Service to run a masterclass looking at &#8220;lean&#8221; principles in the learning context.
 

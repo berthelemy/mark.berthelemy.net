@@ -7,7 +7,8 @@ layout: post
 permalink: /2014/12/31/where-has-leanlearning-come-from/
 tags:
 
-  - Learning
+  - Learning design
+  - Coaching
 ---
 As I continue my exploration of using &#8220;lean&#8221; principles in the context of learning, it&#8217;s worth taking a look at what other people have been saying about it.
 
@@ -51,7 +52,7 @@ In a June 2013 article in Chief Learning Officer, Joe Kuntner, Jonathan McCoy, 
 
   1. **Over-Production**: How often do I teach people who don&#8217;t need to know or teach more than is required? (See also: Craig Dadoly&#8217;s 2012 post on <a href="http://www.ravinglearnatics.com/2012/06/learning-obesity.html" target="_blank">Learning Obesity</a>)
   2. **Over-processing**: How much time do I spending creating over-worked materials, complex administration processes or unnecessary learning activites.
-  3. **Time**: How much of what is taught is not used immediately, and therefore forgotten?
+  3. **Time**:How much of what is taught is not used immediately, and therefore forgotten?
   4. **Inventory**: How much of the learning materials that I create are left sitting inside a Learning Management System and never used?
   5. **Skills**: Do I underuse the skills and talent that already exists in my organisations?
   6. **Transportation**: Are I making best of use the online and face-to-face environments to avoid moving people for activities that could easily be done online?

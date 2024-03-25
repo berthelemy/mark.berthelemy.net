@@ -6,8 +6,7 @@ excerpt: |
 layout: post
 permalink: /2015/07/05/investing-in-learning-technology/
 tags:
-  - Technology
-  - Learning
+  - Supplier selection
 thumb: /assets/investment-wheel.png
 banner: /assets/investment-wheel.png
 alt: Investment wheel pie chart

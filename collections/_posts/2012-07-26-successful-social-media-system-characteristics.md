@@ -6,7 +6,7 @@ excerpt: 'How do you know whether the social tools you are looking at will work?
 layout: post
 permalink: /2012/07/26/successful-social-media-system-characteristics/
 tags:
-  - Technology
+  - Supplier selection
 
 ---
 <span style="font-family: Arial, serif; color: #000000;">When choosing a tool to support social media, it&#8217;s less important to consider its functionality in isolation. Instead, it&#8217;s far more important to consider the characteristics of the tool that will make it become an important part of each individual&#8217;s daily life.</span>

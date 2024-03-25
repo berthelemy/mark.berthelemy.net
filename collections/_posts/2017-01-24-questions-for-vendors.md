@@ -6,8 +6,7 @@ excerpt: |
 layout: post
 permalink: /2017/01/24/questions-for-vendors/
 tags:
-  - Technology
-  - Learning
+  - Supplier selection
 thumb: /post-images/2017/01/woman-1527670_thumb.jpg
 banner: /post-images/2017/01/woman-1527670_banner.jpg
 alt: Women behind maze of tech icons

@@ -6,8 +6,8 @@ excerpt: I often use concept maps as part of my workshops. They&rsquo;re a brill
 layout: post
 permalink: /2015/03/11/xapi-concept-map/
 tags:
-  - Technology
   - Standards
+  - Coaching
 thumb: /assets/cmaptools-icon.jpg
 banner: /assets/cmap-xapi.png
 alt: Cmap tools and xAPI logos

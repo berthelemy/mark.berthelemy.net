@@ -7,7 +7,8 @@ permalink: /2014/12/03/introduction-to-lean-learning/
 tags:
 
 
-  - Learning
+  - Learning design
+  - Coaching
 
 ---
 If you&#8217;ve been around organisations for a while, you will have come across &#8220;Lean&#8221;. It&#8217;s an approach to managing processes that was developed by Toyota, but is now seen across the manufacturing, software development and service sectors.

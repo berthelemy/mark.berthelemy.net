@@ -4,8 +4,7 @@ author: Wyver Solutions Admin
 layout: post
 permalink: /2015/02/04/getting-learning-back-on-track/
 tags:
-
-  - Learning
+  - Coaching
 ---
 A guest post from [Sean Buckland][1]
 

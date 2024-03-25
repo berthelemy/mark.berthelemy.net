@@ -6,9 +6,8 @@ excerpt:
 layout: post
 permalink: /2016/04/13/introduction-to-lean-learning
 tags:
-
-
-  - Learning
+  - Coaching
+  - Learning design
 
 thumb: /post-images/2016/04/lean-learning-logo-thumb.png
 banner: /post-images/2016/04/lean-learning-logo.png

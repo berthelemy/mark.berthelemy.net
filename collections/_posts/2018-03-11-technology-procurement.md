@@ -6,8 +6,6 @@ excerpt: |
 layout: post
 permalink: /2018/03/11/technology-procurement
 tags:
-  - Business
-  - Technology
   - Supplier selection
 thumb: /post-images/2018/03/PSX_20180311_205103.jpg
 banner: /post-images/2018/03/PSX_20180311_204929.jpg

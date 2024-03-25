@@ -5,7 +5,8 @@ excerpt: It is so easy for anyone to create, distribute and copy digital content
 layout: post
 permalink: /2015/04/01/realising-commercial-benefits-from-open-content/
 tags:
-  - Business
+  - Content management
+  - Coaching
 thumb: /assets/morguefile0001600559463-thumb.png
 banner: /assets/morguefile0001600559463-995.png
 alt: Web browser
