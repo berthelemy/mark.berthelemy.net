@@ -62,5 +62,9 @@ Xerte is extremely powerful and useful in the right contexts. It does take some 
 
 If you are going to use Xerte, then, unless you're a developer, consider "paying" for it by volunteering with the documentation or the marketing. That's where you will probably have the most impact.
 
+## Response from the product team
+
+You'll find a helpful response to this review on the associated [LinkedIn post](https://www.linkedin.com/posts/markberthelemy_mark-berthelemy-learning-and-knowledge-activity-7178299698338770944-GLG1)
+
 ![Xerte screenshot](/post-images/2024/xerte-screenshot.png)
 
