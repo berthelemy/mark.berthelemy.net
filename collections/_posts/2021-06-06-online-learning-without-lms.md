@@ -8,6 +8,7 @@ tags:
   - Resources
   - Supplier selection
   - Learning design
+  - Content management
 ---
 Your organisation wants to get into online learning.
 

@@ -8,6 +8,7 @@ tags:
   - Supplier selection
   - System implementation
   - Opinion
+  - Content management
 thumb: /post-images/2017/06/computer-2148713_thumb.jpg
 banner: /post-images/2017/06/computer-2148713_banner.jpg
 alt: LTI graphic
