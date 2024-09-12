@@ -1,6 +1,55 @@
 ---
 layout: simple_default
 ---
+<div class="grid">
+  <div><article>
+    <header><p class="centred">Redirecting in <span id="seconds">5</span> seconds to the new location at <a id="url" href="">Kerizac.com</a></p></header>
+    <img width="33%" src="/assets/img/homepage/kerizac-logo.svg" alt="Kerizac Consulting logo">
+  </article>
+
+</div>
+</div>
+
+<script>function getCurrentPath () {
+  return window.location.pathname;
+}
+
+// Example
+const link = document.getElementById("url")
+  path = getCurrentPath();
+newpath = path.replace(/\/$/, "");
+const newurl = "https://kerizac.com" + newpath;
+link.setAttribute('href',newurl);
+
+// Countdown timer for redirecting to another URL after several seconds
+
+var seconds = 5; // seconds for HTML
+var foo; // variable for clearInterval() function
+
+function redirect() {
+  document.location.replace(url);
+}
+
+function updateSecs() {
+  document.getElementById("seconds").innerHTML = seconds;
+  seconds--;
+  if (seconds == -1) {
+      clearInterval(foo);
+      redirect();
+  }
+}
+
+function countdownTimer() {
+  foo = setInterval(function () {
+      updateSecs()
+  }, 1000);
+}
+
+countdownTimer();
+
+</script>
+
+
 <nav aria-label="breadcrumb">
   <ul>
     <li><a href="/articles">Articles</a></li>

@@ -7,7 +7,7 @@ style: style2
 sitemap: false
 front-page: true
 layout: simple_default
-permalink: /testimonials
+permalink: /testimonials-x
 
 
 ---

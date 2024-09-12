@@ -1,5 +1,5 @@
 ---
-title: Consultant learning solutions architect
+title: What do you do?
 display-title: false
 active: true
 ref: intro
@@ -12,56 +12,73 @@ imgcredit: Juliet MacDowell
 imgurl: https://www.linkedin.com/in/julietmacdowell
 permalink: /
 ---
-{%- if page.img -%}
-<aside>
-  <img src="/assets/img/page-images/{{ page.img }}" alt="{{ page.imgalt }}">
-  {%- if page.imgcredit -%}
-  {%- if page.imgurl -%}
-  <p><small>Image credit: <a href="{{ page.imgurl }}" target="_blank">{{ page.imgcredit }}</a></small></p>
-  {%- else -%}
-  <p><small>Image credit: {{ page.imgcredit }}</small></p>
-  {%- endif -%}
-  {%- endif -%}
-</aside>
+<div class="grid">
+  <div>
+    <article>
+      <header>
+        <h2><a href="https://kerizac.com">Kerizac Consulting</a></h2>
+      </header>
+      <img src="/assets/img/homepage/kerizac-logo.svg" alt="Kerizac consulting logo">
+      <footer>
+        <p>Helping <strong>suppliers</strong> to navigate the learning technology market, design new products, and act as a solutions consultant and implementation manager.</p>
+        <p>Helping <strong>users</strong> get the best out of existing technologies, design solutions, find new suppliers where necessary, and manage projects.</p>
+    </footer>
+    </article>
+  </div>
 
-{%- endif -%}
-   
-
-    <p>I work with organisations to translate between the languages of business, learning and technology - helping them reducing risk, improving efficiency, and delivering more quickly.</p>
+  <div>
+    <article>
+      <header>
+        <h2><a href="https://faouetinformatique.net">Faouët Informatique</a></h2>
+      </header>
+      <img src="/assets/img/homepage/hand-3286887_1280.jpg" alt="Hand holding a mobile phone">
+      <footer>
+        <p>Fast, mobile-friendly and accessible websites for independent professionals, non-profits and companies.</p>
+      </footer>
+    </article>
     
-    <h2>Expertise</h2>
+  </div>
+  </div>
 
-    {% include expertise-list.html %}
-
-    <h2>Recent articles</h2>
-
-    {%- assign count = 0 -%}
-    {%- for post in site.posts limit: 6 -%}
-    {%- if count == 0 -%}
-    <div class="grid">
-    {%- endif -%}
-    
+  <div class="grid">
     <div>
-      <article class="posts">
-          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          <p><img src="/post-images/{{ post.img }}" alt="{{ post.imgalt }}"></p>
-          <p class="description">{{ post.excerpt }}</p>
+      <article>
+        <header>
+          <h2><a href="https://coaching.berthelemy.net">Coaching</a></h2>
+        </header>
+        <img src="/assets/img/homepage/business-8458539_1920.jpg" alt="Two people talking at a table">
+        <footer>
+          <p>Helping consultants to develop their skills through bespoke conversations and challenges.</p>
+        </footer>
+      </article>
+    </div>
+    <div>
+      <article>
+        <header>
+          <h2><a href="https://musique.berthelemy.net">Music teaching</a></h2>
+        </header>
+        <img src="/assets/img/homepage/IMG_7137-1600.jpg" alt="Mark playing trumpet">
+        <footer>
+          <p>Teaching resources for my brass students, and arrangements for brass ensemble and big band.</p>
+        </footer>
       </article>
     </div>
     
-    {%- assign count = count | plus: 1 -%}
-    {%- if count == 3 -%}
-    </div><!-- end grid container -->
-    {%- assign count = 0 -%}
-    {%- endif -%}
-    {%- endfor -%}
+  </div>
+
+  <div class="grid">
+    <div>
+      <article>
+        <header>
+          <h2><a href="https://nestledinbrittany.org.uk">Nestled in Brittany</a></h2>
+        </header>
+        <img src="/assets/img/homepage/IMG20240512111651-1200.jpg" alt="Sandy beach at Beg Meil, Finistère">
+        <footer>
+          <p>Places to visit in the beautiful region of Brittany in North West France. It's where the French go on holiday!</p>
+        </footer>
+      </article>
     </div>
+  </div>
+   
 
-<h2>Published books</h2>
-<div class="book-cover"><a href="https://leanpub.com/howtobuysoftware" target="_blank"><img class="book-cover" src="/assets/img/page-images/book-covers/how-to-buy-software-cover-400.svg.png" alt="How to buy software book cover with line drawing of two people talking by a laptop"></a>
-<a href="https://leanpub.com/howtobuysoftware" target="_blank">Buy on LeanPub</a>
-</div>
-
-
-
-
+    

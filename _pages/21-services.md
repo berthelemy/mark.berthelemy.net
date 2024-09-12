@@ -1,8 +1,8 @@
 ---
 title: Services
-active: true
+active: false
 layout: simple_default
-permalink: /services
+permalink: /services-x
 ---
 Please refer to my [Expertise page](/expertise)
 

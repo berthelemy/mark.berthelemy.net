@@ -9,7 +9,7 @@ img: wordpress-923188_1280.jpg
 imgalt: Person typing into a Wordpress website
 front-page: false
 layout: default
-permalink: /services/wordpress
+permalink: /services-x/wordpress
 
 ---
 Wordpress is one of the most popular tools on the planet for creating websites.

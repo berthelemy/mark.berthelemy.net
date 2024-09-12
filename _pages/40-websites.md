@@ -8,7 +8,7 @@ img:
 imgalt:
 front-page: true
 layout: default
-permalink: /websites
+permalink: /websites-x
 
 ---
 ## Fast, secure, mobile and user-friendly

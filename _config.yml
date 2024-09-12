@@ -1,5 +1,5 @@
-title: Morvan Consulting
-name: Morvan Consulting
+title: Mark Berthelemy
+name: Mark Berthelemy
 
 description: 'Learning and knowledge systems consultant'
 simple_description: 'Learning and knowledge systems consultant'
@@ -13,13 +13,13 @@ collections_dir: collections
 
 collections:
   lessons:
-    output: true
+    output: false # switched off
     permalink: /:collection/:path
   toolkit:
-    output: true
+    output: false
     permalink: /:collection/:path
   expertise:
-    output: true
+    output: false
     sort_by: order
     permalink: /:collection/:path
 
