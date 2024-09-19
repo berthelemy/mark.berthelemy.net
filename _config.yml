@@ -1,5 +1,4 @@
 title: Mark Berthelemy
-name: Mark Berthelemy
 
 description: 'Learning and knowledge systems consultant'
 simple_description: 'Learning and knowledge systems consultant'
@@ -9,24 +8,7 @@ sub-description: 'Connecting the dots to business success'
 url: https://mark.berthelemy.net
 domain: mark.berthelemy.net
 
-collections_dir: collections
 
-collections:
-  lessons:
-    output: false # switched off
-    permalink: /:collection/:path
-  toolkit:
-    output: false
-    permalink: /:collection/:path
-  expertise:
-    output: false
-    sort_by: order
-    permalink: /:collection/:path
-
-levels-order:
- - Novice
- - Intermediate
- - Advanced
 
 include: ['_pages']
 
@@ -36,34 +18,20 @@ plugins:
 
 author: Mark Berthelemy
 
-defaults:
-  - scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      sitemap: true
-  - scope:
-      path: ""
-      type: "drafts"
-    values:
-      sitemap: false
-  - scope:
-      type: "lessons"
-    values:
-      layout: lesson
-      style: style1
-      sitemap: false
-  - scope:
-      type: "toolkit"
-    values:
-      layout: tool
-      sitemap: false
-  - scope:
-      path: ""
-      type: "expertise"
-    values:
-      layout: expertise
-  - scope:
-      path: "/google*"
-    values:
-      sitemap: false
+# compass configuration
+compass:
+  # an avatar or logo (optional)
+  logo: "/images/mark-portrait.png"
+  # author will appear under the avatar (optional)
+  author: "Mark Berthelemy"
+  # tagline will appear under the title (optional)
+  tagline: "A multifaceted professional"
+  # if include_content is true, the contents of the content.html include will be
+  # added right above the generated item list, if present
+  include_content: true
+  # if include_analytics is true, the content of the analytics.html include will
+  # be added at the end of the <head> section. You can add your Google Analytics
+  # Tracking Code to that file.
+  include_analytics: true
+  # Twitter @username (as defined by the Twitter Card specs)
+  twitter: "compass"

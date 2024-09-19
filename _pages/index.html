@@ -1,95 +1,34 @@
 ---
 title: Current work
-display-title: false
-active: true
-ref: intro
-style: style1 fullscreen
-front-page: true
 layout: simple_default
-img-bak: web.svg
-imgalt: Connected web of various ideas
-imgcredit: Juliet MacDowell
-imgurl: https://www.linkedin.com/in/julietmacdowell
 permalink: /
 ---
-<h2>Information technology</h2>
-<div class="grid">
-  <div>
-    <article>
-      <header>
-        <h3><a href="https://kerizac.com">Kerizac Consulting</a></h3>
-      </header>
-       
-        <img src="/assets/img/homepage/logo-800.png" alt="Kerizac consulting logo">  
-        <footer>
+<div class="wrapper">
+    <header>
+        {% if site.compass.logo %}
+        <div class="logo-container">
+          <a class="logo" href="{{ page.baseurl }}" style="background-image: url('{{ site.baseurl }}{{ site.compass.logo }}')"></a>
+        </div>
+        {% endif %}
 
-      <p>Helping <strong>suppliers</strong> to navigate the learning technology market, design new products, and act as a solutions consultant and implementation manager.</p>
-      <p>Helping <strong>users</strong> get the best out of existing technologies, design solutions, find new suppliers where necessary, and manage projects.</p>
-    
-        </footer>
-     
-    </article>
-  </div>
+        {% if site.compass.author %}
+        <div class="author-container"><h1>{{ site.compass.author }}</h1></div>
+        {% endif %}
 
-  <div>
-    <article>
-      <header>
-        <h3><a href="https://faouetinformatique.net">Faouët Informatique</a></h3>
-      </header>
-       
-        <img width="304" src="/assets/img/homepage/faouet-logo3.png" alt="Hand holding a mobile phone"> 
-        <footer>
-          <p>Fast, mobile-friendly and accessible websites for independent professionals, non-profits and companies.</p>
-        </footer>
-       
-    </article>
-    
-  </div>
-  </div>
-  <h2>Teaching and learning</h2>
-  <div class="grid">
-
-    <div>
-      <article>
-        <header>
-          <h3><a href="https://coaching.berthelemy.net">Mark Berthelemy - Coaching</a></h3>
-        </header>
-        
-        <p>Helping consultants to develop their skills through bespoke conversations and challenges.</p>
-         
-          <img src="/assets/img/homepage/business-8458539_1920.jpg" alt="Two people talking at a table">  
-         
-      </article>
-    </div>
-    <div>
-      <article>
-        <header>
-          <h3><a href="https://musique.berthelemy.net">Mark Berthelemy - Musique</a></h3>
-        </header>
-        <p>Teaching resources for my brass students, and arrangements for brass ensemble and big band.</p>
-         
-        <img src="/assets/img/homepage/IMG_7137-1600.jpg" alt="Mark playing trumpet">
-         
-      </article>
-    </div>
-    
-  </div>
-<h2>Writing and photography</h2>
-  <div class="grid">
-    <div>
-      <article>
-        <header>
-          <h3><a href="https://nestledinbrittany.org.uk">Nestled in Brittany</a></h3>
-        </header>
-        <p>Places to visit in the beautiful region of Brittany in North West France. It's where the French go on holiday!</p>
-        
-         
-          
-        <img src="/assets/img/homepage/IMG20240512111651-1200.jpg" alt="Sandy beach at Beg Meil, Finistère">
-         
-      </article>
-    </div>
-  </div>
-   
-
-    
+        {% if site.compass.tagline %}
+        <div class="tagline-container"><p>{{ site.compass.tagline }}</p></div>
+        {% endif %}
+    </header>
+    <main>
+      {% if site.compass.include_content %}
+      <div class="content">
+        {% include content.html %}
+      </div>
+      {% endif %}
+    </main>
+    <footer>
+            
+      {% include simple_footer.html %}
+      
+  </footer>
+</div>

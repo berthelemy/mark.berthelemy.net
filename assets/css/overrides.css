@@ -1,0 +1,8 @@
+footer {
+    position:inherit;
+    height: auto;
+}
+
+p.centred {
+    text-align: center;
+}

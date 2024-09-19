@@ -7,7 +7,7 @@ style: style2
 img:
 imgalt:
 front-page: true
-layout: simple_default
+layout: policies
 permalink: /privacy
 
 

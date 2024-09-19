@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+    {% include simple_head.html %}
+    <body>
+
+        <div class="wrapper">
+            <header>
+                <h1>{{ page.title }}</h1>
+                <p><a href="/">Return to home</a></p>
+            </header>
+            <main>
+                {{ content }}
+            </main>
+            <footer>
+                {% include simple_footer.html %}
+            </footer>
+            
+        </div>
+        
+      
+        
+        
+            
+                     
+           
+                
+        
+    
+        
+        
+
+
+        {% include piwik.html %}
+        {% include scripts.html %}
+
+    </body>
+</html>
