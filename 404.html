@@ -1,22 +1,21 @@
 ---
 title: Page not found
-layout: simple_default
+layout: policies
 ---
-<div class="grid">
-    
-
-
-    <div><article>
-        <header><h2>You will be redirected in <span id="seconds">5</span> seconds</h2></header>
         <p>I'm afraid this page doesn't exist.</p>
-        <p>It's probably moved to my new website: <a id="url" href="https://kerizac.com">Kerizac Consulting</a></p>
-       
-        <a href="https://kerizac.com"><img width="33%" src="/assets/img/homepage/kerizac-logo.svg" alt="Kerizac Consulting logo"></a>
-    </article>
+        <p>Je crains que cette page n'existe pas.</p>
 
+        <p>It may have moved to:</p>
+        <p>Il est possible qu'il ait été déplacé vers : </p>
+        <ul class="fa-ul main-list">
+        <li class="main-list-item">
+            <span class="fa fa-graduation-cap fa-lg main-list-item-icon"></span>
+            <a id="url" href="https://kerizac.com">Kerizac Consulting</a>
+          </li>
+          </ul>
         
-    </div>
-</div>
+       
+        
 
 <script>function getCurrentPath () {
     return window.location.pathname;
