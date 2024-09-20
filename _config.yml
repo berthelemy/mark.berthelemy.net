@@ -28,6 +28,7 @@ compass:
   tagline: "A multifaceted professional"
   # if include_content is true, the contents of the content.html include will be
   # added right above the generated item list, if present
+  description: "Always happy to talk about education, technology, music and living in Brittany / Il est toujours heureux de parler d'éducation, de technologie, de musique et de la vie en Bretagne."
   include_content: true
   # if include_analytics is true, the content of the analytics.html include will
   # be added at the end of the <head> section. You can add your Google Analytics
