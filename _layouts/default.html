@@ -1,99 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- HTML Meta Tags -->
-<title>{{ page.title }} | {{ site.title }} |{{ site.tagline }}</title>
-<meta name="description" content="{{ site.description}}">
+    <title>{{ page.title }} | {{ site.title }} |{{ site.tagline }}</title>
+    <meta name="description" content="{{ site.description}}">
 
-<!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://{{ site.domain }}">
-<meta property="og:type" content="website">
-<meta property="og:title" content="{{ page.title }} | {{ site.title }} |{{ site.tagline }}">
-<meta property="og:description" content="{{ site.description }}">
-<meta property="og:image" content="{{ site.baseurl }}/assets/images/{{ site.logo }}">
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://{{ site.domain }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ page.title }} | {{ site.title }} |{{ site.tagline }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="{{ site.baseurl }}/assets/images/{{ site.logo }}">
 
-<!-- Twitter Meta Tags -->
-<meta name="twitter:card" content="summary_large_image">
-<meta property="twitter:domain" content="{{ site.domain }}">
-<meta property="twitter:url" content="https://{{ site.domain}}">
-<meta name="twitter:title" content="{{ page.title }} | {{ site.title }} |{{ site.tagline }}">
-<meta name="twitter:description" content="{{ site.description }}">
-<meta name="twitter:image" content="{{ site.baseurl }}/assets/images/{{ site.logo }}">
- 
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="{{ site.domain }}">
+    <meta property="twitter:url" content="https://{{ site.domain}}">
+    <meta name="twitter:title" content="{{ page.title }} | {{ site.title }} |{{ site.tagline }}">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:image" content="{{ site.baseurl }}/assets/images/{{ site.logo }}">
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    
-        <nav class="navbar fixed navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="/"><img class="img-fluid mx-2" width="40"src="/assets/images/{{ site.logo }}" alt="{{ site.title }}"></a>
-  <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+</head>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ms-auto me-5 flex-nowrap">
-        {%- for nav-item in site.data.nav -%}
-      <li class="nav-item active">
-        <a class="nav-link" href="{{ nav-item.url }}">{{ nav-item.title }}</a>
-      </li>
-      {%- endfor -%}
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-     
-    </ul>
-   
-  </div>
-</nav>
-<header class="container">
-        <hgroup>
+<body>
+
+    <nav class="navbar fixed navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/"><img class="img-fluid mx-5" width="40" src="/assets/images/{{ site.logo }}"
+                alt="{{ site.title }}"></a>
+        <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse ms-2" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-5 flex-nowrap">
+                {%- for nav-item in site.data.nav -%}
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ nav-item.url }}">{{ nav-item.title }}</a>
+                </li>
+                {%- endfor -%}
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <header class="container-fluid bg-dark text-light p-5">
+        <hgroup class="">
             <h1>{{ site.title }}</h1>
             <h2>{{ site.tagline }}</h2>
         </hgroup>
     </header>
 
-    <section class="container">
-        <article>
-            <header>
-                <h1>Article #1</h1>
-            </header>
-            <section>
-                This is the first article.
-            </section>
-        </article>
-        <article>
-            <header>
-                <h1>Article #2</h1>
-            </header>
-            <section>
-                This is the second article.
-            </section>
-        </article>
+    <section class="container py-3">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://placehold.co/600x400" alt="Placeholder image">
+                    <div class="card-body">
+
+                        <h3 class="card-title">Analytics dashboards</h3>
+                        <p class="card-text">Card content goes here.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://placehold.co/600x400" alt="Placeholder image">
+                    <div class="card-body">
+                        <h3 class="card-title">Catalogues</h3>
+                        <p class="card-text">Card content goes here.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
     </section>
-    <aside>
-        <section class="container">
-            <h1>Links</h1>
-            <ul>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-            </ul>
-        </section>
-        <figure>
-            <img width="85" height="85" 
-                src="http://domain.tld/path/to/image.jpg" 
-                alt="foobar" />
-            <figcaption>Foobar</figcaption>
-        </figure>
-    </aside>
-    <footer>Footer</footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    
+    <footer class="bg-dark text-light p-3">Footer</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
     <script src="index.js"></script>
 </body>
 

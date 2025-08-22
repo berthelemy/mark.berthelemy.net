@@ -17,7 +17,7 @@ title: Mark Berthelemy
 tagline: Fast, data-driven websites
 email: mark@berthelemy.net
 description: >- # this means to ignore newlines until "baseurl:"
-  Specialising in designing and building data-driven websites to present your project or organisation.
+  Specialising in designing and building accessible, data-driven websites to present your project or organisation.
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: "mark.berthelemy.net"
 url: "https://mark.berthelemy.net" # the base hostname & protocol for your site, e.g. http://example.com
